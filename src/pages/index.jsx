@@ -24,7 +24,7 @@ const LandingPreview = () => {
 
       <PreviewLayout>
         <Header />
-        {/* <AboutComponent /> */}
+        <AboutComponent />
         <ServicesComponent style="5" />
         <Clients />
         <Testimonials />
