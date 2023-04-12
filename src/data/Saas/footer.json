@@ -1,0 +1,30 @@
+{
+  "address": {
+    "address1": "48788 Brandford Drive, Macomb,",
+    "address2": "MI 48044, US",    
+    "address3": "463767 Ahmedabad, Gujarat",
+    "address4": "380013, India"
+
+  },
+  "phone1": "+1-586-569-9657",
+  "phone2": "+1-248-894-4428",
+  "email1": "info@exultitsolution.com",
+  "email2": "sales@exultitsolution.com",
+  "usefulLinks": [
+    { "link": "/", "title": "Home" },
+    { "link": "/about-us", "title": "About Us" },
+    { "link": "/technologies", "title": "Our Technologies" },
+    { "link": "/contact-us", "title": "Contact Us" },
+    { "link": "/blog", "title": "Blog" },
+    { "link": "/remote-staff", "title": "Remote Staff" }
+
+  ],
+  "helpfulServices": [
+    { "link": "/services/website-development", "title": "Website Development" },
+    { "link": "/services/cloud-computing-services", "title": "Cloud Services" },
+    { "link": "/services/mobile-app-development", "title": "Mobile App Development" },
+    { "link": "/services/crm-development-company", "title": "CRM Software Company" },
+    { "link": "/services/ecommerce-web-development", "title": "E-commerce Web Development" },
+    { "link": "/services/search-engine-optimization", "title": "Search Engine Optimization" }
+  ]
+}

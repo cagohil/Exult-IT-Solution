@@ -1,0 +1,38 @@
+[
+  {
+    "stars": 5,
+    "comment": "“I appreciate everything you have done to my website to help make my company successful. Very professional service and outstanding customer service. Exult It handles and monitors all my IT business needs and keeps me up to date with the latest computer technology. Thank you so much.”",
+    "author": {
+      "image": "/assets/img/home/testimonials/client.png",
+      "name": "Joseph Gumro",
+      "position": "Sale Director at Amazon Retail"
+    }
+  },
+  {
+    "stars": 5,
+    "comment": "“Highly Recommend! Joshi And His Team Are Very Professional. Extremely Knowledgeable. Customer Service Next To None.”",
+    "author": {
+      "image": "/assets/img/home/testimonials/client.png",
+      "name": "Shawn Krukowski",
+      "position": "VP of Sale Development"
+    }
+  },
+  {
+    "stars": 5,
+    "comment": "“Solid 5 star review! I receive ongoing IT support from Joshi and his team. All are very responsive, dependable and accurate. My business has become more profitable since starting services at Exult It Solutions. I highly recommend utilizing Joshi for your IT business needs.”",
+    "author": {
+      "image": "/assets/img/home/testimonials/client.png",
+      "name": "Michele Gabos",
+      "position": "SEO & Marketing at Ebay Global"
+    }
+  },
+  {
+    "stars": 5,
+    "comment": "“Amazing customer service, so helpful and knowledgeable. Highly recommended!”",
+    "author": {
+      "image": "/assets/img/home/testimonials/client.png",
+      "name": "Harmony Albright",
+      "position": "Sale Product Management at Flipkart"
+    }
+  }
+]
