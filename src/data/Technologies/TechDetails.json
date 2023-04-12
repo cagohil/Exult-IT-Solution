@@ -1,0 +1,469 @@
+{
+  "filters": [
+    { "title": "All Technologies", "filter": "all" },
+    { "title": "Frontend", "filter": ".frontend" },
+    { "title": "Backend", "filter": ".backend" },
+    { "title": "Databases", "filter": ".databases" },
+    { "title": "Clouds", "filter": ".cloud" },
+    { "title": "DevOps", "filter": ".devops" },
+    { "title": "CMS", "filter": ".cms" },
+    { "title": "Testing Tools", "filter": ".testing" },
+    { "title": "Source Tools", "filter": ".source" }
+
+  ],
+  "techs": [
+    { 
+      "filter": "frontend",
+      "image": "/assets/img/tech/frontend/Electron.svg",
+      "name": "Electron"
+    },
+    { 
+      "filter": "frontend",
+      "image": "/assets/img/tech/frontend/Native.svg",
+      "name": "Native"
+    },
+    { 
+      "filter": "frontend",
+      "image": "/assets/img/tech/frontend/TypeScript.svg",
+      "name": "TypeScript"
+    },
+    { 
+      "filter": "frontend",
+      "image": "/assets/img/tech/frontend/Xamarin.svg",
+      "name": "Xamarin"
+    },
+    { 
+      "filter": "frontend",
+      "image": "/assets/img/tech/frontend/Vue.svg",
+      "name": "Vue"
+    },
+    { 
+      "filter": "frontend",
+      "image": "/assets/img/tech/frontend/React.svg",
+      "name": "React"
+    },
+    { 
+      "filter": "frontend",
+      "image": "/assets/img/tech/frontend/ReactNative.svg",
+      "name": "ReactNative"
+    },
+    { 
+      "filter": "frontend",
+      "image": "/assets/img/tech/frontend/WPF.svg",
+      "name": "WPF"
+    },
+    { 
+      "filter": "frontend",
+      "image": "/assets/img/tech/frontend/Android.svg",
+      "name": "Android"
+    },
+    { 
+      "filter": "frontend",
+      "image": "/assets/img/tech/frontend/JavaScript.svg",
+      "name": "JavaScript"
+    },
+    { 
+      "filter": "frontend",
+      "image": "/assets/img/tech/frontend/AngularJS.svg",
+      "name": "AngularJS"
+    },
+    { 
+      "filter": "frontend",
+      "image": "/assets/img/tech/frontend/iOS.svg",
+      "name": "iOS"
+    },
+    { 
+      "filter": "frontend",
+      "image": "/assets/img/tech/frontend/Unity.svg",
+      "name": "Unity"
+    },
+
+
+
+
+
+
+
+    { 
+      "filter": "backend",
+      "image": "/assets/img/tech/backend/AspNET.svg",
+      "name": "AspNET"
+    },
+    { 
+      "filter": "backend",
+      "image": "/assets/img/tech/backend/NETCore.svg",
+      "name": "NETCore"
+    },
+    { 
+      "filter": "backend",
+      "image": "/assets/img/tech/backend/NodeJS.svg",
+      "name": "NodeJS"
+    },
+    { 
+      "filter": "backend",
+      "image": "/assets/img/tech/backend/PHP.svg",
+      "name": "PHP"
+    },
+    { 
+      "filter": "backend",
+      "image": "/assets/img/tech/backend/Python.svg",
+      "name": "Python"
+    },
+    { 
+      "filter": "backend",
+      "image": "/assets/img/tech/backend/Java.svg",
+      "name": "Java"
+    },
+    { 
+      "filter": "backend",
+      "image": "/assets/img/tech/backend/RubyOnRails.svg",
+      "name": "RubyOnRails"
+    },
+
+
+
+
+
+
+    { 
+      "filter": "databases",
+      "image": "/assets/img/tech/databases/DynamoDB.svg",
+      "name": "DynamoDB"
+    },
+    { 
+      "filter": "databases",
+      "image": "/assets/img/tech/databases/Cloudera.svg",
+      "name": "Cloudera"
+    },
+    { 
+      "filter": "databases",
+      "image": "/assets/img/tech/databases/CosmosDB.svg",
+      "name": "CosmosDB"
+    },
+    { 
+      "filter": "databases",
+      "image": "/assets/img/tech/databases/MySQL.svg",
+      "name": "MySQL"
+    },
+    { 
+      "filter": "databases",
+      "image": "/assets/img/tech/databases/RethinkDB.svg",
+      "name": "RethinkDB"
+    },
+    { 
+      "filter": "databases",
+      "image": "/assets/img/tech/databases/Firestore.svg",
+      "name": "Firestore"
+    },
+    { 
+      "filter": "databases",
+      "image": "/assets/img/tech/databases/SQLServer.svg",
+      "name": "SQLServer"
+    },
+    { 
+      "filter": "databases",
+      "image": "/assets/img/tech/databases/PostageSQL.svg",
+      "name": "PostageSQL"
+    },
+    { 
+      "filter": "databases",
+      "image": "/assets/img/tech/databases/Oracle.svg",
+      "name": "Oracle"
+    },
+    { 
+      "filter": "databases",
+      "image": "/assets/img/tech/databases/MAPR.svg",
+      "name": "MAPR"
+    },
+    { 
+      "filter": "databases",
+      "image": "/assets/img/tech/databases/Hortonworks.svg",
+      "name": "Hortonworks"
+    },
+    { 
+      "filter": "databases",
+      "image": "/assets/img/tech/databases/Hadoop.svg",
+      "name": "Hadoop"
+    },
+    { 
+      "filter": "databases",
+      "image": "/assets/img/tech/databases/Firebase.svg",
+      "name": "Firebase"
+    },
+    { 
+      "filter": "databases",
+      "image": "/assets/img/tech/databases/Couchbase.svg",
+      "name": "Couchbase"
+    },
+    { 
+      "filter": "databases",
+      "image": "/assets/img/tech/databases/Neptune.svg",
+      "name": "Neptune"
+    },
+    { 
+      "filter": "databases",
+      "image": "/assets/img/tech/databases/Redis.svg",
+      "name": "Redis"
+    },
+    { 
+      "filter": "databases",
+      "image": "/assets/img/tech/databases/MongoDB.svg",
+      "name": "MongoDB"
+    },
+    { 
+      "filter": "databases",
+      "image": "/assets/img/tech/databases/cassandra.svg",
+      "name": "cassandra"
+    },
+    { 
+      "filter": "databases",
+      "image": "/assets/img/tech/databases/ElasticSearch.svg",
+      "name": "ElasticSearch"
+    },
+
+
+
+
+    
+    { 
+      "filter": "cloud",
+      "image": "/assets/img/tech/cloud/GoogleCloud.png",
+      "name": "Google cloud"
+    },
+    { 
+      "filter": "cloud",
+      "image": "/assets/img/tech/cloud/twilio.svg",
+      "name": "Twilio"
+    },
+    { 
+      "filter": "cloud",
+      "image": "/assets/img/tech/cloud/Talend.svg",
+      "name": "Talend"
+    },
+    { 
+      "filter": "cloud",
+      "image": "/assets/img/tech/cloud/Spluck.svg",
+      "name": "Spluck"
+    },
+    { 
+      "filter": "cloud",
+      "image": "/assets/img/tech/cloud/AWS.svg",
+      "name": "AWS"
+    },
+    { 
+      "filter": "cloud",
+      "image": "/assets/img/tech/cloud/Alfresco.svg",
+      "name": "Alfresco"
+    },
+    { 
+      "filter": "cloud",
+      "image": "/assets/img/tech/cloud/Stripe.svg",
+      "name": "Stripe"
+    },
+    { 
+      "filter": "cloud",
+      "image": "/assets/img/tech/cloud/SharePoint.svg",
+      "name": "SharePoint"
+    },
+    { 
+      "filter": "cloud",
+      "image": "/assets/img/tech/cloud/Apigee.svg",
+      "name": "Apigee"
+    },
+    { 
+      "filter": "cloud",
+      "image": "/assets/img/tech/cloud/Pivotal.svg",
+      "name": "Pivotal"
+    },
+    { 
+      "filter": "cloud",
+      "image": "/assets/img/tech/cloud/Salesforce.svg",
+      "name": "Salesforce"
+    },
+    { 
+      "filter": "cloud",
+      "image": "/assets/img/tech/cloud/Docker.svg",
+      "name": "Docker"
+    },
+    { 
+      "filter": "cloud",
+      "image": "/assets/img/tech/cloud/Mulesoft.svg",
+      "name": "Mulesoft"
+    },
+    { 
+      "filter": "cloud",
+      "image": "/assets/img/tech/cloud/Nexmo.svg",
+      "name": "Nexmo"
+    },
+    { 
+      "filter": "cloud",
+      "image": "/assets/img/tech/cloud/kubernetes.svg",
+      "name": "kubernetes"
+    },
+    { 
+      "filter": "cloud",
+      "image": "/assets/img/tech/cloud/Azure.svg",
+      "name": "Azure"
+    },
+
+
+
+
+    
+    { 
+      "filter": "devops",
+      "image": "/assets/img/tech/devops/CircleCI.svg",
+      "name": "CircleCI"
+    },
+    { 
+      "filter": "devops",
+      "image": "/assets/img/tech/devops/TravisCI.svg",
+      "name": "TravisCI"
+    },
+    { 
+      "filter": "devops",
+      "image": "/assets/img/tech/devops/Codeship.svg",
+      "name": "Codeship"
+    },
+    { 
+      "filter": "devops",
+      "image": "/assets/img/tech/devops/gradle.svg",
+      "name": "gradle"
+    },
+
+
+
+
+    { 
+      "filter": "cms",
+      "image": "/assets/img/tech/cms/Successfactors.svg",
+      "name": "Successfactors"
+    },
+    { 
+      "filter": "cms",
+      "image": "/assets/img/tech/cms/Wordpress.svg",
+      "name": "Wordpress"
+    },
+    { 
+      "filter": "cms",
+      "image": "/assets/img/tech/cms/Magento.svg",
+      "name": "Magento"
+    },
+    { 
+      "filter": "cms",
+      "image": "/assets/img/tech/cms/Canvas.svg",
+      "name": "Canvas"
+    },
+    { 
+      "filter": "cms",
+      "image": "/assets/img/tech/cms/Litmus.svg",
+      "name": "Litmus"
+    },
+    { 
+      "filter": "cms",
+      "image": "/assets/img/tech/cms/Liferay.svg",
+      "name": "Liferay"
+    },
+    { 
+      "filter": "cms",
+      "image": "/assets/img/tech/cms/Shopify.svg",
+      "name": "Shopify"
+    },
+    { 
+      "filter": "cms",
+      "image": "/assets/img/tech/cms/Docebo.svg",
+      "name": "Docebo"
+    },
+    { 
+      "filter": "cms",
+      "image": "/assets/img/tech/cms/Moodle.svg",
+      "name": "Moodle"
+    },
+    { 
+      "filter": "cms",
+      "image": "/assets/img/tech/cms/Umbraco.svg",
+      "name": "Umbraco"
+    },
+    { 
+      "filter": "cms",
+      "image": "/assets/img/tech/cms/Sitecore.svg",
+      "name": "Sitecore"
+    },
+    { 
+      "filter": "cms",
+      "image": "/assets/img/tech/cms/Totara.svg",
+      "name": "Totara"
+    },
+    { 
+      "filter": "cms",
+      "image": "/assets/img/tech/cms/Adapt.svg",
+      "name": "Adapt"
+    },
+
+
+
+    { 
+      "filter": "testing",
+      "image": "/assets/img/tech/testing/SoupUI.svg",
+      "name": "SoupUI"
+    },
+    { 
+      "filter": "testing",
+      "image": "/assets/img/tech/testing/Mochas.svg",
+      "name": "Mochas"
+    },
+    { 
+      "filter": "testing",
+      "image": "/assets/img/tech/testing/Appium.svg",
+      "name": "Appium"
+    },
+    { 
+      "filter": "testing",
+      "image": "/assets/img/tech/testing/Hoverfly.svg",
+      "name": "Hoverfly"
+    },
+    { 
+      "filter": "testing",
+      "image": "/assets/img/tech/testing/JMeter.svg",
+      "name": "JMeter"
+    },
+    { 
+      "filter": "testing",
+      "image": "/assets/img/tech/testing/Katalon.svg",
+      "name": "Katalon"
+    },
+    { 
+      "filter": "testing",
+      "image": "/assets/img/tech/testing/Selenium.svg",
+      "name": "Selenium"
+    },
+    { 
+      "filter": "testing",
+      "image": "/assets/img/tech/testing/Gatling.svg",
+      "name": "Gatling"
+    },
+    { 
+      "filter": "testing",
+      "image": "/assets/img/tech/testing/Saucelabs.svg",
+      "name": "Saucelabs"
+    },
+
+
+
+    { 
+      "filter": "source",
+      "image": "/assets/img/tech/SourceTool/GitHub.png",
+      "name": "GitHub"
+    },
+    { 
+      "filter": "source",
+      "image": "/assets/img/tech/SourceTool/Bitbucket.png",
+      "name": "Bitbucket"
+    },
+    { 
+      "filter": "source",
+      "image": "/assets/img/tech/SourceTool/gitlab.png",
+      "name": "gitlab"
+    }
+  ]
+}

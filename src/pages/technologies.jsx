@@ -5,7 +5,7 @@ import navbarScrollEffect from "@common/navbarScrollEffect";
 //= Layout
 import PreviewLayout from '@layouts/Preview';
 //= Components
-import Header from '@components/Preview/Header';
+import Technologies from '@components/Technologies/Technologies';
 
 
 function technologies() {
@@ -22,8 +22,9 @@ function technologies() {
       </Head>
 
       <PreviewLayout>
-        <Header />
-        {/* <Header page="Our Technologies"  title="Our Technologies" /> */}
+        <main className='portfolio-page style-1'>
+          <Technologies />
+        </main>
       </PreviewLayout>
     </>
   )
