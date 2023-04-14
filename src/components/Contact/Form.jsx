@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import axios from 'axios';
 import contactInfo from '@data/Contact/form.json';
-import contactInfoRTL from '@data/Contact/form-rtl.json';
 
-const Form = ({ style = "4", rtl }) => {
+const Form = ({ style = "4" }) => {
+  
   const [formData, setFormdata] = useState({
     name: "",
     email: "",
@@ -13,7 +13,7 @@ const Form = ({ style = "4", rtl }) => {
     message: ""
   });
 
-  const contactInfoData = rtl ? contactInfoRTL : contactInfo;
+  const contactInfoData = contactInfo;
 
   const handleFormChange = (e) => {
     setFormdata(prev => ({
@@ -94,15 +94,7 @@ const Form = ({ style = "4", rtl }) => {
                       <textarea rows="10" name="message" className="form-control" placeholder={ "How can we help you?" } onChange={handleFormChange}></textarea>
                     </div>
                   </div>
-                  <div className="col-lg-12 text-center">
-                    <div className="form-check d-inline-flex mt-30 mb-30">
-                      <input className="form-check-input me-2 mt-0" type="checkbox" value="" id="flexCheckDefault" />
-                      <label className="form-check-label small" htmlFor="flexCheckDefault">
-                        { 'By submitting, i’m agreed to the' } <a href="#" className="text-decoration-underline">{ 'Terms & Conditons' }</a>
-                      </label>
-                    </div>
-                  </div>
-                  <div className="col-lg-12 text-center">
+                  <div className="col-lg-12 text-center mt-30">
                     <input type="submit" value={ 'Send Your Request' } className="btn rounded-pill blue5-3Dbutn hover-blue2 sm-butn fw-bold text-light" />
                   </div>
                 </div>

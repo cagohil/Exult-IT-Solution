@@ -1,6 +1,7 @@
 import Link from 'next/link';
 
 const Navbar = ({ navbarRef, bgTransparent }) => {
+
   const handleMouseMove = (event) => {
     const dropDownToggler = event.target.classList.contains('dropdown-toggle') ? event.target : event.target.querySelector('.dropdown-toggle');
     const dropDownMenu = dropDownToggler?.nextElementSibling;
@@ -29,30 +30,30 @@ const Navbar = ({ navbarRef, bgTransparent }) => {
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav m-auto mb-2 mb-lg-0">
-          <li className="nav-item">
+            <li className="nav-item">
               <Link legacyBehavior href="/">
                 <a className="nav-link">
-                Home
+                  Home
                 </a>
               </Link>
             </li>
             <li className="nav-item">
               <Link legacyBehavior href="/about-us">
                 <a className="nav-link">
-                About Us
+                  About Us
                 </a>
               </Link>
             </li>
             <li className="nav-item">
               <Link legacyBehavior href="/technologies">
                 <a className="nav-link">
-                Our Technologies
+                  Our Technologies
                 </a>
               </Link>
             </li>
             <li className="nav-item dropdown" onMouseMove={handleMouseMove} onMouseLeave={handleMouseLeave}>
               <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Services
+                Services
               </a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown1">
                 <li><Link legacyBehavior href="/services/website-development"><a className="dropdown-item">Website Development</a></Link></li>
@@ -66,21 +67,21 @@ const Navbar = ({ navbarRef, bgTransparent }) => {
             <li className="nav-item">
               <Link legacyBehavior href="/contact-us">
                 <a className="nav-link">
-                Contact Us
+                  Contact Us
                 </a>
               </Link>
             </li>
             <li className="nav-item">
               <Link legacyBehavior href="/blog">
                 <a className="nav-link">
-                Blog
+                  Blog
                 </a>
               </Link>
             </li>
             <li className="nav-item">
               <Link legacyBehavior href="/remote-staff">
                 <a className="nav-link">
-                Remote Staff
+                  Remote Staff
                 </a>
               </Link>
             </li>

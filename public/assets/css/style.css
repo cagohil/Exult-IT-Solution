@@ -9629,12 +9629,12 @@ header.style-15 {
 
 /* --------------- chat-banner styles --------------- */
 .chat-banner.style-7 {
-  background-color: #8169f1;
-  padding-top: 100px; }
+  background-color: #157efb;
+  padding-top: 50px; }
   .chat-banner.style-7 .info {
     text-align: center;
     color: #fff;
-    padding-bottom: 100px; }
+    padding-bottom: 50px; }
     .chat-banner.style-7 .info p {
       font-size: 16px;
       font-weight: 300;
@@ -9642,6 +9642,10 @@ header.style-15 {
     .chat-banner.style-7 .info h3 {
       font-size: 40px;
       font-weight: 500; }
+      .chat-banner.style-7 .info h4 span {
+        font-size: 30px;
+        font-weight: 500;
+        color: #ffc107; }
 
 /* --------------- chat-banner styles --------------- */
 .chat-banner.style-9 {
@@ -13993,7 +13997,7 @@ footer.style-15 {
   .navbar.style-5 .navbar-collapse {
     margin-top: 20px;
     padding: 15px 0;
-    background: #fff9; }
+    background: #e7f1ff; }
   .navbar.style-5 .nav-item .nav-link {
     padding-left: 0; }
   .section-head.style-5 h2 {

@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Autoplay } from 'swiper';
-import clients from '@data/Saas/clients.json';
+import clients from '@data/Home/clients.json';
 
 import "swiper/css";
 import 'swiper/css/autoplay';
@@ -21,7 +21,7 @@ const Clients = () => {
     <section className={`clients style-5 pb-60 pt-60`} data-scroll-index="2">
       <div className="section-head text-center mb-40 style-5">
       <h2 className="mb-20">Our<span>Clients</span></h2>
-        <p>More than 200 companies trust and choose Exult It Solution</p>
+        <p>More than hundred companies trust and choose Exult IT Solution</p>
       </div>
       <div className="content">
         <div className="clients-slider5">

@@ -5,8 +5,9 @@ import navbarScrollEffect from "@common/navbarScrollEffect";
 //= Layout
 import MainLayout from '@layouts/Main';
 //= Components
+import RemoteStaffIndex from '@components/RemoteStaff/index';
 
-function remoteStaff() {
+const RemoteStaff = () => {
   const navbarRef = useRef(null);
 
   useEffect(() => {
@@ -16,15 +17,16 @@ function remoteStaff() {
   return (
     <>
       <Head>
-        <title>Remote Staff</title>
+        <title>RemoteStaff</title>
       </Head>
 
       <MainLayout>
         <main className="about-page style-5">
+        <RemoteStaffIndex />
         </main>
       </MainLayout>
     </>
   )
 }
 
-export default remoteStaff
+export default RemoteStaff;

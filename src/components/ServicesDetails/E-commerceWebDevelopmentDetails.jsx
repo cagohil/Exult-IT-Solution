@@ -11,8 +11,8 @@ const Details = () => {
             <div className="col-lg-8">
               <div className="main-info">
                 <div className="main-img img-cover">
-                  {/* <img src="/assets/img/services/services2.png" alt="" /> */}
-                  <section className='about style-5'>
+                  <img src="/assets/img/projects/eCommerceWebDevelopment2.jpg" alt="" />
+                  {/* <section className='about style-5'>
                     <div className="content p-0 ">
                       <div className="container p-0">
                         <div className="row align-items-center">
@@ -28,7 +28,7 @@ const Details = () => {
                         </div>
                       </div>
                     </div>
-                  </section>
+                  </section> */}
                 </div>
                 <h3 className="text-capitalize mb-20"> E-Commerce Web Development </h3>
                 <p className="mb-10">
@@ -184,7 +184,7 @@ const Details = () => {
                   <Link href="/contact-us" className="butn bg-white rounded-pill hover-blue5">
                     <span> Get A Quote <i className="far fa-long-arrow-right ms-2"></i> </span>
                   </Link>
-                  <img src="/assets/img/mob1.png" alt="" className="mob" />
+                  <img src="/assets/img/mob12.png" alt="" className="mob" />
                 </div>
               </div>
             </div>

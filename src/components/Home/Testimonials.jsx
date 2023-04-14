@@ -15,7 +15,7 @@ const Testimonials = () => {
     <section className="testimonials pb-60 pt-60 bg-gray5 style-5" data-scroll-index="5">
       <div className="container">
         <div className="section-head text-center mb-60 style-5">
-        <h2 className="mb-20">Clients<span>Reviews</span></h2>
+        <h2 className="mb-20">Testi<span className='m-0 p-0'>monial</span></h2>
           <p>Exult It Solution loved from thoudsands customer worldwide and get trusted from big companies.</p>
         </div>
       </div>
@@ -58,7 +58,7 @@ const Testimonials = () => {
             {
               testimonialsData.map((testimonial, i) => (
                 <SwiperSlide key={i}>
-                  <a href="#" className="testi-card style-5">
+                  <div href="#" className="testi-card style-5">
                     <div className="stars">
                       { Array(testimonial.stars).fill().map((_, t) => (<i className="fas fa-star" key={t}></i>)) }
                     </div>
@@ -72,7 +72,7 @@ const Testimonials = () => {
                       <h6>{ testimonial.author.name }</h6>
                       <small>{ testimonial.author.position }</small>
                     </div>
-                  </a>
+                  </div>
                 </SwiperSlide>
               ))
             }
