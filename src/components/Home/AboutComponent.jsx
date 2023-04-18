@@ -11,9 +11,9 @@ const Codei = () => {
 
       <div className="container-xxl box px-4">
         <div className="row align-items-center">
-          <div className="col-lg-5">
+          <div className="col-lg-5 ">
             <div className="img">
-              <img src="/landing-preview/img/b32.png" alt="" />
+              <img src="/assets/img/home/about/PNG/about.png" alt="" />
             </div>
           </div>
           <div className=" col-lg-6 offset-lg-1">

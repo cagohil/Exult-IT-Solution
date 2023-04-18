@@ -27,7 +27,7 @@ function cloudComputingServices() {
       <main className="services-details-page style-5">
         <Header page="Cloud Computing Services"  title="Cloud Computing Services" />
         <Details />
-          {/* <Contact /> */}
+          <Contact />
         </main>
       </MainLayout>
     </>

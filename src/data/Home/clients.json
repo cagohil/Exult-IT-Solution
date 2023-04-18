@@ -1,18 +1,55 @@
 {
   "row1": [
-    "/assets/img/Clients/pixlhut.png",
-    "/assets/img/Clients/aptiv.png",
-    "/assets/img/Clients/mersino.gif",
-    "/assets/img/Clients/autohaulerexchange.png",
-    "/assets/img/Clients/oncall.png",
-    "/assets/img/Clients/medsource.png"
+    {
+      "link": "https://www.pixlhut.com/",
+      "img": "/assets/img/Clients/pixlhut.png"
+    },
+    {
+      "link": "https://www.aptiv.com/",
+      "img": "/assets/img/Clients/aptiv.png"
+    },
+    {
+      "link": "https://www.mersino.com/",
+      "img": "/assets/img/Clients/mersino.gif"
+    },
+    {
+      "link": "https://www.autohaulerexchange.com/",
+      "img": "/assets/img/Clients/autohaulerexchange.png"
+    },
+    {
+      "link": "https://www.oncalldigging.com/",
+      "img": "/assets/img/Clients/oncall.png"
+    },
+    {
+      "link": "https://medsourcemi.com/",
+      "img": "/assets/img/Clients/medsource.png"
+    }
   ],
+
   "row2": [
-    "/assets/img/Clients/galwaybycapital.png",
-    "/assets/img/Clients/fightingchess.png",
-    "/assets/img/Clients/sfl.png",
-    "/assets/img/Clients/estate.jpeg",
-    "/assets/img/Clients/zorro.png",
-    "/assets/img/Clients/versatile.png"
+    {
+      "link": "https://www.galwaybaycapital.com/",
+      "img": "/assets/img/Clients/galwaybycapital.png"
+    },
+    {
+      "link": "https://fightchess.com/",
+      "img": "/assets/img/Clients/fightingchess.png"
+    },
+    {
+      "link": "https://www.sflcompanies.com/",
+      "img": "/assets/img/Clients/sfl.png"
+    },
+    {
+      "link": "http://michelegrealestate.com/",
+      "img": "/assets/img/Clients/estate.jpeg"
+    },
+    {
+      "link": "https://www.zorroapps.com/",
+      "img": "/assets/img/Clients/zorro.png"
+    },
+    {
+      "link": "https://versatilehv.com/",
+      "img": "/assets/img/Clients/versatile.png"
+    }
   ]
 }

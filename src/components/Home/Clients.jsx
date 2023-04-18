@@ -60,8 +60,8 @@ const Clients = () => {
                 {
                   clients.row1.map((client, i) => (
                     <SwiperSlide key={i}>
-                      <a href="#" className="img">
-                        <img src={client} alt="" />
+                      <a href={client.link} target='_blank' className="img">
+                        <img src={client.img} alt="" />
                       </a>
                     </SwiperSlide>
                   ))
@@ -107,8 +107,8 @@ const Clients = () => {
                 {
                   clients.row2.map((client, i) => (
                     <SwiperSlide key={i}>
-                      <a href="#" className="img">
-                        <img src={client} alt="" />
+                      <a href={client.link} target='_blank' className="img">
+                        <img src={client.img} alt="" />
                       </a>
                     </SwiperSlide>
                   ))

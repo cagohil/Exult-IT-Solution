@@ -8,6 +8,8 @@ import MainLayout from '@layouts/Main';
 import Form from '@components/Contact/Form';
 import Map from '@components/Contact/Map';
 import Community from '@components/Contact/Community';
+import Contact from '@components/Contact/Contact';
+
 
 
 function contactUs() {
@@ -26,9 +28,12 @@ function contactUs() {
       <MainLayout>
         <main className="contact-page style-5">
         <Community />
-        <Form style="5" />
-        <Map />
+        {/* <Form style="5" />
+        <Map /> */}
         </main>
+        <div className="services-details-page style-5">
+        <Contact />
+        </div>
       </MainLayout>
     </>
   )

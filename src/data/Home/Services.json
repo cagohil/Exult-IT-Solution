@@ -1,37 +1,37 @@
 {
   "services": [
     {
-      "image": "/assets/img/projects/websiteDevelopment.jpg",
+      "image": "/assets/img/home/services/websiteDevelopment.jpg",
       "link": "/services/website-development/",
       "title": "Website Development",
       "details": "Exult It Solution for IT Solutions has all services required to start or optimize your website. We develop dynamic and static websites to maximize business functionality. We have a vast amount of knowledge with a highly educated and diverse team with many years of combined expertise. We have responsive, custom software development and designs and have the ability to perform on all different devices."
     },
     {
-      "image": "/assets/img/projects/CRMsoftwareDevelopment.jpg",
+      "image": "/assets/img/home/services/CRMsoftwareDevelopment.jpg",
       "link": "/services/crm-development-company/",
       "title": "CRM Software Development",
       "details": "CRM is providing a seamless CUSTOMER EXPERIENCE. By creating a deeper level of relationship with your clients, your business can easily lead to sustainable growth and profit. A custom CRM software that is suited to the needs of your business helps in smooth interaction between various units related to the customer’s journey- from sales and marketing to customer service."
     },
     {
-      "image": "/assets/img/projects/eCommerceWebDevelopment2.jpg",
+      "image": "/assets/img/home/services/eCommerceWebDevelopment.jpg",
       "link": "/services/ecommerce-web-development/",
       "title": "E-commerce Web Development",
       "details": "Everything you buy or sell online is a part of e-commerce. This ELECTRONIC COMMERCE industry has grown to become the nucleus of every successful business strategy today. Having an e-commerce platform for your business facilitates easier product discovery and a smoother customer’s journey. Selling online has enabled numerous corporations and businesses to upscale which was not nearly possible through offline trade."
     },
     {
-      "image": "/assets/img/projects/cloudServices.jpg",
+      "image": "/assets/img/home/services/cloudServices.jpg",
       "link": "/services/cloud-computing-services/",
       "title": "Cloud Services",
       "details": "We enhance your business through all phases of your cloud adoption. We set up your cloud with data services, cloud services, security services and IT Services. Our cloud services for IT Services allow your potential and current clients to access your website portal via the internet."
     },
     {
-      "image": "/assets/img/projects/mobileAppDevelopment.jpg",
+      "image": "/assets/img/home/services/mobileAppDevelopment.jpg",
       "link": "/services/mobile-app-development/",
       "title": "Mobile App Development",
       "details": "We have expert and adaptive technology on Mobile Applications. The Mobile Applications are continuously evolving and creating an essential requirement to upgrade your current mobile applications for the business. We propel your imagination to reality by using Big Data!"
     },
     {
-      "image": "/assets/img/projects/searchEngineOptimization.jpg",
+      "image": "/assets/img/home/services/searchEngineOptimization.jpg",
       "link": "/services/search-engine-optimization/",
       "title": "Search Engine Optimization",
       "details": "Search Engine Optimization is all about knowing and implementing what can make your website visible. It focuses on attracting visitors organically by ranking higher in Google searches. This can be achieved through optimizing your website and content according to several factors that affect the rankings."
