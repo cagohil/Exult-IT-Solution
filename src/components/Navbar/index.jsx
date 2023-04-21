@@ -20,7 +20,7 @@ const Navbar = ({ navbarRef, bgTransparent }) => {
   }
 
   return (
-    <nav className={`navbar navbar-expand-lg navbar-light style-5 ${bgTransparent ? 'bg-transparent':''}`} ref={navbarRef}>
+    <nav className={`navbar navbar-expand-lg navbar-light style-5 ${bgTransparent ? 'bg-transparent' : ''}`} ref={navbarRef}>
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
           <img src="/assets/img/logo_home5.png" alt="" />
@@ -33,55 +33,72 @@ const Navbar = ({ navbarRef, bgTransparent }) => {
             <li className="nav-item">
               <Link legacyBehavior href="/">
                 <a className="nav-link">
-                  Home
+                  <span data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse">Home</span>
                 </a>
               </Link>
             </li>
-            <li className="nav-item">
-              <Link legacyBehavior href="/about-us">
-                <a className="nav-link">
-                  About Us
+            <li className="nav-item" >
+              <Link legacyBehavior href="/about-us" >
+                <a className="nav-link" >
+                  <span data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse">About Us</span>
                 </a>
               </Link>
             </li>
             <li className="nav-item">
               <Link legacyBehavior href="/technologies">
                 <a className="nav-link">
-                  Our Technologies
+                  <span data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse">Our Technologies</span>
                 </a>
               </Link>
             </li>
             <li className="nav-item dropdown" onMouseMove={handleMouseMove} onMouseLeave={handleMouseLeave}>
-              <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Services
+              <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <span className="position-relative">Services</span>
               </a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown1">
-                <li><Link legacyBehavior href="/services/website-development"><a className="dropdown-item">Website Development</a></Link></li>
-                <li><Link legacyBehavior href="/services/cloud-computing-services"><a className="dropdown-item">Cloud Services</a></Link></li>
-                <li><Link legacyBehavior href="/services/mobile-app-development"><a className="dropdown-item">Mobile App Development</a></Link></li>
-                <li><Link legacyBehavior href="/services/crm-development-company"><a className="dropdown-item">CRM Software Company</a></Link></li>
-                <li><Link legacyBehavior href="/services/ecommerce-web-development"><a className="dropdown-item">E-commerce Web Development</a></Link></li>
-                <li><Link legacyBehavior href="/services/search-engine-optimization"><a className="dropdown-item">Search Engine Optimization</a></Link></li>
+                <li><Link legacyBehavior href="/services/website-development"><a className="dropdown-item">
+                  <span data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse">Website Development</span>
+                </a></Link></li>
+
+                <li><Link legacyBehavior href="/services/cloud-computing-services"><a className="dropdown-item">
+                  <span data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse">Cloud Services</span>
+                </a></Link></li>
+
+                <li><Link legacyBehavior href="/services/mobile-app-development"><a className="dropdown-item">
+                  <span data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse">Mobile App Development</span>
+                </a></Link></li>
+
+                <li><Link legacyBehavior href="/services/crm-development-company"><a className="dropdown-item">
+                  <span data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse">CRM Software Company</span>
+                </a></Link></li>
+
+                <li><Link legacyBehavior href="/services/ecommerce-web-development"><a className="dropdown-item">
+                  <span data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse">E-commerce Web Development</span>
+                </a></Link></li>
+
+                <li><Link legacyBehavior href="/services/search-engine-optimization"><a className="dropdown-item">
+                  <span data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse">Search Engine Optimization</span>
+                </a></Link></li>
               </ul>
             </li>
             <li className="nav-item">
               <Link legacyBehavior href="/contact-us">
                 <a className="nav-link">
-                  Contact Us
+                  <span data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse">Contact Us</span>
                 </a>
               </Link>
             </li>
             <li className="nav-item">
               <Link legacyBehavior href="/blog">
                 <a className="nav-link">
-                  Blog
+                  <span data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse">Blog</span>
                 </a>
               </Link>
             </li>
             <li className="nav-item">
               <Link legacyBehavior href="/remote-staff">
                 <a className="nav-link">
-                  Remote Staff
+                  <span data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse">Remote Staff</span>
                 </a>
               </Link>
             </li>
@@ -92,7 +109,7 @@ const Navbar = ({ navbarRef, bgTransparent }) => {
             <div className="d-flex align-items-center">
               <Link legacyBehavior href="/contact-us">
                 <a className="btn rounded-pill blue5-3Dbutn hover-blue2 sm-butn fw-bold">
-                  <span>Get a Quote<i className="bi bi-arrow-right ms-1"></i> </span>
+                  <span data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse">Get a Quote<i className="bi bi-arrow-right ms-1"></i> </span>
                 </a>
               </Link>
             </div>

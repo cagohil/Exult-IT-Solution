@@ -25,13 +25,13 @@ const Contact = () => {
   };
   
   return (
-    <section className="contact style-5 section-padding">
+    <section className="contact style-5 py-5">
       <ToastContainer />
       <div className="container">
-        <div className="section-head text-center mb-50 style-5">
+        <div className="section-head text-center mb-40 style-5">
           <h2 className="mb-20">{'Have Any'} <span>{'Question?'}</span></h2>
           <p className='pb-2'>{'Looking For Exclusive Digital Services?'}</p>
-          <p>{'Services you are looking for?'}</p>
+          {/* <p>{'Services you are looking for?'}</p> */}
         </div>
         <form ref={form} className="contact-form" onSubmit={sendEmail}>
           <div className="row">

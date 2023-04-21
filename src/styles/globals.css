@@ -86,4 +86,25 @@
   .services-details-page.style-5 .ser-details .main-info .main-img{
     height: auto;
   }
+
+  .AboutComponentPadding{
+    margin-bottom: 10px !important;
+  }
+
+  .portfolio-card{
+    margin-bottom: 40px !important;
+  }
+
+  .foot{
+    padding-top: 0 !important;
+  }
+
+  .foot .socail-icons{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  nav li a span{
+    width: 100%;
+  }
 }

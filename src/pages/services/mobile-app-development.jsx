@@ -7,7 +7,6 @@ import MainLayout from '@layouts/Main';
 //= Components
 import Header from '@components/ServicesDetails/Header';
 import Details from '@components/ServicesDetails/MobileAppDevelopmentDetails';
-import Contact from '@components/ServicesDetails/Contact';
 
 
 function mobileAppDevelopment() {
@@ -20,14 +19,14 @@ function mobileAppDevelopment() {
   return (
     <>
       <Head>
-        <title>Mobile App Development</title>
+        <title>Mobile App Development - Exult It Solution</title>
+        <meta name="DESCRIPTION" content="With the advent of modern technology and innovations, every item we need is being transformed into something we can fit into our pockets. The real-life theatre made its way into the television, and from there to the mobile phones. Due to mobile phones, especially smartphones, there is a rising need for businesses to acknowledge the huge potential this user base offers." />
       </Head>
 
       <MainLayout>
       <main className="services-details-page style-5">
         <Header page="Mobile App Development" title="Mobile App Development" />
         <Details />
-          {/* <Contact /> */}
         </main>
       </MainLayout>
     </>

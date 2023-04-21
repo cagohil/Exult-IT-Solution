@@ -6,14 +6,6 @@ import navbarScrollEffect from "@common/navbarScrollEffect";
 import MainLayout from '@layouts/Main';
 //= Components
 import AboutIndex from '@components/AboutUs/index';
-import ChooseUs from '@components/Saas/ChooseUs';
-import Clients from '@components/Saas/Clients';
-import Numbers from '@components/Saas/Numbers';
-import Team from '@components/Saas/Team';
-import Community from '@components/Saas/Community';
-import Philosophy from '@components/Saas/Philosophy';
-import Culture from '@components/Saas/Culture';
-import Footer from '@components/Saas/Footer';
 
 const About = () => {
   const navbarRef = useRef(null);
@@ -25,12 +17,13 @@ const About = () => {
   return (
     <>
       <Head>
-        <title>About</title>
+        <title>Software Development Company Macomb | Web apps development Macomb</title>
+        <meta name="DESCRIPTION" content="As a Software development company, we deliver website design and development, ecommerce website, custom software, cloud computing services and SEO Services." />
       </Head>
 
       <MainLayout>
         <main className="about-page style-5">
-        <AboutIndex />
+          <AboutIndex />
         </main>
       </MainLayout>
     </>

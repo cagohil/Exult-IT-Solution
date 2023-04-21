@@ -20,14 +20,15 @@ function cloudComputingServices() {
   return (
     <>
       <Head>
-        <title>Cloud Computing Services</title>
+        <title>Cloud Computing Services - Exult It Solution</title>
+        <meta name="DESCRIPTION" content="Our Experts Integrate Hybrid Cloud & Cognitive Computing to add value to your business. We offer PaaS, IaaS and SaaS. We have knowledge and experience of Azure, Google cloud and AWS. It is a visible mass of a huge amount of condensed water vapours floating all around in the sky." />
       </Head>
 
       <MainLayout>
       <main className="services-details-page style-5">
         <Header page="Cloud Computing Services"  title="Cloud Computing Services" />
         <Details />
-          <Contact />
+          {/* <Contact /> */}
         </main>
       </MainLayout>
     </>

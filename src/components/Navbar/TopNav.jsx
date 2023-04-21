@@ -19,16 +19,16 @@ const TopNav = ({ style, rtl }) => {
             <div className="col-lg-6 col-sm-6 col-2 topSocialIcon">
               <div className="r-side">
                 <div className="socail-icons d-flex justify-content-end">
-                  <a href="#">
+                  <a href="https://twitter.com/exultitsolution" rel="noreferrer" target="_blank">
                     <i className="fab fa-twitter m-2"></i>
                   </a>
-                  <a href="#">
+                  <a href="https://www.facebook.com/exultitsolution" rel="noreferrer" target="_blank">
                     <i className="fab fa-facebook-f m-2"></i>
                   </a>
-                  <a href="#">
+                  <a href="https://www.linkedin.com/company/exultit-solutions/" rel="noreferrer" target="_blank">
                     <i className="fab fa-linkedin-in m-2"></i>
                   </a>
-                  <a href="#">
+                  <a href="https://www.instagram.com/exultitsolution/" rel="noreferrer" target="_blank">
                     <i className="fab fa-instagram m-2"></i>
                   </a>
                 </div>

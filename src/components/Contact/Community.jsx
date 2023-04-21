@@ -2,7 +2,7 @@ import communityData from '@data/Contact/community.json';
 
 const Community = () => {
   return (
-    <section className="community py-5 style-5">
+    <section className="community mb-50 style-5">
       <div className="container">
         <div className="section-head text-center style-5 mb-40">
           <h2 className="mb-20">Get In <span>Touch</span> </h2>

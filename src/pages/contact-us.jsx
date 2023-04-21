@@ -5,9 +5,6 @@ import navbarScrollEffect from "@common/navbarScrollEffect";
 //= Layout
 import MainLayout from '@layouts/Main';
 //= Components
-import Form from '@components/Contact/Form';
-import Map from '@components/Contact/Map';
-import Community from '@components/Contact/Community';
 import Contact from '@components/Contact/Contact';
 
 
@@ -22,17 +19,41 @@ function contactUs() {
   return (
     <>
       <Head>
-        <title>Contact Us</title>
+        <title>Contact Us - Exult It Solution</title>
+        <meta name="DESCRIPTION" content="Exult it Solution is leading company provides IT services and solutions, we expert in web design and development, software development, cloud computing and SEO services." />
+        <meta name="DESCRIPTION" content="Website Development in Macomb" />
+        <meta name="DESCRIPTION" content="Website Development in Michigan" />
+        <meta name="DESCRIPTION" content="Mobile App Development in Macomb" />
+        <meta name="DESCRIPTION" content="Mobile App Development in Michigan" />
+        <meta name="DESCRIPTION" content="e commerce web Development in Macomb" />
+        <meta name="DESCRIPTION" content="e commerce web Development in Michigan" />
+        <meta name="DESCRIPTION" content="Search Engine Optimization in Macomb" />
+        <meta name="DESCRIPTION" content="Search Engine Optimization in Michigan" />
+        <meta name="DESCRIPTION" content="Cloud Computing Services in Macomb" />
+        <meta name="DESCRIPTION" content="Cloud Computing Services in Michigan" />
+        <meta name="DESCRIPTION" content="CRM Development Company in Macomb" />
+        <meta name="DESCRIPTION" content="CRM Development Company in Michigan" />
+        <meta name="DESCRIPTION" content="Customer Relation Management in Macomb" />
+        <meta name="DESCRIPTION" content="Customer Relation Management in Michigan" />
+        <meta name="DESCRIPTION" content="Website Developer in Macomb" />
+        <meta name="DESCRIPTION" content="Website Developer in Michigan" />
+        <meta name="DESCRIPTION" content="best Website Developer in Macomb" />
+        <meta name="DESCRIPTION" content="best Website Developer in Michigan" />
+        <meta name="DESCRIPTION" content="top Website Developer in Macomb" />
+        <meta name="DESCRIPTION" content="top Website Developer in Michigan" />
+        <meta name="DESCRIPTION" content="Mobile App Developer in Macomb" />
+        <meta name="DESCRIPTION" content="Mobile App Developer in Michigan" />
+        <meta name="DESCRIPTION" content="best Mobile App Developer in Macomb" />
+        <meta name="DESCRIPTION" content="best Mobile App Developer in Michigan" />
+        <meta name="DESCRIPTION" content="top Mobile App Developer in Macomb" />
+        <meta name="DESCRIPTION" content="top Mobile App Developer in Michigan" />
       </Head>
 
       <MainLayout>
         <main className="contact-page style-5">
-        <Community />
-        {/* <Form style="5" />
-        <Map /> */}
         </main>
         <div className="services-details-page style-5">
-        <Contact />
+          <Contact />
         </div>
       </MainLayout>
     </>

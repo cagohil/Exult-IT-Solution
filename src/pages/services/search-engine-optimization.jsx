@@ -7,7 +7,6 @@ import MainLayout from '@layouts/Main';
 //= Components
 import Header from '@components/ServicesDetails/Header';
 import Details from '@components/ServicesDetails/SearchEngine OptimizationDetails';
-import Contact from '@components/ServicesDetails/Contact';
 
 
 function searchEngineOptimization() {
@@ -20,14 +19,14 @@ function searchEngineOptimization() {
   return (
     <>
       <Head>
-        <title>Search Engine Optimization</title>
+        <title>Search Engine Optimization - Exult It Solution</title>
+        <meta name="DESCRIPTION" content="Search Engine Optimization is all about knowing and implementing what can make your website visible. It focuses on attracting visitors organically by ranking higher in Google searches. This can be achieved through optimizing your website and content according to several factors that affect the rankings." />
       </Head>
 
       <MainLayout>
       <main className="services-details-page style-5">
         <Header page="Search Engine Optimization" title="Search Engine Optimization" />
         <Details />
-          {/* <Contact /> */}
         </main>
       </MainLayout>
     </>
