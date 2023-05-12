@@ -14,6 +14,41 @@
   "techs": [
     { 
       "filter": "frontend",
+      "image": "/assets/img/tech/frontend/iOS.svg",
+      "name": "iOS"
+    },
+    { 
+      "filter": "frontend",
+      "image": "/assets/img/tech/frontend/Android.svg",
+      "name": "Android"
+    },
+    { 
+      "filter": "frontend",
+      "image": "/assets/img/tech/frontend/React.svg",
+      "name": "React JS"
+    },
+    { 
+      "filter": "frontend",
+      "image": "/assets/img/tech/frontend/ReactNative.svg",
+      "name": "React Native"
+    },
+    { 
+      "filter": "frontend",
+      "image": "/assets/img/tech/frontend/WPF.svg",
+      "name": "WPF"
+    },
+    { 
+      "filter": "frontend",
+      "image": "/assets/img/tech/frontend/JavaScript.svg",
+      "name": "JavaScript"
+    },
+    { 
+      "filter": "frontend",
+      "image": "/assets/img/tech/frontend/AngularJS.svg",
+      "name": "AngularJS"
+    },
+    { 
+      "filter": "frontend",
       "image": "/assets/img/tech/frontend/Electron.svg",
       "name": "Electron"
     },
@@ -29,48 +64,8 @@
     },
     { 
       "filter": "frontend",
-      "image": "/assets/img/tech/frontend/Xamarin.svg",
-      "name": "Xamarin"
-    },
-    { 
-      "filter": "frontend",
       "image": "/assets/img/tech/frontend/Vue.svg",
       "name": "Vue"
-    },
-    { 
-      "filter": "frontend",
-      "image": "/assets/img/tech/frontend/React.svg",
-      "name": "React"
-    },
-    { 
-      "filter": "frontend",
-      "image": "/assets/img/tech/frontend/ReactNative.svg",
-      "name": "ReactNative"
-    },
-    { 
-      "filter": "frontend",
-      "image": "/assets/img/tech/frontend/WPF.svg",
-      "name": "WPF"
-    },
-    { 
-      "filter": "frontend",
-      "image": "/assets/img/tech/frontend/Android.svg",
-      "name": "Android"
-    },
-    { 
-      "filter": "frontend",
-      "image": "/assets/img/tech/frontend/JavaScript.svg",
-      "name": "JavaScript"
-    },
-    { 
-      "filter": "frontend",
-      "image": "/assets/img/tech/frontend/AngularJS.svg",
-      "name": "AngularJS"
-    },
-    { 
-      "filter": "frontend",
-      "image": "/assets/img/tech/frontend/iOS.svg",
-      "name": "iOS"
     },
     { 
       "filter": "frontend",
@@ -101,11 +96,6 @@
     },
     { 
       "filter": "backend",
-      "image": "/assets/img/tech/backend/PHP.svg",
-      "name": "PHP"
-    },
-    { 
-      "filter": "backend",
       "image": "/assets/img/tech/backend/Python.svg",
       "name": "Python"
     },
@@ -113,6 +103,11 @@
       "filter": "backend",
       "image": "/assets/img/tech/backend/Java.svg",
       "name": "Java"
+    },
+    { 
+      "filter": "backend",
+      "image": "/assets/img/tech/backend/PHP.svg",
+      "name": "PHP"
     },
     { 
       "filter": "backend",
@@ -127,38 +122,8 @@
 
     { 
       "filter": "databases",
-      "image": "/assets/img/tech/databases/DynamoDB.svg",
-      "name": "DynamoDB"
-    },
-    { 
-      "filter": "databases",
-      "image": "/assets/img/tech/databases/Cloudera.svg",
-      "name": "Cloudera"
-    },
-    { 
-      "filter": "databases",
-      "image": "/assets/img/tech/databases/CosmosDB.svg",
-      "name": "CosmosDB"
-    },
-    { 
-      "filter": "databases",
       "image": "/assets/img/tech/databases/MySQL.svg",
       "name": "MySQL"
-    },
-    { 
-      "filter": "databases",
-      "image": "/assets/img/tech/databases/RethinkDB.svg",
-      "name": "RethinkDB"
-    },
-    { 
-      "filter": "databases",
-      "image": "/assets/img/tech/databases/Firestore.svg",
-      "name": "Firestore"
-    },
-    { 
-      "filter": "databases",
-      "image": "/assets/img/tech/databases/SQLServer.svg",
-      "name": "SQLServer"
     },
     { 
       "filter": "databases",
@@ -167,43 +132,8 @@
     },
     { 
       "filter": "databases",
-      "image": "/assets/img/tech/databases/Oracle.svg",
-      "name": "Oracle"
-    },
-    { 
-      "filter": "databases",
-      "image": "/assets/img/tech/databases/MAPR.svg",
-      "name": "MAPR"
-    },
-    { 
-      "filter": "databases",
-      "image": "/assets/img/tech/databases/Hortonworks.svg",
-      "name": "Hortonworks"
-    },
-    { 
-      "filter": "databases",
-      "image": "/assets/img/tech/databases/Hadoop.svg",
-      "name": "Hadoop"
-    },
-    { 
-      "filter": "databases",
-      "image": "/assets/img/tech/databases/Firebase.svg",
-      "name": "Firebase"
-    },
-    { 
-      "filter": "databases",
-      "image": "/assets/img/tech/databases/Couchbase.svg",
-      "name": "Couchbase"
-    },
-    { 
-      "filter": "databases",
-      "image": "/assets/img/tech/databases/Neptune.svg",
-      "name": "Neptune"
-    },
-    { 
-      "filter": "databases",
-      "image": "/assets/img/tech/databases/Redis.svg",
-      "name": "Redis"
+      "image": "/assets/img/tech/databases/SQLServer.svg",
+      "name": "SQLServer"
     },
     { 
       "filter": "databases",
@@ -212,23 +142,63 @@
     },
     { 
       "filter": "databases",
-      "image": "/assets/img/tech/databases/cassandra.svg",
-      "name": "cassandra"
+      "image": "/assets/img/tech/databases/Redis.svg",
+      "name": "Redis"
+    },
+    { 
+      "filter": "databases",
+      "image": "/assets/img/tech/databases/Oracle.svg",
+      "name": "Oracle"
+    },
+    { 
+      "filter": "databases",
+      "image": "/assets/img/tech/databases/Firebase.svg",
+      "name": "Firebase"
     },
     { 
       "filter": "databases",
       "image": "/assets/img/tech/databases/ElasticSearch.svg",
       "name": "ElasticSearch"
     },
+    { 
+      "filter": "databases",
+      "image": "/assets/img/tech/databases/DynamoDB.svg",
+      "name": "DynamoDB"
+    },
+    { 
+      "filter": "databases",
+      "image": "/assets/img/tech/databases/cassandra.svg",
+      "name": "cassandra"
+    },
+    { 
+      "filter": "databases",
+      "image": "/assets/img/tech/databases/Couchbase.svg",
+      "name": "Couchbase"
+    },
 
 
 
 
-    
+
     { 
       "filter": "cloud",
-      "image": "/assets/img/tech/cloud/GoogleCloud.png",
+      "image": "/assets/img/tech/cloud/AWS.svg",
+      "name": "AWS"
+    },
+    { 
+      "filter": "cloud",
+      "image": "/assets/img/tech/cloud/Azure.svg",
+      "name": "Azure"
+    },
+    { 
+      "filter": "cloud",
+      "image": "/assets/img/tech/cloud/GoogleCloud.svg",
       "name": "Google cloud"
+    },
+    { 
+      "filter": "cloud",
+      "image": "/assets/img/tech/cloud/Docker.svg",
+      "name": "Docker"
     },
     { 
       "filter": "cloud",
@@ -237,18 +207,8 @@
     },
     { 
       "filter": "cloud",
-      "image": "/assets/img/tech/cloud/Talend.svg",
-      "name": "Talend"
-    },
-    { 
-      "filter": "cloud",
       "image": "/assets/img/tech/cloud/Spluck.svg",
       "name": "Spluck"
-    },
-    { 
-      "filter": "cloud",
-      "image": "/assets/img/tech/cloud/AWS.svg",
-      "name": "AWS"
     },
     { 
       "filter": "cloud",
@@ -272,44 +232,19 @@
     },
     { 
       "filter": "cloud",
-      "image": "/assets/img/tech/cloud/Pivotal.svg",
-      "name": "Pivotal"
-    },
-    { 
-      "filter": "cloud",
       "image": "/assets/img/tech/cloud/Salesforce.svg",
       "name": "Salesforce"
-    },
-    { 
-      "filter": "cloud",
-      "image": "/assets/img/tech/cloud/Docker.svg",
-      "name": "Docker"
-    },
-    { 
-      "filter": "cloud",
-      "image": "/assets/img/tech/cloud/Mulesoft.svg",
-      "name": "Mulesoft"
-    },
-    { 
-      "filter": "cloud",
-      "image": "/assets/img/tech/cloud/Nexmo.svg",
-      "name": "Nexmo"
     },
     { 
       "filter": "cloud",
       "image": "/assets/img/tech/cloud/kubernetes.svg",
       "name": "kubernetes"
     },
-    { 
-      "filter": "cloud",
-      "image": "/assets/img/tech/cloud/Azure.svg",
-      "name": "Azure"
-    },
 
 
 
 
-    
+
     { 
       "filter": "devops",
       "image": "/assets/img/tech/devops/CircleCI.svg",
@@ -394,11 +329,6 @@
       "image": "/assets/img/tech/cms/Totara.svg",
       "name": "Totara"
     },
-    { 
-      "filter": "cms",
-      "image": "/assets/img/tech/cms/Adapt.svg",
-      "name": "Adapt"
-    },
 
 
 
@@ -452,17 +382,17 @@
 
     { 
       "filter": "source",
-      "image": "/assets/img/tech/SourceTool/GitHub.png",
+      "image": "/assets/img/tech/SourceTool/GitHub.svg",
       "name": "GitHub"
     },
     { 
       "filter": "source",
-      "image": "/assets/img/tech/SourceTool/Bitbucket.png",
+      "image": "/assets/img/tech/SourceTool/Bitbucket.svg",
       "name": "Bitbucket"
     },
     { 
       "filter": "source",
-      "image": "/assets/img/tech/SourceTool/gitlab.png",
+      "image": "/assets/img/tech/SourceTool/gitlab.svg",
       "name": "gitlab"
     }
   ]

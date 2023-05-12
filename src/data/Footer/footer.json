@@ -3,13 +3,17 @@
     "address1": "48788 Brandford Drive, Macomb,",
     "address2": "MI 48044, US",    
     "address3": "463767 Ahmedabad, Gujarat",
-    "address4": "380013, India"
+    "address4": "380013, India",
+    "address5": "225 Algonquin Crt, Sarnia, N7S 6A1,",
+    "address6": "Ontario, Canada"
 
   },
   "phone1": "+1-586-569-9657",
   "phone2": "+1-248-894-4428",
+  "phone3": "+1-519-381-8777",
   "email1": "info@exultitsolution.com",
   "email2": "sales@exultitsolution.com",
+  "email3": "info@sntechsolutions.net",
   "usefulLinks": [
     { "link": "/", "title": "Home" },
     { "link": "/about-us", "title": "About Us" },
