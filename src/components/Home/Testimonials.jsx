@@ -16,7 +16,7 @@ const Testimonials = () => {
       <div className="container">
         <div className="section-head text-center mb-60 style-5">
         <h2 className="mb-20">Testi<span className='m-0 p-0'>monial</span></h2>
-          <p>Exult It Solution loved from thoudsands customer worldwide and get trusted from big companies.</p>
+          <p>Empowering Businesses in the Tech-Driven World with Innovative Solutions and Unmatched Customer Commitment!</p>
         </div>
       </div>
       <div className="content">

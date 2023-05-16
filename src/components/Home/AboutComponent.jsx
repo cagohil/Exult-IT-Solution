@@ -13,7 +13,7 @@ const AboutComponent = () => {
         <div className="row align-items-center">
           <div className="col-lg-5 ">
             <div className="img">
-              <img src="/assets/img/home/about/PNG/about.png" alt="" />
+              <img src="/assets/img/home/about/about.png" alt="" />
             </div>
           </div>
           <div className=" col-lg-6 offset-lg-1">

@@ -11,15 +11,18 @@ const Footer = () => {
               <div className="title">
                 U.S.A
               </div>
-              <small className="text mb-10 d-block">
+              <small className="text mb-2 d-block">
                 {footerData.address.address1} <br /> {footerData.address.address2}
               </small>
-              <small className="text mb-10 d-block">
-                <a href="tel:+1-586-569-9657">{footerData.phone1}</a>
-              </small>
-              <small className="text d-block">
+              <small className="text mb-2 d-block">
                 <a href="mailto:info@exultitsolution.com">{footerData.email1}</a>
               </small>
+              <small className="text mb-2 d-block">
+                <a href="tel:+1-586-569-9657">{footerData.phone1}</a>
+              </small>
+              <a href="tel:+1-586-569-9657" className="title mb-0" style={{color:"gray", cursor:"pointer"}}>
+               Call us now
+              </a>
             </div>
           </div>
           <div className="col-lg-2 col-sm-6">
@@ -27,15 +30,18 @@ const Footer = () => {
               <div className="title">
                 Canada
               </div>
-              <small className="text mb-10 d-block">
+              <small className="text mb-2 d-block">
                 {footerData.address.address5} <br /> {footerData.address.address6}
               </small>
-              <small className="text mb-10 d-block">
-                <a href="tel:+1 519 381 8777">{footerData.phone3}</a>
+              <small className="text mb-2 d-block">
+                <a href="mailto:sales@exultitsolution.com">{footerData.email2}</a>
               </small>
-              <small className="text d-block">
-                <a href="mailto:info@sntechsolutions.net">{footerData.email3}</a>
+              <small className="text mb-2 d-block">
+                <a href="tel:248-894-4428">{footerData.phone2}</a>
               </small>
+              <a href="tel:248-894-4428" className="title mb-0" style={{color:"gray", cursor:"pointer"}}>
+               Call us now
+              </a>
             </div>
           </div>
           <div className="col-lg-2 col-sm-6">
@@ -43,15 +49,18 @@ const Footer = () => {
               <div className="title">
                 India
               </div>
-              <small className="text mb-10 d-block">
+              <small className="text mb-2 d-block">
                 {footerData.address.address3} <br /> {footerData.address.address4}
               </small>
-              <small className="text mb-10 d-block">
-                <a href="tel:+1-248-894-4428">{footerData.phone2}</a>
+              <small className="text mb-2 d-block">
+                <a href="mailto:info@exultitsolution.com">{footerData.email1}</a>
               </small>
-              <small className="text d-block">
-                <a href="mailto:sales@exultitsolution.com">{footerData.email2}</a>
+              <small className="text mb-2 d-block">
+                <a href="tel:+1-586-569-9657">{footerData.phone1}</a>
               </small>
+              <a href="tel:+1-586-569-9657" className="title mb-0" style={{color:"gray", cursor:"pointer"}}>
+               Call us now
+              </a>
             </div>
           </div>
           <div className="col-lg-2 col-sm-6">

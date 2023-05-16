@@ -70,6 +70,18 @@
       color: var(--color-main); }
 
 
+      ::-webkit-scrollbar-track {
+        background-color: #e7f1ff;
+        border-left: 1px solid #e7f1ff;
+      }
+      ::-webkit-scrollbar {
+        width: 7px;
+        background-color: #157efb;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #157efb;
+      }
+      
 
 
 @media screen and (max-width: 500px) {

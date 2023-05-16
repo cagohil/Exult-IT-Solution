@@ -1,6 +1,3 @@
-import { useEffect } from 'react';
-import appData from '@data/appData.json';
-import scenes from '@data/Preview/header.json';
 import HomeSlider from '@components/Home/HomeSlider';
 
 

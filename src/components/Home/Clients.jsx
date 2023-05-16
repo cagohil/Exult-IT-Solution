@@ -21,7 +21,7 @@ const Clients = () => {
     <section className={`clients style-5 pb-60 pt-60`} data-scroll-index="2">
       <div className="section-head text-center mb-40 style-5 px-3">
       <h2 className="mb-20">Our<span>Clients</span></h2>
-        <p>More than hundred companies trust and choose Exult IT Solution</p>
+        <p>Power Your Business with Exceptional IT Services: Partner with Exult IT Solutions for Success</p>
       </div>
       <div className="content">
         <div className="clients-slider5">

@@ -13,7 +13,7 @@ const ServicesComponent = ({ style = "4", rtl }) => {
         <div className="container">
           <div className={`section-head text-center style-${style} ${style === '5' ? 'mb-60' : 'mb-40'}`}>
             <h2 className="mb-20"> Our <span>Services </span> </h2>
-            <p>{'We have an experienced team of production and inspection personnel to ensure quality.'}</p>
+            <p>{'Elevate Your Business with Exult IT Solutions: Where Cutting-Edge Technology Meets Expertise'}</p>
           </div>
 
           <section className="portfolio style-1">
