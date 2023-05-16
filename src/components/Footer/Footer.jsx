@@ -20,7 +20,7 @@ const Footer = () => {
               <small className="text mb-2 d-block">
                 <a href="tel:+1-586-569-9657">{footerData.phone1}</a>
               </small>
-              <a href="tel:+1-586-569-9657" className="title mb-0" style={{color:"gray", cursor:"pointer"}}>
+              <a href="tel:+1-586-569-9657" className="title mb-0" style={{color:"#157efb", cursor:"pointer"}}>
                Call us now
               </a>
             </div>
@@ -39,7 +39,7 @@ const Footer = () => {
               <small className="text mb-2 d-block">
                 <a href="tel:248-894-4428">{footerData.phone2}</a>
               </small>
-              <a href="tel:248-894-4428" className="title mb-0" style={{color:"gray", cursor:"pointer"}}>
+              <a href="tel:248-894-4428" className="title mb-0" style={{color:"#157efb", cursor:"pointer"}}>
                Call us now
               </a>
             </div>
@@ -58,7 +58,7 @@ const Footer = () => {
               <small className="text mb-2 d-block">
                 <a href="tel:+1-586-569-9657">{footerData.phone1}</a>
               </small>
-              <a href="tel:+1-586-569-9657" className="title mb-0" style={{color:"gray", cursor:"pointer"}}>
+              <a href="tel:+1-586-569-9657" className="title mb-0" style={{color:"#157efb", cursor:"pointer"}}>
                Call us now
               </a>
             </div>
