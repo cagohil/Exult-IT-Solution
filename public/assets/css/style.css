@@ -496,7 +496,6 @@ small.text {
   padding: 100px 0; }
 
 .swiper-pagination {
-  width: 100%;
   bottom: 0; }
 
 .pagination_circle .swiper-pagination-bullet {
@@ -11490,7 +11489,9 @@ footer.style-15 {
       -o-object-fit: cover;
       object-fit: cover;
       width: 100%;
-      height: 500px; }
+      height: 500px;
+      z-index: -2;
+    position: relative; }
   .blog-page.style-5 .blog-details-slider .content-card .info {
     position: absolute;
     width: 100%;
@@ -11535,7 +11536,6 @@ footer.style-15 {
     -ms-transform: translateX(0);
     transform: translateX(0); }
   .blog-page.style-5 .blog-details-slider .swiper-pagination {
-    width: 100%;
     bottom: 0;
     text-align: right;
     padding: 30px 4vw; }

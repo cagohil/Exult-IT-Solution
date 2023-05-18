@@ -119,4 +119,13 @@
   nav li a span{
     width: 100%;
   }
+
+  
+}
+
+@media screen and (max-width: 800px) {
+  .swiper-pagination{
+    width: auto !important;
+    left: 75% !important;
+  }
 }

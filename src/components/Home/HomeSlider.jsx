@@ -47,8 +47,8 @@ const HomeSlider = () => {
                     <div className="img overlay">
                       <img src={slide.image} alt="" />
                     </div>
-                    <div className="info">
-                      <div className="row">
+                    <div className="info" style={{zIndex:"11"}}>
+                      <div className="row" >
                         <div className="col-lg-6">
                           <div className="cont">
                             <small className="date small mb-20">
@@ -60,7 +60,7 @@ const HomeSlider = () => {
                             <p className="fs-13px mt-10 text-light text-info">
                               {slide.desc} [...]
                             </p>
-                            <div className='mt-10 d-flex '>
+                            <div className='mt-10 d-flex' >
                                 <div className="d-flex align-items-center ">
                                   <Link legacyBehavior href="/about-us">
                                     <a className="btn rounded-pill blue5-3Dbutn hover-blue2 sm-butn ">
@@ -87,8 +87,7 @@ const HomeSlider = () => {
             }
           </Swiper>
 
-          <div className="swiper-pagination"></div>
-
+          <div className="swiper-pagination" style={{Width:'100%'}}></div>
           <div className="swiper-button-next"></div>
           <div className="swiper-button-prev"></div>
         </div>
