@@ -128,4 +128,8 @@
     width: auto !important;
     left: 75% !important;
   }
+  .swiper-pagination2{
+    left: 0% !important;
+    width: 100% !important;
+  }
 }
