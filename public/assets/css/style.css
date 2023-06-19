@@ -569,13 +569,13 @@ small.text {
 /* --------------- dropdown --------------- */
 .dropdown-toggle::after {
   position: absolute;
-  top: 11px;
+  top: 13px;
   opacity: 0.8;
   content: "\f078";
   font-weight: 900;
   font-family: "Font Awesome 5 pro";
   border: 0;
-  left: 60px;
+  left: 70px;
   font-size: 80%;
   z-index: -1; }
 
@@ -2386,7 +2386,7 @@ small.text {
   .navbar.style-5 .nav-item .nav-link {
     position: relative;
     color: #000;
-    font-size: 12px;
+    font-size: 15px;
     font-weight: bold;
     margin: 0 15px;
     text-transform: capitalize; }
