@@ -71,9 +71,6 @@
 
 
 
-
-
-
     { 
       "filter": "backend",
       "image": "/assets/img/tech/backend/AspNET.svg",
@@ -104,8 +101,6 @@
       "image": "/assets/img/tech/backend/PHP.svg",
       "name": "PHP"
     },
-
-
 
 
 
@@ -183,8 +178,6 @@
 
 
 
-
-
     { 
       "filter": "devops",
       "image": "/assets/img/tech/devops/CircleCI.svg",
@@ -200,7 +193,6 @@
       "image": "/assets/img/tech/devops/gradle.svg",
       "name": "gradle"
     },
-
 
 
 
