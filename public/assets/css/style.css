@@ -530,7 +530,6 @@ small.text {
 .swiper-button-prev:after {
   color: #fff;
   font-size: 15px;
-  padding: 5px;
   font-weight: bold; }
 
 .swiper-button-next,
@@ -14498,6 +14497,9 @@ footer.style-15 {
         margin-top: 30px; }
     .home-style-15 footer.style-15 .content .links-content h6.sub-title {
       margin-top: 50px; } }
+
+      .navbar.style-5 {
+        border-bottom: 1px solid #9999; }
 
 /* ======== */
 /* ======= */
