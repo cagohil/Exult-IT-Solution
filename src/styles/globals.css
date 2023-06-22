@@ -131,4 +131,14 @@
     left: 0% !important;
     width: 100% !important;
   }
+  .topBarInfo a{
+    padding: 0 !important;
+    font-size: 10px !important;
+  }
+
+  .topSocialIcon, .topBarInfo{
+    padding: 0 !important;
+    font-size: 10px !important;
+  }
+
 }

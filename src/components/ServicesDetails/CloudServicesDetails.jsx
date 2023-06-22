@@ -122,13 +122,6 @@ const Details = () => {
                 <p className="mb-10">
                 We can manage all your IT requirements so that you can always focus on the high-value activities of your business. Choose us, and give your business the boost it needs.
                 </p>
-
-
-
-
-
-
-
               </div>
             </div>
             <div className="col-lg-4">
@@ -156,6 +149,7 @@ const Details = () => {
                     </li>
                   </ul>
                 </div>
+                
                 <div className="banner1">
                   <div className="title">
                     <h6> Call To Action </h6>

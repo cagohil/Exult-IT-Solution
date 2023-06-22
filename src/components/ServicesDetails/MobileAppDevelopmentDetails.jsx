@@ -134,6 +134,21 @@ const Details = () => {
                     </li>
                   </ul>
                 </div>
+                <div className="links-card mb-40">
+                  <h5> Relevant Blogs </h5>
+                  <ul>
+                    <li>
+                      <Link href="/blogs/Advantages-and-Disadvantages-of-Mobile-Technology/"> <i className="far fa-angle-right icon"></i> Advantages and Disadvantages of Mobile Technology </Link>
+                    </li>
+                    <li>
+                      <Link href="/blogs/Five-Advantages-Of-Having-A-Mobile-App-For-Your-Business/"> <i className="far fa-angle-right icon"></i> Five Advantages Of Having A Mobile App For Your Business </Link>
+                    </li>
+                    <li>
+                      <Link href="/blogs/top-six-mobile-app-development/"> <i className="far fa-angle-right icon"></i> Top 6 Mobile App Development Trends For 2021 </Link>
+                    </li>
+                  </ul>
+                </div>
+
                 <div className="banner1">
                   <div className="title">
                     <h6> Call To Action </h6>

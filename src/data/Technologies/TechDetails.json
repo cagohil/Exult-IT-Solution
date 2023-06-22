@@ -67,11 +67,6 @@
       "image": "/assets/img/tech/frontend/Vue.svg",
       "name": "Vue"
     },
-    { 
-      "filter": "frontend",
-      "image": "/assets/img/tech/frontend/Unity.svg",
-      "name": "Unity"
-    },
 
 
 
@@ -108,11 +103,6 @@
       "filter": "backend",
       "image": "/assets/img/tech/backend/PHP.svg",
       "name": "PHP"
-    },
-    { 
-      "filter": "backend",
-      "image": "/assets/img/tech/backend/RubyOnRails.svg",
-      "name": "RubyOnRails"
     },
 
 
@@ -160,21 +150,6 @@
       "image": "/assets/img/tech/databases/ElasticSearch.svg",
       "name": "ElasticSearch"
     },
-    { 
-      "filter": "databases",
-      "image": "/assets/img/tech/databases/DynamoDB.svg",
-      "name": "DynamoDB"
-    },
-    { 
-      "filter": "databases",
-      "image": "/assets/img/tech/databases/cassandra.svg",
-      "name": "cassandra"
-    },
-    { 
-      "filter": "databases",
-      "image": "/assets/img/tech/databases/Couchbase.svg",
-      "name": "Couchbase"
-    },
 
 
 
@@ -205,41 +180,6 @@
       "image": "/assets/img/tech/cloud/twilio.svg",
       "name": "Twilio"
     },
-    { 
-      "filter": "cloud",
-      "image": "/assets/img/tech/cloud/Spluck.svg",
-      "name": "Spluck"
-    },
-    { 
-      "filter": "cloud",
-      "image": "/assets/img/tech/cloud/Alfresco.svg",
-      "name": "Alfresco"
-    },
-    { 
-      "filter": "cloud",
-      "image": "/assets/img/tech/cloud/Stripe.svg",
-      "name": "Stripe"
-    },
-    { 
-      "filter": "cloud",
-      "image": "/assets/img/tech/cloud/SharePoint.svg",
-      "name": "SharePoint"
-    },
-    { 
-      "filter": "cloud",
-      "image": "/assets/img/tech/cloud/Apigee.svg",
-      "name": "Apigee"
-    },
-    { 
-      "filter": "cloud",
-      "image": "/assets/img/tech/cloud/Salesforce.svg",
-      "name": "Salesforce"
-    },
-    { 
-      "filter": "cloud",
-      "image": "/assets/img/tech/cloud/kubernetes.svg",
-      "name": "kubernetes"
-    },
 
 
 
@@ -257,11 +197,6 @@
     },
     { 
       "filter": "devops",
-      "image": "/assets/img/tech/devops/Codeship.svg",
-      "name": "Codeship"
-    },
-    { 
-      "filter": "devops",
       "image": "/assets/img/tech/devops/gradle.svg",
       "name": "gradle"
     },
@@ -269,20 +204,11 @@
 
 
 
-    { 
-      "filter": "cms",
-      "image": "/assets/img/tech/cms/Successfactors.svg",
-      "name": "Successfactors"
-    },
+
     { 
       "filter": "cms",
       "image": "/assets/img/tech/cms/Wordpress.svg",
       "name": "Wordpress"
-    },
-    { 
-      "filter": "cms",
-      "image": "/assets/img/tech/cms/Magento.svg",
-      "name": "Magento"
     },
     { 
       "filter": "cms",
@@ -291,43 +217,8 @@
     },
     { 
       "filter": "cms",
-      "image": "/assets/img/tech/cms/Litmus.svg",
-      "name": "Litmus"
-    },
-    { 
-      "filter": "cms",
-      "image": "/assets/img/tech/cms/Liferay.svg",
-      "name": "Liferay"
-    },
-    { 
-      "filter": "cms",
       "image": "/assets/img/tech/cms/Shopify.svg",
       "name": "Shopify"
-    },
-    { 
-      "filter": "cms",
-      "image": "/assets/img/tech/cms/Docebo.svg",
-      "name": "Docebo"
-    },
-    { 
-      "filter": "cms",
-      "image": "/assets/img/tech/cms/Moodle.svg",
-      "name": "Moodle"
-    },
-    { 
-      "filter": "cms",
-      "image": "/assets/img/tech/cms/Umbraco.svg",
-      "name": "Umbraco"
-    },
-    { 
-      "filter": "cms",
-      "image": "/assets/img/tech/cms/Sitecore.svg",
-      "name": "Sitecore"
-    },
-    { 
-      "filter": "cms",
-      "image": "/assets/img/tech/cms/Totara.svg",
-      "name": "Totara"
     },
 
 
@@ -339,43 +230,13 @@
     },
     { 
       "filter": "testing",
-      "image": "/assets/img/tech/testing/Mochas.svg",
-      "name": "Mochas"
-    },
-    { 
-      "filter": "testing",
       "image": "/assets/img/tech/testing/Appium.svg",
       "name": "Appium"
     },
     { 
       "filter": "testing",
-      "image": "/assets/img/tech/testing/Hoverfly.svg",
-      "name": "Hoverfly"
-    },
-    { 
-      "filter": "testing",
       "image": "/assets/img/tech/testing/JMeter.svg",
       "name": "JMeter"
-    },
-    { 
-      "filter": "testing",
-      "image": "/assets/img/tech/testing/Katalon.svg",
-      "name": "Katalon"
-    },
-    { 
-      "filter": "testing",
-      "image": "/assets/img/tech/testing/Selenium.svg",
-      "name": "Selenium"
-    },
-    { 
-      "filter": "testing",
-      "image": "/assets/img/tech/testing/Gatling.svg",
-      "name": "Gatling"
-    },
-    { 
-      "filter": "testing",
-      "image": "/assets/img/tech/testing/Saucelabs.svg",
-      "name": "Saucelabs"
     },
 
 

@@ -144,6 +144,17 @@ const Details = () => {
                     </li>
                   </ul>
                 </div>
+                <div className="links-card mb-40">
+                  <h5> Relevant Blogs </h5>
+                  <ul>
+                    <li>
+                      <Link href="/blogs/Why-Is-Search-Engine-Optimization-Important-To-a-Business/"> <i className="far fa-angle-right icon"></i> Why Is Search Engine Optimization Important To a Business? </Link>
+                    </li>
+                    <li>
+                      <Link href="/blogs/Top-eight-most-essential-SEO-tips-you-need-to-know/"> <i className="far fa-angle-right icon"></i> Top 8 Essential SEO Tips For Your Website That You Must Know </Link>
+                    </li>
+                  </ul>
+                </div>
                 <div className="banner1">
                   <div className="title">
                     <h6> Call To Action </h6>

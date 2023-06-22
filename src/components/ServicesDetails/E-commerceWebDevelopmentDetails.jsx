@@ -44,9 +44,6 @@ const Details = () => {
                 <p className="pb-30">
                   We have a team of industry experts with rich experience in building eCommerce platforms. Our experience has provided us with the requisite knowledge and skills which enable us to deliver the best possible service for your business. We start with understanding your basic requirements, identify the competition, and formulate a strategy to overcome the roadblocks for a successful eCommerce web development plan.
                 </p>
-
-
-
                 <h4 className="text-capitalize mb-20"> what is e-commerce? </h4>
                 <p className="mb-10">
                 Internet trade.
@@ -60,8 +57,6 @@ const Details = () => {
                 <p className="pb-30">
                 This is why online shopping is way better and easier.
                 </p>
-
-
                 <h4 className="text-capitalize mb-20"> so what are the types of e-commerce models? </h4>
                 <p className="mt-10"> The e-com services between businesses and consumers can be classified broadly in the following four categories: </p>
                 <p className="mt-10"> <i className="fas fa-check-circle color-blue5 me-2"></i> <strong className="color-000 "> Business-to-Consumers (B2C) </strong></p>
@@ -90,9 +85,6 @@ const Details = () => {
                 <p className="mt-10"> <i className="fas fa-check-circle color-blue5 me-2"></i> Physical Products,</p>
                 <p className="mt-10"> <i className="fas fa-check-circle color-blue5 me-2"></i> Services,</p>
                 <p className="mt-10 mb-30"> <i className="fas fa-check-circle color-blue5 me-2"></i> Subscription, etc.</p>
-
-
-
                 <h4 className="text-capitalize mb-20"> our services </h4>
                 <p className="mb-10">
                 We focus on providing the most delightful experience to our customers. We create eCommerce websites and applications which make the user experience easy and pleasing. This can improve the performance of your business over time. We take pride in the quality of service we provide and ensure that only the best gets delivered.
@@ -100,9 +92,6 @@ const Details = () => {
                 <p className="mb-30">
                 In this swiftly growing digital world, having a website and a mobile application can be the real deal.
                 </p>
-
-
-
                 <h4 className="text-capitalize mb-20"> this is what we offer: </h4>
                 <p className="mt-10"> <i className="fas fa-check-circle color-blue5 me-2"></i> <strong className="color-000 "> E-commerce Web Design and Development </strong></p>
                 <p className="mb-10">
@@ -124,9 +113,6 @@ const Details = () => {
                 <p className="mb-30">
                 To get the most out of your e-com websites and apps, we can utilize the right set of API integration such as Amazon and eBay API for easy access to product details. We also provide on-demand CRM and eCommerce website marketing services.
                 </p>
-
-
-
                 <h4 className="text-capitalize mb-20"> why us?</h4>
                 <p className="mb-10">
                 We, at <strong>Exult IT Solutions</strong> always formulate the right strategy for your business needs to ensure that you always get the maximum value.
@@ -139,16 +125,6 @@ const Details = () => {
                 <p className="mt-10"> <i className="fas fa-check-circle color-blue5 me-2"></i> <strong className="color-000 "> Secure platform </strong></p>
                 <p className="mt-10"> <i className="fas fa-check-circle color-blue5 me-2"></i> <strong className="color-000 "> Additional API integration </strong></p>
                 <p className="mt-10 mb-30"> <i className="fas fa-check-circle color-blue5 me-2"></i> <strong className="color-000 "> We design to delight. Our expert business solutions will make sure your visitors turn into long-term happy customers. </strong></p>
-
-
-
-
-
-
-
-
-
-
               </div>
             </div>
             <div className="col-lg-4">
@@ -176,6 +152,18 @@ const Details = () => {
                     </li>
                   </ul>
                 </div>
+                <div className="links-card mb-40">
+                  <h5> Relevant Blogs </h5>
+                  <ul>
+                    <li>
+                      <Link href="/blogs/Importance-of-E-Commerce-for-Business-in-a-COVID-nineteen-Pandemic/"> <i className="far fa-angle-right icon"></i> Importance of E-Commerce for Business in a COVID 19 Pandemic </Link>
+                    </li>
+                    <li>
+                      <Link href="/blogs/Why-Does-Your-Business-Need-To-Shift-To-E-Commerce-Now/"> <i className="far fa-angle-right icon"></i> Why Does Your Business Need To Shift To E-Commerce Now? </Link>
+                    </li>
+                  </ul>
+                </div>
+
                 <div className="banner1">
                   <div className="title">
                     <h6> Call To Action </h6>

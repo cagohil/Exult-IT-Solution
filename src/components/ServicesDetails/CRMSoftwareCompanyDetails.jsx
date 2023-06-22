@@ -123,10 +123,6 @@ const Details = () => {
                 <p className="mb-30">
                 Our team of experts is dedicated towards providing the best value for your money and constantly equip themselves with the latest technology to make sure you stay ahead of the game. We bring more on the table than what you demand of us. With constructive suggestions and feedback, we ensure that the quality of work never gets compromised.
                 </p>
-
-
-
-
               </div>
             </div>
             <div className="col-lg-4">
@@ -154,6 +150,15 @@ const Details = () => {
                     </li>
                   </ul>
                 </div>
+                <div className="links-card mb-40">
+                  <h5> Relevant Blogs </h5>
+                  <ul>
+                    <li>
+                      <Link href="/blogs/What-is-Customer-Relationship-Management-and-Types-of-CRM-System/"> <i className="far fa-angle-right icon"></i> What is Customer Relationship Management and Types of CRM System </Link>
+                    </li>
+                  </ul>
+                </div>
+
                 <div className="banner1">
                   <div className="title">
                     <h6> Call To Action </h6>
