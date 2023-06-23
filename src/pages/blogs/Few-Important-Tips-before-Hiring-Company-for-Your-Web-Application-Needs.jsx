@@ -5,7 +5,7 @@ import Link from 'next/link';
 import navbarScrollEffect from "@common/navbarScrollEffect";
 //= Layout
 import MainLayout from '@layouts/Main';
-//= Components
+//= images
 
 
 function FewImportantTips() {
@@ -30,6 +30,7 @@ function FewImportantTips() {
           <section className="ser-details pt-5 pb-4 overflow-hidden">
             <div className="container pt-3">
               <div className="main-info">
+                <img src="/assets/img/blog/Few-Important-Tips-before-Hiring-Company-for-Your-Web-Application-Needs-Exult-It-Solutions.webp" alt="img" />
                 <p className="mb-20">
                   Our world is evolving continuously due to technological advancements. Internet is one such progress that has made a positive impact on many businesses. As a result, every firm wants to use it as much as possible by establishing a suitable, robust web server-based application.
                 </p>
