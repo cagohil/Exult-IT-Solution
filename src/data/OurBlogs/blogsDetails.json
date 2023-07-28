@@ -13,7 +13,7 @@
   "blogs": [
     { 
       "filter": "website web",
-      "image": "/assets/img/blog/Blogs-images.jpg",
+      "image": "/assets/img/blog/Blogs-images-1.webp",
       "title": "Few Important Tips before Hiring Company for Your Web Application Needs",
       "link": "/blogs/Few-Important-Tips-before-Hiring-Company-for-Your-Web-Application-Needs/",
       "type": "Website Development",
@@ -22,7 +22,7 @@
     },
     {
       "filter": "website",
-      "image": "/assets/img/blog/Blogs-images-1.jpg",
+      "image": "/assets/img/blog/Blogs-images-2.webp",
       "title": "Why Do People Choose The Exult It Solution? Which Types Of Service Do We Provide?",
       "link": "/blogs/Why-Do-People-Choose-The-Exult-It-Solution-Which-Types-Of-Service-Do-We-Provide/",
       "type": "Website Development",
@@ -31,7 +31,7 @@
     },
     {
       "filter": "website",
-      "image": "/assets/img/blog/Blogs-images-2.jpg",
+      "image": "/assets/img/blog/Blogs-images-3.webp",
       "title": "Website Development – 8 Stages of A Complete Guide",
       "link": "/blogs/Website-Development-Eight-Stages-of-A-Complete-Guide/",
       "type": "Game Developemnt",
@@ -40,7 +40,7 @@
     },
     {
       "filter": "seo",
-      "image": "/assets/img/blog/Blogs-images-3.jpg",
+      "image": "/assets/img/blog/Blogs-images-4.webp",
       "title": "Why Is Search Engine Optimization Important To a Business?",
       "link": "/blogs/Why-Is-Search-Engine-Optimization-Important-To-a-Business/",
       "type": "SEO analysis",
@@ -49,7 +49,7 @@
     },
     {
       "filter": "website",
-      "image": "/assets/img/blog/Blogs-images-4.jpg",
+      "image": "/assets/img/blog/Blogs-images-5.webp",
       "title": "Top Web Technologies That Every Web Developer Must Know in 2023",
       "link": "/blogs/Top-Web-Technologies-That-Every-Web-Developer-Must-Know/",
       "type": "website development",
@@ -58,7 +58,7 @@
     },
     {
       "filter": "mobile",
-      "image": "/assets/img/blog/Blogs-images-5.jpg",
+      "image": "/assets/img/blog/Blogs-images-6.webp",
       "title": "Advantages and Disadvantages of Mobile Technology",
       "link": "/blogs/Advantages-and-Disadvantages-of-Mobile-Technology/",
       "type": "Data security",
@@ -67,7 +67,7 @@
     },
     {
       "filter": "commerce",
-      "image": "/assets/img/blog/Blogs-images-6.jpg",
+      "image": "/assets/img/blog/Blogs-images-7.webp",
       "title": "Importance of E-Commerce for Business in a COVID 19 Pandemic",
       "link": "/blogs/Importance-of-E-Commerce-for-Business-in-a-COVID-nineteen-Pandemic/",
       "type": "UI/UX Design",
@@ -76,7 +76,7 @@
     },
     {
       "filter": "website",
-      "image": "/assets/img/blog/Blogs-images-7.jpg",
+      "image": "/assets/img/blog/Blogs-images-8.webp",
       "title": "Why Website Design & Development Is Essential And How It Helps In Making Your Business Profitable?",
       "link": "/blogs/Why-Website-Design-Development-Is-Essential-And-How-It-Helps-In-Making-Your-Business-Profitable/",
       "type": "",
@@ -85,7 +85,7 @@
     },
     {
       "filter": "crm",
-      "image": "/assets/img/blog/Blogs-images-8.jpg",
+      "image": "/assets/img/blog/Blogs-images-9.webp",
       "title": "What is Customer Relationship Management and Types of CRM System",
       "link": "/blogs/What-is-Customer-Relationship-Management-and-Types-of-CRM-System/",
       "type": "",
@@ -94,7 +94,7 @@
     },
     {
       "filter": "seo",
-      "image": "/assets/img/blog/Blogs-images-9.jpg",
+      "image": "/assets/img/blog/Blogs-images-10.webp",
       "title": "Top 8 Essential SEO Tips For Your Website That You Must Know",
       "link": "/blogs/Top-eight-most-essential-SEO-tips-you-need-to-know/",
       "type": "UI/UX Design",
@@ -103,7 +103,7 @@
     },
     {
       "filter": "commerce",
-      "image": "/assets/img/blog/Blogs-images-10.jpg",
+      "image": "/assets/img/blog/Blogs-images-11.webp",
       "title": "Why Does Your Business Need To Shift To E-Commerce Now?",
       "link": "/blogs/Why-Does-Your-Business-Need-To-Shift-To-E-Commerce-Now/",
       "type": "Data security, it consultation",
@@ -112,7 +112,7 @@
     },
     {
       "filter": "mobile",
-      "image": "/assets/img/blog/Blogs-images-11.jpg",
+      "image": "/assets/img/blog/Blogs-images-12.webp",
       "title": "Five Advantages Of Having A Mobile App For Your Business",
       "link": "/blogs/Five-Advantages-Of-Having-A-Mobile-App-For-Your-Business/",
       "type": "machine learning",
@@ -121,7 +121,7 @@
     },
     {
       "filter": "latest",
-      "image": "/assets/img/blog/Blogs-images-12.jpg",
+      "image": "/assets/img/blog/Blogs-images-13.webp",
       "title": "Why Should ‘Exult IT Solutions’ Be Your Digital Media Partner…",
       "link": "/blogs/Why-Should-Exult-IT-Solutions/",
       "type": "UI/UX Design",
@@ -130,7 +130,7 @@
     },
     {
       "filter": "latest mobile",
-      "image": "/assets/img/blog/Blogs-images-13.jpg",
+      "image": "/assets/img/blog/Blogs-images-14.webp",
       "title": "Top 6 Mobile App Development Trends For 2021",
       "link": "/blogs/top-six-mobile-app-development/",
       "type": "Data security, it consultation",
@@ -139,7 +139,7 @@
     },
     {
       "filter": "latest",
-      "image": "/assets/img/blog/Blogs-images-14.jpg",
+      "image": "/assets/img/blog/Blogs-images-15.webp",
       "title": "Effective Digital Ways To Improve Your Business",
       "link": "/blogs/Effective-Digital-Ways-To-Improve-Your-Business/",
       "type": "machine learning",

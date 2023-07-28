@@ -44,7 +44,7 @@ const Footer = () => {
               </a>
             </div>
           </div>
-          <div className="col-lg-2 col-sm-6">
+          {/* <div className="col-lg-2 col-sm-6">
             <div className="items">
               <div className="title">
                 India
@@ -62,7 +62,7 @@ const Footer = () => {
                Call us now
               </a>
             </div>
-          </div>
+          </div> */}
           <div className="col-lg-2 col-sm-6">
             <div className="items">
               <div className="title">
