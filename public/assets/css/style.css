@@ -536,6 +536,7 @@ small.text {
 .swiper-button-prev {
   width: 40px;
   height: 40px;
+  background: var(--color-main-grad);
   border-radius: 5px;
    }
   .swiper-button-next:hover,

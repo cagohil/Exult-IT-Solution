@@ -23,7 +23,7 @@ const Navbar = ({ navbarRef, bgTransparent }) => {
     <nav className={`navbar navbar-expand-lg navbar-light style-5 ${bgTransparent ? 'bg-transparent' : ''}`} ref={navbarRef}>
       <div className="container-fluid">
         <Link className="navbar-brand" href="/">
-          <img src="/assets/img/logo_home5.png" alt="" />
+          <img src="/assets/img/logo.png" alt="" />
         </Link>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>

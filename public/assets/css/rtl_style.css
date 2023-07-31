@@ -110,6 +110,7 @@ footer.style-6 .form .form-group button {
   left: 50px;
   right: auto;
   top: -60px;
+  background: var(--color-main-grad);
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg); }
@@ -118,6 +119,7 @@ footer.style-6 .form .form-group button {
   right: auto;
   top: -60px;
   left: 0;
+  background: var(--color-main-grad);
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg); }

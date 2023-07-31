@@ -179,6 +179,7 @@ small.text {
 .swiper-button-next:after,
 .swiper-button-prev:after {
   color: var(--color-main);
+  background: var(--color-main-grad);
   font-size: 15px;
   font-weight: bold; }
 

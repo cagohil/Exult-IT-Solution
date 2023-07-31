@@ -5,7 +5,7 @@ const AboutComponent = () => {
   return (
     <section className="codei mt-50 mb-50 AboutComponentPadding">
       <div className="section-head text-center px-2 mb-40 style-5">
-        <h2 className="mb-20 ">{'About'}<span>{'Exult It Solution'}</span></h2>
+        <h2 className="mb-20 ">{'About'}<span>{'Exult IT Solution'}</span></h2>
         <strong><p className='pb-2'>{'Exult IT Solutions for IT Solutions has professional experience in providing IT solutions for over two decades.'}</p></strong>
       </div>
 

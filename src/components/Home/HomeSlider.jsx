@@ -58,7 +58,7 @@ const HomeSlider = () => {
                               <a>{slide.title}</a>
                             </h2>
                             <p className="fs-13px mt-10 text-light text-info">
-                              {slide.desc} [...]
+                              {slide.desc}
                             </p>
                             <div className='mt-10 d-flex' >
                                 <div className="d-flex align-items-center ">
