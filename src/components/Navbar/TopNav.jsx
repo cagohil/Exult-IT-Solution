@@ -7,7 +7,7 @@ const TopNav = ({ style, rtl }) => {
           <div className="row align-items-center">
             <div className="col-lg-6 col-sm-6 col-6 topBarInfo">
               <div className="top-links">
-                <div className="text text-white d-flex">
+                <div className="text-white d-flex">
                   <div >
                     <a href="tel:+1-586-569-9657"><i className="fal fa-phone"></i> +1-586-569-9657 </a>
                     <a className='mx-3 mailHidden'>|</a>

@@ -100,12 +100,13 @@
 }
 
 .topSocialIcon .socail-icons a i {
-  font-size: 17px !important;
+  font-size: 18px !important;
 }
 
 .topBarInfo a,
 .topSocialIcon a:hover {
   color: #e7f1ff;
+  font-weight: bold !important;
 }
 
 @media screen and (max-width: 800px) {
