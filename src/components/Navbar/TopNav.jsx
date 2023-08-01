@@ -5,18 +5,18 @@ const TopNav = ({ style, rtl }) => {
     <div className={`top-navbar style-${style}`}>
         <div className="content text-white" style={{padding:"0 2.5vw"}}>
           <div className="row align-items-center">
-            <div className="col-lg-6 col-sm-6 col-10 topBarInfo">
+            <div className="col-lg-6 col-sm-6 col-6 topBarInfo">
               <div className="top-links">
                 <div className="text text-white d-flex">
                   <div >
                     <a href="tel:+1-586-569-9657"><i className="fal fa-phone"></i> +1-586-569-9657 </a>
-                    <a className='mx-3'>|</a>
-                    <a href="mailto:info@exultitsolution.com"><i className="fal fa-envelope"></i> info@exultitsolution.com </a>
+                    <a className='mx-3 mailHidden'>|</a>
+                    <a className='mailHidden' href="mailto:info@exultitsolution.com"><i className="fal fa-envelope"></i> info@exultitsolution.com </a>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="col-lg-6 col-sm-6 col-2 topSocialIcon">
+            <div className="col-lg-6 col-sm-6 col-6 topSocialIcon">
               <div className="r-side">
                 <div className="socail-icons d-flex justify-content-end">
                   <a href="https://twitter.com/exultitsolution" rel="noreferrer" target="_blank">
