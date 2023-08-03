@@ -160,6 +160,10 @@
     margin-bottom: 40px !important;
   }
 
+  .portfolio-projects {
+    padding-bottom: 0 !important;
+  }
+
   .foot {
     padding-top: 0 !important;
   }

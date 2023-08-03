@@ -9,9 +9,9 @@ const TopNav = ({ style, rtl }) => {
               <div className="top-links">
                 <div className="text-white d-flex">
                   <div >
-                    <a href="tel:+1-586-569-9657"><i className="fal fa-phone"></i> +1-586-569-9657 </a>
+                    <a href="tel:+1-586-569-9657"><i className="fa fa-phone"> </i>  586-569-9657 </a>
                     <a className='mx-3 mailHidden'>|</a>
-                    <a className='mailHidden' href="mailto:info@exultitsolution.com"><i className="fal fa-envelope"></i> info@exultitsolution.com </a>
+                    <a className='mailHidden' href="mailto:info@exultitsolution.com"><i className="fa fa-envelope"></i> info@exultitsolution.com </a>
                   </div>
                 </div>
               </div>
