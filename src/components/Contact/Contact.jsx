@@ -28,9 +28,9 @@ const Contact = () => {
     <section className="contact style-5 py-5">
       <ToastContainer />
       <div className="container">
-        <div className="section-head text-center mb-40 style-5">
-          <h2 className="mb-20">{'Get In'}<span>{'Touch'}</span></h2> 
-          <p className='pb-2'>{'Looking For Exclusive Digital Services?'}</p>
+        <div className="section-head text-center mb-20 style-5">
+          <h2 className="mb-10">{'Get In'}<span>{'Touch'}</span></h2> 
+          <p className='pb-2'>Looking For Exclusive Digital Services? &nbsp; Services you are looking for?</p>
           {/* <p>{'Services you are looking for?'}</p> */}
         </div>
         <form ref={form} className="contact-form" onSubmit={sendEmail}>

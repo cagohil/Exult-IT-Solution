@@ -13748,8 +13748,8 @@ footer.style-15 {
     width: 190px; }
   footer.style-4 .foot .logo {
     width: 160px; }
-  .navbar.style-5 {
-    border-bottom: 1px solid #9999; }
+  /* .navbar.style-5 {
+    border-bottom: 1px solid #9999; } */
   .navbar.style-5 .navbar-collapse {
     margin-top: 20px;
     padding: 15px 0;
@@ -14500,7 +14500,7 @@ footer.style-15 {
       margin-top: 50px; } }
 
       .navbar.style-5 {
-        border-bottom: 1px solid #9999; }
+        box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1); }
 
 /* ======== */
 /* ======= */
