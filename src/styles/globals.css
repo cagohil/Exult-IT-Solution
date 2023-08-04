@@ -103,10 +103,13 @@
   font-size: 18px !important;
 }
 
-.topBarInfo a,
-.topSocialIcon a:hover {
-  color: #e7f1ff;
+.topBarInfo a{
   font-weight: bold !important;
+}
+
+.topBarInfo a:hover,
+.topSocialIcon a:hover {
+  color: #cbddf6;
 }
 
 @media screen and (max-width: 800px) {

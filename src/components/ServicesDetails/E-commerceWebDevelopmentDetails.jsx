@@ -76,7 +76,7 @@ const Details = () => {
                 When an individual provides value in the form of goods and services to businesses, it falls under the category of C2B. For e.g. – Blogger providing an affiliate link to a product in exchange for a fixed commission.
                 </p>
                 <p className="mb-20">
-                When an individual provides value in the form of goods and services to businesses, it falls under the category of C2B. For e.g. – Blogger providing an affiliate link to a product in exchange for a fixed commission.
+                An online store can deal according to any of these eCommerce models. Based on the type of your business, your e-com platform can take up a variety of forms to offer transactions under categories such as:
                 </p>
                 <p className="mt-10"> <i className="fas fa-check-circle color-blue5 me-2"></i> Retail,</p>
                 <p className="mt-10"> <i className="fas fa-check-circle color-blue5 me-2"></i> Drop Shipping,</p>
