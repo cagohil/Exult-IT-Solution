@@ -71,7 +71,7 @@ const Details = () => {
                 <p className="mb-10">
                 Consumers selling their previously purchased items to another consumer. For e.g. – an individual selling their used watch on eBay.
                 </p>
-                <p className="mt-10"> <i className="fas fa-check-circle color-blue5 me-2"></i> <strong className="color-000 "> Business-to-Business (B2B) </strong></p>
+                <p className="mt-10"> <i className="fas fa-check-circle color-blue5 me-2"></i> <strong className="color-000 "> Consumer to Business (C2B) </strong></p>
                 <p className="mb-30">
                 When an individual provides value in the form of goods and services to businesses, it falls under the category of C2B. For e.g. – Blogger providing an affiliate link to a product in exchange for a fixed commission.
                 </p>

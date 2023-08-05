@@ -117,6 +117,7 @@ const Clients = () => {
             )
           }
         </div>
+        <p className='text-end pt-2 px-3'>Many more…</p>
       </div>
     </section>
   )
