@@ -31,8 +31,8 @@ const AboutHeader = ({ rtl, paddingTop }) => {
           </div>
         </div>
       </div>
-      <img src="/assets/img/header/head6_rating.png" alt="" className="head6-rating scale_up_down" />
-      <img src="/assets/img/header/header5_linechart.png" alt="" className="head6-charts scale_up_down" />
+      {/* <img src="/assets/img/header/head6_rating.png" alt="" className="head6-rating scale_up_down" />
+      <img src="/assets/img/header/header5_linechart.png" alt="" className="head6-charts scale_up_down" /> */}
       {
         typeof window !== "undefined" && 
           (
