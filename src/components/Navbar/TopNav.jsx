@@ -4,8 +4,8 @@ const TopNav = ({ style, rtl }) => {
   return (
     <div className={`top-navbar style-${style}`}>
         <div className="content text-white" style={{padding:"0 2.5vw"}}>
-          <div className="row align-items-center">
-            <div className="col-lg-6 col-sm-6 col-6 topBarInfo">
+          <div className="row align-items-center ">
+            <div className="col-lg-6 col-sm-6 col-6 topBarInfo p-0">
               <div className="top-links">
                 <div className="text-white d-flex">
                   <div >
