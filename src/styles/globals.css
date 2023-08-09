@@ -139,12 +139,17 @@
   .topSocialIcon,
   .topBarInfo {
     font-size: 17px !important;
-    justify-content: center !important;
     display: flex;
   }
 
-  .topSocialIcon .socail-icons {
-    justify-content: center !important;
+   .topBarInfo {
+    justify-content: start !important;
+  }
+
+  .topSocialIcon  {
+    justify-content: end !important;
+    padding: 0 !important;
+    padding-right: 10px;
   }
 
   .mailHidden {
