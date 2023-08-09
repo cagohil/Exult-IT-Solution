@@ -8,7 +8,7 @@ const TopNav = ({ style, rtl }) => {
           <div className="col-lg-6 col-sm-6 col-6 topBarInfo p-0">
             <div className="top-links">
               <div className="text-white d-flex">
-                <div className='px-3'>
+                <div style={{ padding: "0px 0px 0px 13px" }}>
                   <a href="tel:+1 248-894-4428"><i className="fa fa-phone"> </i>&nbsp; (248) 894-4428</a>
                   <a className='mx-3 mailHidden'>|</a>
                   <a className='mailHidden' href="mailto:info@exultitsolution.com"><i className="fa fa-envelope"></i>&nbsp; info@exultitsolution.com </a>
