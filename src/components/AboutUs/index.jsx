@@ -25,7 +25,7 @@ const AboutHeader = ({ rtl, paddingTop }) => {
                 </span>
               </h1>
               <p>
-                { 'Your idea, our expert hands makes the product success.' } <br /> { 'We have expert hand in multiple technology.' }
+                { 'Your idea, our expert hands makes the product success.' } { 'We have expert hand in multiple technology.' }
               </p>
             </div>
           </div>
