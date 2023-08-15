@@ -35,7 +35,7 @@ function Technologies(style = "4") {
               <div className="row mix-container">
                 {
                   techData.techs.map((tech, i) => (
-                    <div className={`col-lg-2 col-md-2 col-sm-4 col-6 mix ${tech.filter}`} key={i} >
+                    <div className={`col-lg-2 col-md-3 col-sm-4 col-6 mix ${tech.filter}`} key={i} >
                         <div className={`tech-card mb-50`}>
                           <div className="img">
                             <img src={tech.image} alt="" />

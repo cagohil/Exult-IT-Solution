@@ -33,7 +33,7 @@ const Projects = ({ style = "4" }) => {
             <div className="row mix-container">
               {
                 blogsData.blogs.map((blog, i) => (
-                  <div className={`col-lg-4 mix ${blog.filter}`} key={i} >
+                  <div className={`col-lg-4 col-sm-6 col-12 mix ${blog.filter}`} key={i} >
                     <Link href={blog.link} legacyBehavior>
                     <div className={`portfolio-card ${i !== blogs.blogs.length - 1 ? 'mb-50':''}`}>
                       <div className="img">

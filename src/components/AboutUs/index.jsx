@@ -64,7 +64,7 @@ const AboutHeader = ({ rtl, paddingTop }) => {
             </div>
             <div className="col-lg-6">
               <div className="img">
-                <img src="/assets/img/about/superman_3d.png" alt="" />
+                <img src="/assets/img/about/about-img-1.png" alt="" />
               </div>
             </div>
           </div>
@@ -76,7 +76,7 @@ const AboutHeader = ({ rtl, paddingTop }) => {
           <div className="row justify-content-between gx-0">
             <div className="col-lg-6">
               <div className="img p-0">
-                <img src="/assets/img/about/man_arrow.png" alt="" />
+                <img src="/assets/img/about/about-img-2.png" alt="" />
               </div>
             </div>
             <div className="col-lg-4">

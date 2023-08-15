@@ -467,7 +467,7 @@ img {
   max-height: 100%; }
 
 p {
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1.7;
   margin: 0; }
 
@@ -484,7 +484,7 @@ p {
   display: inline-block; }
 
 small.text {
-  font-size: 12px; }
+  font-size: 14px; }
 
 .text-gray {
   color: #666; }
@@ -5457,7 +5457,7 @@ header.style-15 {
       .portfolio.style-1 .portfolio-card .info .text {
         color: #666;
         margin: 15px 0 20px;
-        font-size: 13px; }
+        font-size: 15px; }
       .portfolio.style-1 .portfolio-card .info .tags a {
         font-size: 11px;
         padding: 3px 7px;
@@ -6276,7 +6276,7 @@ header.style-15 {
     color: #27a700;
     font-size: 15px; }
   .testi-card.style-5 .text {
-    font-size: 13px;
+    font-size: 14px;
     line-height: 1.6;
     color: #000;
     margin-top: 15px; }
@@ -10546,7 +10546,7 @@ footer.style-5 {
   footer.style-5 .items ul li {
     margin: 5px 0; }
     footer.style-5 .items ul li a {
-      font-size: 12px; }
+      font-size: 14px; }
       footer.style-5 .items ul li a:hover {
         color: var(--color-blue5); }
   footer.style-5 .foot {
@@ -13751,7 +13751,7 @@ footer.style-15 {
   /* .navbar.style-5 {
     border-bottom: 1px solid #9999; } */
   .navbar.style-5 .navbar-collapse {
-    margin-top: 20px;
+    margin-top: 7px;
     padding: 15px 0;
      }
   .navbar.style-5 .nav-item .nav-link {

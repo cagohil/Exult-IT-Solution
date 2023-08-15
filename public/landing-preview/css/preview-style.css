@@ -607,7 +607,8 @@ header {
       display: block; }
 
 .codei .img {
-  position: relative; }
+  position: relative;
+ }
   .codei .img:after {
     content: '';
     width: 600px;

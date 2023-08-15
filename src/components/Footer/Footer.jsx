@@ -12,7 +12,7 @@ const Footer = () => {
                 U.S.A
               </div>
               <small className="text mb-2 d-block">
-                {footerData.address.address1} <br /> {footerData.address.address2}
+                {footerData.address.address1} {footerData.address.address2}
               </small>
               <small className="text mb-2 d-block">
                 <a href="mailto:info@exultitsolution.com">{footerData.email1}</a>
@@ -31,7 +31,7 @@ const Footer = () => {
                 Canada
               </div>
               <small className="text mb-2 d-block">
-                {footerData.address.address5} <br /> {footerData.address.address6}
+                {footerData.address.address5} {footerData.address.address6}
               </small>
               <small className="text mb-2 d-block">
                 <a href="mailto:sales@exultitsolution.com">{footerData.email2}</a>
@@ -79,7 +79,7 @@ const Footer = () => {
               </ul>
             </div>
           </div>
-          <div className="col-lg-2 col-sm-6">
+          <div className="col-lg-2 col-sm-6 ">
             <div className="items">
               <div className="title">
                 Helpful Services
@@ -116,7 +116,7 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6  text-center text-align-center">
+            <div className="col-lg-6 col-sm-6 text-center text-align-center">
               <small className="small mt-3">
                 <a href="https://exultitsolution.com" rel="noreferrer" className="fw-bold text-decoration-underline" target="_blank"> Exult IT Solution </a> © Copyrights 2023 - 2024. All Rights Reserved.
               </small>

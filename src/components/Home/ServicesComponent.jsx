@@ -21,7 +21,7 @@ const ServicesComponent = ({ style = "4", rtl }) => {
               <div className="row mix-container">
                 {
                   servicesData.services.map((service, i) => (
-                    <div className={`col-lg-4 mix ${service.filter}`} key={i}>
+                    <div className={`col-lg-4 col-sm-6 col-12 mix ${service.filter}`} key={i}>
                       <Link href={service.link} legacyBehavior>
                         <div className={`portfolio-card hover-4 ${i !== services.services.length - 1 ? 'mb-50' : ''}`}>
                           <div className="img">

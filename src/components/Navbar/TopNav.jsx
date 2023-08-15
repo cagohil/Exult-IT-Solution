@@ -5,7 +5,7 @@ const TopNav = ({ style, rtl }) => {
     <div className={`top-navbar style-${style}`}>
       <div className="content text-white" style={{ padding: "0 2.5vw" }}>
         <div className="row align-items-center ">
-          <div className="col-lg-6 col-sm-6 col-6 topBarInfo p-0">
+          <div className="col-lg-6 col-sm-8 col-6 topBarInfo p-0">
             <div className="top-links">
               <div className="text-white d-flex">
                 <div style={{ padding: "0px 0px 0px 10px" }}>
@@ -16,7 +16,7 @@ const TopNav = ({ style, rtl }) => {
               </div>
             </div>
           </div>
-          <div className="col-lg-6 col-sm-6 col-6 topSocialIcon">
+          <div className="col-lg-6 col-sm-4 col-6 topSocialIcon">
             <div className="r-side">
               <div className="socail-icons d-flex justify-content-end">
                 <a href="https://twitter.com/exultitsolution" rel="noreferrer" target="_blank">

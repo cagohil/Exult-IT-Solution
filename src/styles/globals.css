@@ -112,7 +112,26 @@
   color: #cbddf6;
 }
 
+@media screen and (max-width: 1230px) {
+  .navbar.style-5 .nav-item .nav-link {
+    font-size: 13px;
+    margin: 0 6px;
+}
+.btn.sm-butn {
+  padding: 10px 10px;
+}
+
+.codei .img {
+  display: flex;
+  justify-content: center;
+ }
+
+}
+
+
 @media screen and (max-width: 800px) {
+
+  
   .swiper-pagination {
     width: auto !important;
     left: 75% !important;
@@ -130,6 +149,13 @@
     font-size: 17px !important;
   }
 }
+
+@media screen and (max-width: 640px) {
+  .mailHidden {
+    display: none !important;
+  }
+}
+
 
 @media screen and (max-width: 500px) {
   .topBarInfo a {
