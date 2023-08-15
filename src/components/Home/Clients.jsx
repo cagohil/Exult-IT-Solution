@@ -117,6 +117,54 @@ const Clients = () => {
             )
           }
         </div>
+
+        <div className="clients-slider5">
+          {
+            loadSwiper && (
+              <Swiper
+                className="swiper-container"
+                spaceBetween={0}
+                centeredSlides={true}
+                slidesPerView={6}
+                speed={6000}
+                autoplay={{
+                  delay: 1,
+                  disableOnInteraction: true
+                }}
+                loop={true}
+                allowTouchMove={false}
+                breakpoints={{
+                  0: {
+                    slidesPerView: 2,
+                  },
+                  480: {
+                    slidesPerView: 2,
+                  },
+                  787: {
+                    slidesPerView: 3,
+                  },
+                  991: {
+                    slidesPerView: 4,
+                  },
+                  1200: {
+                    slidesPerView: 6,
+                  }
+                }}
+              >
+                {
+                  clients.row3.map((client, i) => (
+                    <SwiperSlide key={i}>
+                      <a href={client.link} target='_blank' className="img">
+                        <img src={client.img} alt="" />
+                      </a>
+                    </SwiperSlide>
+                  ))
+                }
+              </Swiper>
+            )
+          }
+        </div>
+
         <p className='text-end pt-2 px-3'>Many more…</p>
       </div>
     </section>

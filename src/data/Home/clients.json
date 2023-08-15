@@ -51,5 +51,32 @@
       "link": "https://versatilehv.com/",
       "img": "/assets/img/Clients/versatile.png"
     }
+  ],
+
+  "row3": [
+    {
+      "link": "https://www.globalpump.com/",
+      "img": "/assets/img/Clients/global-pump-a-mersino.png"
+    },
+    {
+      "link": "https://www.onway1.com/",
+      "img": "/assets/img/Clients/onway.png"
+    },
+    {
+      "link": "https://bluewaterbenefitsadmin.com/",
+      "img": "/assets/img/Clients/blue-water-benefits-administrators.jpg"
+    },
+    {
+      "link": "https://www.molex.com/en-us/home",
+      "img": "/assets/img/Clients/molex.png"
+    },
+    {
+      "link": "https://wallaceburgpharmacy.netlify.app/",
+      "img": "/assets/img/Clients/wallaceburg-pharmacy.png"
+    },
+    {
+      "link": "https://landscapeprofessors.com/",
+      "img": "/assets/img/Clients/TheLandscapeProfessorsLogo.png"
+    }
   ]
 }
