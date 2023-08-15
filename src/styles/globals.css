@@ -103,7 +103,7 @@
   font-size: 18px !important;
 }
 
-.topBarInfo a{
+.topBarInfo a {
   font-weight: bold !important;
 }
 
@@ -116,22 +116,26 @@
   .navbar.style-5 .nav-item .nav-link {
     font-size: 13px;
     margin: 0 6px;
+  }
+  .btn.sm-butn {
+    padding: 10px 10px;
+  }
+
+  .codei .img {
+    display: flex;
+    justify-content: center;
+  }
 }
-.btn.sm-butn {
-  padding: 10px 10px;
+@media screen and (max-width: 1000px) {
+  footer {
+    margin-left: 7px !important;
+    padding-right: 25px !important;
+  }
 }
-
-.codei .img {
-  display: flex;
-  justify-content: center;
- }
-
-}
-
-
 @media screen and (max-width: 800px) {
-
-  
+  .btn.sm-butn {
+    padding: 10px 25px;
+  }
   .swiper-pagination {
     width: auto !important;
     left: 75% !important;
@@ -156,7 +160,6 @@
   }
 }
 
-
 @media screen and (max-width: 500px) {
   .topBarInfo a {
     font-size: 17px !important;
@@ -168,11 +171,11 @@
     display: flex;
   }
 
-   .topBarInfo {
+  .topBarInfo {
     justify-content: start !important;
   }
 
-  .topSocialIcon  {
+  .topSocialIcon {
     justify-content: end !important;
     padding: 0 !important;
     padding-right: 10px;
@@ -214,9 +217,20 @@
 
 @media screen and (max-width: 375px) {
   .topSocialIcon,
-  .topBarInfo a{
+  .topBarInfo a {
     font-size: 15px !important;
     justify-content: center !important;
   }
 
+  .clients.style-5 .content .img.img-card {
+    width: 46% !important;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .topSocialIcon,
+  .topBarInfo a {
+    font-size: 14px !important;
+    justify-content: center !important;
+  }
 }

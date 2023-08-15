@@ -4,7 +4,8 @@ import footerData from '@data/Footer/footer.json';
 const Footer = () => {
   return (
     <footer className="style-5 border-top brd-gray">
-      <div className="container-fluid px-5" style={{maxWidth:"1400px"}}>
+      {/* <div className="container-fluid px-5" style={{maxWidth:"1400px"}}> */}
+      <div className="container px-3">
         <div className="row gx-0 justify-content-between">
           <div className="col-lg-2 col-sm-6">
             <div className="items">
