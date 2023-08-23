@@ -495,6 +495,9 @@ small.text {
 .section-padding {
   padding: 100px 0; }
 
+  .section-padding2 {
+    padding: 60px 0; }
+
 .swiper-pagination {
   bottom: 0; }
 
@@ -13400,6 +13403,8 @@ footer.style-15 {
 @media screen and (max-width: 991px) {
   .section-padding {
     padding: 70px 0; }
+    .section-padding2 {
+      padding: 70px 0; }
   .section-head h2 {
     font-size: 25px; }
   .top-navbar.style-1 .top-links {

@@ -482,7 +482,7 @@ header {
     position: relative;
     padding: 10px;
     overflow: hidden;
-    margin-top: 50px; }
+    margin-top: 20px; }
     .demos .item:hover .img img {
       -o-object-position: bottom;
       object-position: bottom; }

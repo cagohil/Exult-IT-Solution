@@ -23,7 +23,7 @@ const Demos = () => {
   }, []);
 
   return (
-    <section className="demos section-padding bg-light" id="demos">
+    <section className="demos section-padding2 bg-light" id="demos">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-6 col-md-10">
