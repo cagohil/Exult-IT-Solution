@@ -17,9 +17,10 @@
     { "link": "/", "title": "Home" },
     { "link": "/about-us", "title": "About Us" },
     { "link": "/technologies", "title": "Our Technologies" },
-    { "link": "/contact-us", "title": "Contact Us" },
-    { "link": "/blog", "title": "Blog" },
-    { "link": "/remote-staff", "title": "Remote Staff" }
+    { "link": "/industry", "title": "Industries" },
+    { "link": "/blog", "title": "Blogs" },
+    { "link": "/remote-staff", "title": "Remote Staff" },
+    { "link": "/contact-us", "title": "Contact Us" }
 
   ],
   "helpfulServices": [

@@ -2388,7 +2388,7 @@ small.text {
     color: #000;
     font-size: 15px;
     font-weight: bold;
-    margin: 0 15px;
+    margin: 0 10px;
     text-transform: capitalize; }
     .navbar.style-5 .nav-item .nav-link:hover, .navbar.style-5 .nav-item .nav-link.active {
       color: var(--color-blue5); }

@@ -450,9 +450,9 @@ header {
     position: absolute;
     left: 50px;
     top: 100px;
-    background: -webkit-linear-gradient(340deg, #f7bcc2, transparent);
-    background: -o-linear-gradient(340deg, #f7bcc2, transparent);
-    background: linear-gradient(110deg, #f7bcc2, transparent);
+    background: -webkit-linear-gradient(340deg, #a4cbf9, transparent);
+    background: -o-linear-gradient(340deg, #a4cbf9, transparent);
+    background: linear-gradient(110deg, #a4cbf9, transparent);
     opacity: .3; }
   .demos:before {
     content: '';
@@ -467,7 +467,7 @@ header {
     background: linear-gradient(-110deg, #9fa0b0, transparent);
     opacity: .2; }
   .demos .sec-head h2 {
-    font-size: 120px;
+    font-size: 50px;
     font-weight: 800;
     line-height: 1;
     margin-bottom: 20px; }
@@ -557,7 +557,7 @@ header {
     .demos .item .img {
       border-radius: 5px;
       overflow: hidden;
-      height: 330px; }
+      height: 230px; }
       .demos .item .img img {
         width: 100%;
         height: 100%;
@@ -896,13 +896,14 @@ header {
   .cal-actn .cont h2 {
     font-size: 55px; }
 
+
 .color-grd {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-image: -webkit-gradient(linear, left top, right top, from(#501e9c), color-stop(30%, #8169f1), color-stop(30%, #8169f1), color-stop(73%, #a44cee), to(#ff847f));
-  background-image: -webkit-linear-gradient(left, #501e9c 0%, #8169f1 30%, #8169f1 30%, #a44cee 73%, #ff847f 100%);
-  background-image: -o-linear-gradient(left, #501e9c 0%, #8169f1 30%, #8169f1 30%, #a44cee 73%, #ff847f 100%);
-  background-image: linear-gradient(to right, #501e9c 0%, #8169f1 30%, #8169f1 30%, #a44cee 73%, #ff847f 100%); }
+  background-image: -webkit-gradient(linear, left top, right top, from(#157efb), color-stop(30%, #28a8ea), color-stop(30%, #157efb), color-stop(73%, #28a8ea), to(#157efb));
+  background-image: -webkit-linear-gradient(left, #157efb 0%, #28a8ea 30%, #157efb 30%, #28a8ea 73%, #157efb 100%);
+  background-image: -o-linear-gradient(left, #157efb 0%, #28a8ea 30%, #157efb 30%, #28a8ea 73%, #157efb 100%);
+  background-image: linear-gradient(to right, #157efb 0%, #28a8ea 30%, #157efb 30%, #28a8ea 73%, #157efb 100%); }
 
 .gr-sunset-text {
   background-image: -webkit-gradient(linear, left top, right top, from(#f2709c), to(#ff9472));

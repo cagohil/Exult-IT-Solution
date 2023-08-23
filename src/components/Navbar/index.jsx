@@ -32,27 +32,20 @@ const Navbar = ({ navbarRef, bgTransparent }) => {
           <ul className="navbar-nav m-auto mb-2 mb-lg-0">
             <li className="nav-item">
               <Link legacyBehavior href="/">
-                <a className="nav-link">
+                <a className="nav-link text-uppercase">
                   <span data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse">Home</span>
                 </a>
               </Link>
             </li>
             <li className="nav-item" >
               <Link legacyBehavior href="/about-us" >
-                <a className="nav-link" >
-                  <span data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse">About Us</span>
-                </a>
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link legacyBehavior href="/technologies">
-                <a className="nav-link">
-                  <span data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse">Our Technologies</span>
+                <a className="nav-link text-uppercase" >
+                  <span data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse">About</span>
                 </a>
               </Link>
             </li>
             <li className="nav-item dropdown" onMouseMove={handleMouseMove} onMouseLeave={handleMouseLeave}>
-              <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a className="nav-link dropdown-toggle text-uppercase" href="#" id="navbarDropdown1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 <span className="position-relative">Services</span>
               </a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown1">
@@ -82,27 +75,41 @@ const Navbar = ({ navbarRef, bgTransparent }) => {
               </ul>
             </li>
             <li className="nav-item">
-              <Link legacyBehavior href="/contact-us">
-                <a className="nav-link">
-                  <span data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse">Contact Us</span>
+              <Link legacyBehavior href="/industry">
+                <a className="nav-link text-uppercase">
+                  <span data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse">INDUSTRIES</span>
                 </a>
               </Link>
             </li>
             <li className="nav-item">
+              <Link legacyBehavior href="/technologies">
+                <a className="nav-link text-uppercase">
+                  <span data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse">Technologies</span>
+                </a>
+              </Link>
+            </li>
+            
+            <li className="nav-item">
               <Link legacyBehavior href="/blog">
-                <a className="nav-link">
+                <a className="nav-link text-uppercase">
                   <span data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse">Blog</span>
                 </a>
               </Link>
             </li>
             <li className="nav-item">
               <Link legacyBehavior href="/remote-staff">
-                <a className="nav-link">
+                <a className="nav-link text-uppercase">
                   <span data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse">Remote Staff</span>
                 </a>
               </Link>
             </li>
-
+            <li className="nav-item">
+              <Link legacyBehavior href="/contact-us">
+                <a className="nav-link text-uppercase">
+                  <span data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse">Contact</span>
+                </a>
+              </Link>
+            </li>
 
           </ul>
           <div className="nav-side">
