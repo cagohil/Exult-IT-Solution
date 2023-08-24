@@ -4,15 +4,14 @@ import Head from 'next/head';
 import navbarScrollEffect from "@common/navbarScrollEffect";
 //= Layout
 import MainLayout from '@layouts/Main';
-//= Components
-import AboutIndex from '@components/AboutUs/index';
 
-const About = () => {
+const AutomationIndustry = () => {
   const navbarRef = useRef(null);
 
   useEffect(() => {
     navbarScrollEffect(navbarRef.current);
   }, [navbarRef]);
+
 
   return (
     <>
@@ -23,11 +22,34 @@ const About = () => {
 
       <MainLayout>
         <main className="about-page style-5">
-          <AboutIndex />
+          <header className={`about-page-sec style-5 pt-5}`}>
+            <div className="content border-0 p-0">
+              <div className="container">
+                <div className="row align-items-center justify-content-between">
+                <div className="col-lg-6 order-2 order-lg-0">
+                    <div className="section-head mb-30 mt-4 style-5">
+                      <h2>Automation<span>industry</span> </h2>
+                    </div>
+                    <p className='mb-2'>
+                    <strong>Streamline complex process:</strong> Simplify the complicating processes by designing a digital industrial computer control system (PLC) to execute automatic industrial operations. 
+                    </p>
+                    <p className='mb-2'>
+                    <strong>Optimized Operations:</strong> The pivotal technology managing and monitoring industrial processes by collecting real-time data, enabling informed decision-making and process optimization. 
+                    </p>
+                  </div>
+                  <div className="col-lg-6">
+                  <div className="img">
+                      <img src="/assets/img/industry/Automation-Industry2.jpg" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </header>
         </main>
       </MainLayout>
     </>
   )
 }
 
-export default About;
+export default AutomationIndustry;
