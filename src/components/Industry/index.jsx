@@ -27,7 +27,7 @@ const Demos = () => {
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-6 col-md-10">
-            <div className="sec-head text-center mb-40">
+            <div className="sec-head text-center mb-3">
               <h2 className="num"><span className="color-grd">INDUSTRIES<span className="thin"></span></span></h2>
               {/* <h3 className="text-capitalize">Execute Imperative & Unique Solution for Different Industries</h3> */}
               <p className="color-777">Execute Imperative & Unique Solution for Different Industries</p>

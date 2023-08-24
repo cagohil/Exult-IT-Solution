@@ -22,7 +22,7 @@ const eCommerceIndustry = () => {
 
       <MainLayout>
         <main className="about-page style-5">
-          <header className={`about-page-sec style-5 pt-5}`}>
+          <header className={`about-page-sec style-5 pt-5 }`}>
             <div className="content border-0 p-0 ">
               <div className="container">
                 <div className="row align-items-center justify-content-between">

@@ -496,7 +496,7 @@ small.text {
   padding: 100px 0; }
 
   .section-padding2 {
-    padding: 60px 0; }
+    padding: 60px 0px 40px 0px; }
 
 .swiper-pagination {
   bottom: 0; }
@@ -3032,7 +3032,7 @@ header.style-4 {
 
 header.style-5 {
   position: relative;
-  padding: 60px 0 80px;
+  padding: 50px 0 40px;
   overflow: hidden;
   background: -moz-linear-gradient(bottom, #ffffff 0%, #edf4fe 74%, #e7f1ff 100%);
   background: -webkit-linear-gradient(bottom, #ffffff 0%, #edf4fe 74%, #e7f1ff 100%);
@@ -13404,7 +13404,7 @@ footer.style-15 {
   .section-padding {
     padding: 70px 0; }
     .section-padding2 {
-      padding: 70px 0; }
+      padding: 40px 0px 40px 0px; }
   .section-head h2 {
     font-size: 25px; }
   .top-navbar.style-1 .top-links {
@@ -13883,8 +13883,9 @@ footer.style-15 {
         margin-bottom: 20px; }
   .blog-page.style-1 .popular-posts .border-end {
     border: 0 !important; }
+    
   .about-page header.style-5 .info h1 {
-    font-size: 30px; }
+    font-size: 40px; }
   .about-page header.style-5 .main-vid {
     height: 350px; }
   .about-page .choose-us.style-6 .info {

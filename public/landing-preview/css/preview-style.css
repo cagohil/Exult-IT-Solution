@@ -1009,7 +1009,7 @@ header {
 
 @media screen and (max-width: 767px) {
   .col-lg-4 {
-    margin-bottom: 25px; }
+    margin-bottom: 0px; }
   header .cont {
     background: #ffffff8a;
     padding: 20px; } }

@@ -133,6 +133,9 @@
   }
 }
 @media screen and (max-width: 800px) {
+  .demos .sec-head h2 {
+    font-size: 40px;
+  }
   .btn.sm-butn {
     padding: 10px 25px;
   }
