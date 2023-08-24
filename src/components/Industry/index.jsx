@@ -34,12 +34,10 @@ const Demos = () => {
             </div>
           </div>
         </div>
-        {
-          demosRows.map((demos, r) => (
-            <div className="row" key={r}>
+        <div className="row" >
               {
                 demos.map((demo, i) => (
-                  <div className="col-lg-4 col-md-6" key={i}>
+                  <div className="col-lg-4 col-sm-6 col-md-6 col-12" key={i}>
                     <div className={`item`}>
                       <Link legacyBehavior href={demo.link}>
                         <a >
@@ -47,7 +45,7 @@ const Demos = () => {
                             <img src={demo.img} alt="" />
                           </div>
                           <div className="info">
-                            <h6 className='text-center'>{ demo.title }</h6>
+                            <h6 className='text-center'>{demo.title}</h6>
                           </div>
                         </a>
                       </Link>
@@ -55,9 +53,7 @@ const Demos = () => {
                   </div>
                 ))
               }
-            </div>
-          ))
-        }
+        </div>
       </div>
     </section>
   )

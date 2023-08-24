@@ -28,7 +28,7 @@ const TransportationLogisticSupplyChainStorage = () => {
                 <div className="row align-items-center justify-content-between">
                 <div className="col-lg-6 order-2 order-lg-0">
                     <div className="section-head mb-30 mt-4 style-5">
-                      <h2>Transportation,<span> Logistic, Supply Chain and Storage</span></h2>
+                      <h3>Transportation,<span> Logistic, Supply Chain and Storage</span></h3>
                     </div>
                     <p className='mb-2'>
                     <strong>Inventory management:</strong> Using data analytics, optimize inventory management to forecast demand, track stock levels and avoid stock outs. 
@@ -39,6 +39,9 @@ const TransportationLogisticSupplyChainStorage = () => {
                     <p className='mb-2'>
                     <strong>Route Optimization:</strong> UEnhance travel routes which leads to increased productivity and customer satisfaction. 
                     </p>
+                    <p className='mb-2'>
+                    <strong>E-commerce Integration:</strong> Establish seamless integration between transportation and logistics companies and e-commerce platforms, facilitating smooth order processing and tracking for online customers. 
+                    </p>  
                     
                   </div>
                   <div className="col-lg-6">
@@ -48,9 +51,6 @@ const TransportationLogisticSupplyChainStorage = () => {
                   </div>
                 </div>
                 <div className="row">
-                <p className='mb-2'>
-                    <strong>E-commerce Integration:</strong> Establish seamless integration between transportation and logistics companies and e-commerce platforms, facilitating smooth order processing and tracking for online customers. 
-                    </p>
                     <p className='mb-2'>
                     <strong>Cloud Computing:</strong> Cloud-based platforms offer quick, scalable and cost-effective solutions for data storage, collaboration, and processing. 
                     </p>
