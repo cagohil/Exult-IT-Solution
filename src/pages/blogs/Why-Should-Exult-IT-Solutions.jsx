@@ -19,7 +19,7 @@ function WhyShouldExultITSolutions() {
     <>
       <Head>
         <title>Why Should ‘Exult IT Solutions’ Be Your Digital Media Partner…</title>
-        <meta name="DESCRIPTION" content="WHY SHOULD ‘EXULTIT SOLUTION’ BE YOUR DIGITAL MEDIA PARTNER FOR THE ULTIMATE BUSINESS GROWTH? Donec quam est, suscipit vel ligula ut, aliquet maximus libero. Pellentesque finibus tellus vitae dolor lacinia eleifend. Vivamus convallis nunc ante, ac placerat turpis imperdiet in. Aenean posuere tortor vitae mi mollis tempus." />
+        <meta name="description" content="WHY SHOULD ‘EXULTIT SOLUTION’ BE YOUR DIGITAL MEDIA PARTNER FOR THE ULTIMATE BUSINESS GROWTH? Donec quam est, suscipit vel ligula ut, aliquet maximus libero. Pellentesque finibus tellus vitae dolor lacinia eleifend. Vivamus convallis nunc ante, ac placerat turpis imperdiet in. Aenean posuere tortor vitae mi mollis tempus." />
       </Head>
 
       <MainLayout>

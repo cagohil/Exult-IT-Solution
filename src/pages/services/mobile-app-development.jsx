@@ -20,7 +20,7 @@ function mobileAppDevelopment() {
     <>
       <Head>
         <title>Mobile App Development - Exult It Solution</title>
-        <meta name="DESCRIPTION" content="With the advent of modern technology and innovations, every item we need is being transformed into something we can fit into our pockets. The real-life theatre made its way into the television, and from there to the mobile phones. Due to mobile phones, especially smartphones, there is a rising need for businesses to acknowledge the huge potential this user base offers." />
+        <meta name="description" content="With the advent of modern technology and innovations, every item we need is being transformed into something we can fit into our pockets. The real-life theatre made its way into the television, and from there to the mobile phones. Due to mobile phones, especially smartphones, there is a rising need for businesses to acknowledge the huge potential this user base offers." />
       </Head>
 
       <MainLayout>

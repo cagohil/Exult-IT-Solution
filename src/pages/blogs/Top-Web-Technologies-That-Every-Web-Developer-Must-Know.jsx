@@ -19,7 +19,7 @@ function TopWebTechnologiesThatEvery() {
     <>
       <Head>
         <title>Top Web Technologies That Every Web Developer Must Know in 2021</title>
-        <meta name="DESCRIPTION" content="You must have heard the term “web development technology,” but have you ever thought about what it means? As computers cannot speak with one another in the same manner that humans do, they rely on codes. Web technologies are the markup languages and multimedia packages that computers practice to communicate." />
+        <meta name="description" content="You must have heard the term “web development technology,” but have you ever thought about what it means? As computers cannot speak with one another in the same manner that humans do, they rely on codes. Web technologies are the markup languages and multimedia packages that computers practice to communicate." />
       </Head>
 
       <MainLayout>

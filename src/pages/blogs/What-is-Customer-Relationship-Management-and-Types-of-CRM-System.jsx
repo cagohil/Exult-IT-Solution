@@ -19,7 +19,7 @@ function WhatIsCustomerRelationshipManagement() {
     <>
       <Head>
         <title>What is Customer Relationship Management and Types of CRM System</title>
-        <meta name="DESCRIPTION" content="Customer relationship management, or CRM, is a strategy and technology combination used to engage, establish, evaluate, and maintain relationships with current and potential customers. It also takes care of sales and contact management and ensures a smooth workflow process, increased productivity, and more." />
+        <meta name="description" content="Customer relationship management, or CRM, is a strategy and technology combination used to engage, establish, evaluate, and maintain relationships with current and potential customers. It also takes care of sales and contact management and ensures a smooth workflow process, increased productivity, and more." />
       </Head>
 
       <MainLayout>

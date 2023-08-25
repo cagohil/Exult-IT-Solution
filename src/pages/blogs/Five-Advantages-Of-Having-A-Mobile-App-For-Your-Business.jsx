@@ -19,7 +19,7 @@ function FiveAdvantagesOfHavingAMobileApp() {
     <>
       <Head>
         <title>Five Advantages Of Having A Mobile App For Your Business</title>
-        <meta name="DESCRIPTION" content="As people are getting more technologically advanced, they expect a timely response. Mobile app development gives them access to every utility on the tip of their finger. The key to a successful business always lies in providing a meaningful experience to consumers. The more user-friendly and comfortable your services are, the more value they will add to the customer experience." />
+        <meta name="description" content="As people are getting more technologically advanced, they expect a timely response. Mobile app development gives them access to every utility on the tip of their finger. The key to a successful business always lies in providing a meaningful experience to consumers. The more user-friendly and comfortable your services are, the more value they will add to the customer experience." />
       </Head>
 
       <MainLayout>

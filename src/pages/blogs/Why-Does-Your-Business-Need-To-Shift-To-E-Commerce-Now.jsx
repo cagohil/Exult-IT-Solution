@@ -19,7 +19,7 @@ function WhyDoesYourBusinessNeedToShiftTo() {
     <>
       <Head>
         <title>Why Does Your Business Need To Shift To E-Commerce Now?</title>
-        <meta name="DESCRIPTION" content="E-commerce is buying and selling of products, services, and goods on the internet. The global market is progressing towards digital space; businesses need to begin their trade on the internet. Internet commerce gives small and large-scale companies an extra benefit to reap more revenue on a low-cost investment." />
+        <meta name="description" content="E-commerce is buying and selling of products, services, and goods on the internet. The global market is progressing towards digital space; businesses need to begin their trade on the internet. Internet commerce gives small and large-scale companies an extra benefit to reap more revenue on a low-cost investment." />
       </Head>
 
       <MainLayout>

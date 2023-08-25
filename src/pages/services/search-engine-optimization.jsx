@@ -20,7 +20,7 @@ function searchEngineOptimization() {
     <>
       <Head>
         <title>Search Engine Optimization - Exult It Solution</title>
-        <meta name="DESCRIPTION" content="Search Engine Optimization is all about knowing and implementing what can make your website visible. It focuses on attracting visitors organically by ranking higher in Google searches. This can be achieved through optimizing your website and content according to several factors that affect the rankings." />
+        <meta name="description" content="Search Engine Optimization is all about knowing and implementing what can make your website visible. It focuses on attracting visitors organically by ranking higher in Google searches. This can be achieved through optimizing your website and content according to several factors that affect the rankings." />
       </Head>
 
       <MainLayout>

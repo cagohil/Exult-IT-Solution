@@ -22,7 +22,7 @@ function FewImportantTips() {
     <>
       <Head>
         <title>Few Important Tips before Hiring Company for Your Web Application Needs</title>
-        <meta name="DESCRIPTION" content="Our world is evolving continuously due to technological advancements. Internet is one such progress that has made a positive impact on many businesses. As a result, every firm wants to use it as much as possible by establishing a suitable, robust web server-based application." />
+        <meta name="description" content="Our world is evolving continuously due to technological advancements. Internet is one such progress that has made a positive impact on many businesses. As a result, every firm wants to use it as much as possible by establishing a suitable, robust web server-based application." />
       </Head>
 
       <MainLayout>

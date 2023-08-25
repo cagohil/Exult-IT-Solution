@@ -20,7 +20,7 @@ function websiteDevelopment() {
     <>
       <Head>
         <title>Website Development - Exult It Solution</title>
-        <meta name="DESCRIPTION" content="Every business requires a clean and responsive website to succeed in the digital world. The way your website performs is an indication of the efforts you put in for the comfort of your customers. A good website should be effortless to use and pleasing to the eyes. Website development is what encapsulates everything related to getting your website up and running. At Exult It Solutions, we focus on understanding your business and creating a more engaging user experience. A well-made website can become the difference between an unrecognized brand and an innovative market leader." /> 
+        <meta name="description" content="Every business requires a clean and responsive website to succeed in the digital world. The way your website performs is an indication of the efforts you put in for the comfort of your customers. A good website should be effortless to use and pleasing to the eyes. Website development is what encapsulates everything related to getting your website up and running. At Exult It Solutions, we focus on understanding your business and creating a more engaging user experience. A well-made website can become the difference between an unrecognized brand and an innovative market leader." /> 
       </Head>
 
       <MainLayout>

@@ -19,7 +19,7 @@ function WhyIsSearchEngineOptimization() {
     <>
       <Head>
         <title>Why Is Search Engine Optimization Important To a Business?</title>
-        <meta name="DESCRIPTION" content="Organic search is an inherent part of most businesses’ website performance and a requisite element of the buyer shaft and eventually assisting people in converting to potential clients. Your ranking decides the visibility of your company or product on the internet. The higher you rank on the site, the more likely the customers will see you and visit your website." />
+        <meta name="description" content="Organic search is an inherent part of most businesses’ website performance and a requisite element of the buyer shaft and eventually assisting people in converting to potential clients. Your ranking decides the visibility of your company or product on the internet. The higher you rank on the site, the more likely the customers will see you and visit your website." />
       </Head>
 
       <MainLayout>

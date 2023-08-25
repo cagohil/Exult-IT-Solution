@@ -17,7 +17,7 @@ const TransportationLogisticSupplyChainStorage = () => {
     <>
       <Head>
         <title>Software Development Company Macomb | Web apps development Macomb</title>
-        <meta name="DESCRIPTION" content="As a Software development company, we deliver website design and development, ecommerce website, custom software, cloud computing services and SEO Services." />
+        <meta name="description" content="As a Software development company, we deliver website design and development, ecommerce website, custom software, cloud computing services and SEO Services." />
       </Head>
 
       <MainLayout>
@@ -37,7 +37,7 @@ const TransportationLogisticSupplyChainStorage = () => {
                     <strong>Real-time tracking:</strong> Helps in better logistics planning, reducing delays, and improving overall supply chain efficiency.  
                     </p>
                     <p className='mb-2'>
-                    <strong>Route Optimization:</strong> UEnhance travel routes which leads to increased productivity and customer satisfaction. 
+                    <strong>Route Optimization:</strong> Enhance travel routes which leads to increased productivity and customer satisfaction. 
                     </p>
                     <p className='mb-2'>
                     <strong>E-commerce Integration:</strong> Establish seamless integration between transportation and logistics companies and e-commerce platforms, facilitating smooth order processing and tracking for online customers. 

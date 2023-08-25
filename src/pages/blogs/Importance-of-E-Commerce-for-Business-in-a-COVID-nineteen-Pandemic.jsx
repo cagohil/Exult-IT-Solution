@@ -19,7 +19,7 @@ function ImportanceOfECommerceForBusinessInACovid() {
     <>
       <Head>
         <title>Importance of E-Commerce for Business in a COVID 19 Pandemic</title>
-        <meta name="DESCRIPTION" content="As the Internet becomes more integrated into our daily lives, e-commerce preference continues to rise, and businesses are desperately trying to make the most of it. As a result, companies like Amazon and Alibaba have reached the top of the E-Commerce industry." />
+        <meta name="description" content="As the Internet becomes more integrated into our daily lives, e-commerce preference continues to rise, and businesses are desperately trying to make the most of it. As a result, companies like Amazon and Alibaba have reached the top of the E-Commerce industry." />
       </Head>
 
       <MainLayout>

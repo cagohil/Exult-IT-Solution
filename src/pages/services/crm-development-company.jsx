@@ -20,7 +20,7 @@ function crmDevelopmentCompany() {
     <>
       <Head>
         <title>CRM Development Company - Exult It Solution</title>
-        <meta name="DESCRIPTION" content="Businesses all over the world try to figure out better ways to retain and increase their client base. This is where a good CRM system comes into play. So what is Customer Relation Management (CRM)?: This refers to the process of understanding, analyzing, and structuring the way businesses interact with their customers. It helps collect user data that can be used to manage sales, marketing, customer service, and deliver valuable insights. This enables sales cycle optimization and improved marketing strategies through data analysis." />
+        <meta name="description" content="Businesses all over the world try to figure out better ways to retain and increase their client base. This is where a good CRM system comes into play. So what is Customer Relation Management (CRM)?: This refers to the process of understanding, analyzing, and structuring the way businesses interact with their customers. It helps collect user data that can be used to manage sales, marketing, customer service, and deliver valuable insights. This enables sales cycle optimization and improved marketing strategies through data analysis." />
       </Head>
 
       <MainLayout>

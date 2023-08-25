@@ -18,7 +18,9 @@ const About = () => {
     <>
       <Head>
         <title>Software Development Company Macomb | Web apps development Macomb</title>
-        <meta name="DESCRIPTION" content="As a Software development company, we deliver website design and development, ecommerce website, custom software, cloud computing services and SEO Services." />
+        <meta name="description" content="Exult it Solution is leading company provides IT services and solutions, we expert in web design and development, software development, cloud computing and SEO services." />
+        <meta name="keywords" content="Website Development, Software Development, Application Development, Mobile App Development, E Commerce Web Development, Search Engine Optimization, CRM Development, Cloud Computing, SEO "/>
+        <meta name="author" content="Exult IT Solution"/>
       </Head>
 
       <MainLayout>

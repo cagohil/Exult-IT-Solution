@@ -19,7 +19,7 @@ function EffectiveDigitalWaysToImprove() {
     <>
       <Head>
         <title>Effective Digital Ways To Improve Your Business</title>
-        <meta name="DESCRIPTION" content="If business administration’s need advanced promoting, they can get customers by reference from relatives, companions, current customers, and mouth exposure. Sometimes, every business needs some showcasing, whether it’s a Profession, maker, Service supplier, Wholesaler, nearby shop, etc. With the showcasing of expert services, they can discover them from a Search motor, Social media stage or an ad, or some online reference destinations." />
+        <meta name="description" content="If business administration’s need advanced promoting, they can get customers by reference from relatives, companions, current customers, and mouth exposure. Sometimes, every business needs some showcasing, whether it’s a Profession, maker, Service supplier, Wholesaler, nearby shop, etc. With the showcasing of expert services, they can discover them from a Search motor, Social media stage or an ad, or some online reference destinations." />
       </Head>
 
       <MainLayout>

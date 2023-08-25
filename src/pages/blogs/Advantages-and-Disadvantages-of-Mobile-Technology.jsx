@@ -19,7 +19,7 @@ function AdvantagesAndDisadvantageSofMobile() {
     <>
       <Head>
         <title>Advantages and Disadvantages of Mobile Technology</title>
-        <meta name="DESCRIPTION" content="In the last few decades, mobile technology has progressed dramatically. Mobile phones are becoming increasingly sophisticated. In the present time, to run a business, mobile technology is an absolute must. It has many advantages because of its versatility, but it also has many hazards for the company. It is critical to assess both the benefits and drawbacks of employing mobile technology in the workplace." />
+        <meta name="description" content="In the last few decades, mobile technology has progressed dramatically. Mobile phones are becoming increasingly sophisticated. In the present time, to run a business, mobile technology is an absolute must. It has many advantages because of its versatility, but it also has many hazards for the company. It is critical to assess both the benefits and drawbacks of employing mobile technology in the workplace." />
       </Head>
 
       <MainLayout>

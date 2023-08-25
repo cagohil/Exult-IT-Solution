@@ -21,7 +21,7 @@ function cloudComputingServices() {
     <>
       <Head>
         <title>Cloud Computing Services - Exult It Solution</title>
-        <meta name="DESCRIPTION" content="Our Experts Integrate Hybrid Cloud & Cognitive Computing to add value to your business. We offer PaaS, IaaS and SaaS. We have knowledge and experience of Azure, Google cloud and AWS. It is a visible mass of a huge amount of condensed water vapours floating all around in the sky." />
+        <meta name="description" content="Our Experts Integrate Hybrid Cloud & Cognitive Computing to add value to your business. We offer PaaS, IaaS and SaaS. We have knowledge and experience of Azure, Google cloud and AWS. It is a visible mass of a huge amount of condensed water vapours floating all around in the sky." />
       </Head>
 
       <MainLayout>

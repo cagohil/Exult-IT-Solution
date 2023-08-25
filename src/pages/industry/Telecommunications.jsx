@@ -17,7 +17,7 @@ const Telecommunications = () => {
     <>
       <Head>
         <title>Software Development Company Macomb | Web apps development Macomb</title>
-        <meta name="DESCRIPTION" content="As a Software development company, we deliver website design and development, ecommerce website, custom software, cloud computing services and SEO Services." />
+        <meta name="description" content="As a Software development company, we deliver website design and development, ecommerce website, custom software, cloud computing services and SEO Services." />
       </Head>
 
       <MainLayout>
@@ -43,7 +43,7 @@ const Telecommunications = () => {
                     
                   </div>
                   <div className="col-lg-6">
-                    <div className="img mt-4">
+                    <div className="img">
                       <img src="/assets/img/industry/Telecommunications2.jpg" alt="" />
                     </div>
                   </div>

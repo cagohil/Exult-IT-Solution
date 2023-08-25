@@ -17,7 +17,7 @@ const AutomotiveIndustry = () => {
     <>
       <Head>
         <title>Software Development Company Macomb | Web apps development Macomb</title>
-        <meta name="DESCRIPTION" content="As a Software development company, we deliver website design and development, ecommerce website, custom software, cloud computing services and SEO Services." />
+        <meta name="description" content="As a Software development company, we deliver website design and development, ecommerce website, custom software, cloud computing services and SEO Services." />
       </Head>
 
       <MainLayout>

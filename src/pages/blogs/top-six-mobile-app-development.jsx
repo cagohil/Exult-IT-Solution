@@ -19,7 +19,7 @@ function topMobileAppDevelopment() {
     <>
       <Head>
         <title>Top 6 Mobile App Development Trends For 2021</title>
-        <meta name="DESCRIPTION" content="From the time when smartphones were introduced in the market or in the technological field, they only evolved. It is no longer a luxury to have a smartphone, but it has become necessary for all fields like education, business, gaming, and traveling." />
+        <meta name="description" content="From the time when smartphones were introduced in the market or in the technological field, they only evolved. It is no longer a luxury to have a smartphone, but it has become necessary for all fields like education, business, gaming, and traveling." />
       </Head>
 
       <MainLayout>

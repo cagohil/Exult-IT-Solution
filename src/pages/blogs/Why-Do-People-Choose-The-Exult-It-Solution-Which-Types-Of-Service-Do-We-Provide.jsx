@@ -19,7 +19,7 @@ function WhyDoPeopleChoose() {
     <>
       <Head>
         <title>Why Do People Choose The Exult It Solution? Which Types Of Service Do We Provide?</title>
-        <meta name="DESCRIPTION" content="When it comes to IT services in the Industry, no one can match the quality of work and services like Exult IT Solution. We serve in various sectors from web development to extensive technology development such as artificial intelligence, augmentation intelligence, custom CRM software development, and mobile applications. Our team of professionals is committed to providing you with the most value for your money, and they stay up to date on the newest technologies to keep you ahead of the competition. Now let’s have a glimpse at the services we provide." />
+        <meta name="description" content="When it comes to IT services in the Industry, no one can match the quality of work and services like Exult IT Solution. We serve in various sectors from web development to extensive technology development such as artificial intelligence, augmentation intelligence, custom CRM software development, and mobile applications. Our team of professionals is committed to providing you with the most value for your money, and they stay up to date on the newest technologies to keep you ahead of the competition. Now let’s have a glimpse at the services we provide." />
       </Head>
 
       <MainLayout>

@@ -19,7 +19,7 @@ function WhyWebsiteDesignDevelopmentIsEssential() {
     <>
       <Head>
         <title>Why Website Design & Development Is Essential And How It Helps In Making Your Business Profitable?</title>
-        <meta name="DESCRIPTION" content="In this digital era, if you are not utilizing the power of the Internet, you are possibly keeping yourself back in the competitive market. Website development and design are not to be missed. Website development is a means to make people aware of the services and goods you’re offering and to help them understand why they should buy or use your items in the first place." />
+        <meta name="description" content="In this digital era, if you are not utilizing the power of the Internet, you are possibly keeping yourself back in the competitive market. Website development and design are not to be missed. Website development is a means to make people aware of the services and goods you’re offering and to help them understand why they should buy or use your items in the first place." />
       </Head>
 
       <MainLayout>

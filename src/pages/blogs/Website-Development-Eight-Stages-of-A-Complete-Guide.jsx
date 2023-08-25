@@ -19,7 +19,7 @@ function WebsiteDevelopmentStages() {
     <>
       <Head>
         <title>Website Development – 8 Stages of A Complete Guide</title>
-        <meta name="DESCRIPTION" content="The foremost and fundamental step in the website development process is collecting the necessary information. Before jumping into the technicalities, first, understand the objective of a company. Whether businesses want to make money by selling goods and services? Or do they wish to focus on your web appearance and boost branding? One needs some research on your target audience to proceed further." />
+        <meta name="description" content="The foremost and fundamental step in the website development process is collecting the necessary information. Before jumping into the technicalities, first, understand the objective of a company. Whether businesses want to make money by selling goods and services? Or do they wish to focus on your web appearance and boost branding? One needs some research on your target audience to proceed further." />
       </Head>
 
       <MainLayout>

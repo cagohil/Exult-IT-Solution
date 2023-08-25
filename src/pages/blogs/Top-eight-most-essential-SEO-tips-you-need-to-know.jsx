@@ -19,7 +19,7 @@ function TopmostEssentialSEOTips() {
     <>
       <Head>
         <title>Top 8 Essential SEO Tips For Your Website That You Must Know"</title>
-        <meta name="DESCRIPTION" content="Website optimization for all types of devices is crucial to increase user experience. A well-navigated site helps both search engines and visitors to identify it. It allows customers to look for products in the least amount of time." />
+        <meta name="description" content="Website optimization for all types of devices is crucial to increase user experience. A well-navigated site helps both search engines and visitors to identify it. It allows customers to look for products in the least amount of time." />
       </Head>
 
       <MainLayout>
