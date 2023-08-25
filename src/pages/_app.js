@@ -7,6 +7,7 @@ import navbarScrollEffect from "@common/navbarScrollEffect";
 import Footer from "@components/Footer/Footer";
 import "../styles/globals.css";
 import "../styles/preloader.css";
+import FacebookMsg from "@components/FacebookMsg";
 
 export default function App({ Component, pageProps }) {
   const navbarRef = useRef(null);
@@ -56,6 +57,7 @@ export default function App({ Component, pageProps }) {
       <TopNav style="5" />
       <Navbar navbarRef={navbarRef} />
       <Component {...pageProps} />
+      <FacebookMsg />
       <Footer noWave />
       <Script strategy="beforeInteractive" src="/assets/js/lib/pace.js"></Script>
       <Script strategy="beforeInteractive" src="/assets/js/lib/bootstrap.bundle.min.js"></Script>
