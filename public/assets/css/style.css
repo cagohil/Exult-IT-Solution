@@ -11559,13 +11559,13 @@ footer.style-15 {
     -ms-transform: rotate(-45deg);
     transform: rotate(-45deg); }
   .blog-page.style-5 .blog-details-slider .swiper-button-next, .blog-page.style-5 .blog-details-slider .swiper-container-rtl .swiper-button-prev {
-    right: -35px; }
+    right: -30px; }
   .blog-page.style-5 .blog-details-slider .swiper-button-next::after, .blog-page.style-5 .blog-details-slider .swiper-container-rtl .swiper-button-prev::after {
     font-size: 14px;
     margin-right: 20px;
     margin-top: 23px; }
   .blog-page.style-5 .blog-details-slider .swiper-button-prev, .blog-page.style-5 .blog-details-slider .swiper-container-rtl .swiper-button-next {
-    left: -35px; }
+    left: -30px; }
   .blog-page.style-5 .blog-details-slider .swiper-button-prev::after, .blog-page.style-5 .blog-details-slider .swiper-container-rtl .swiper-button-next::after {
     font-size: 14px;
     margin-left: 25px;

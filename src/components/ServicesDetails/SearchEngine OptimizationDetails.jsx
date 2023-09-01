@@ -10,7 +10,7 @@ const Details = () => {
           <div className="col-lg-8">
               <div className="main-info">
                 <div className="main-img img-cover">
-                  <img src="/assets/img/projects/searchEngineOptimization.jpg" style={{width:"auto"}} alt="" />
+                  <img src="/assets/img/projects/searchEngineOptimization.jpg" alt="" />
                 </div>
                 <h3 className="text-capitalize mb-20"> Search Engine Optimization </h3>
                 <p className="mb-10">
