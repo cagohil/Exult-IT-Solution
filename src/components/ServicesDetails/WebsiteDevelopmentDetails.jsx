@@ -24,7 +24,7 @@ const Details = () => {
                 </p>
 
 
-                <h3 className="text-capitalize mb-20"> Our Services </h3>
+                <h3 className="text-capitalize mb-20"> Our Expertise </h3>
                 <p className="mb-10">
                   From ideating that little plan to finally launching your website, our experienced team does it all.
                 </p>

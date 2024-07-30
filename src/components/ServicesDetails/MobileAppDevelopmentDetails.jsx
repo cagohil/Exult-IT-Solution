@@ -96,7 +96,7 @@ const Details = () => {
                 <h4 className="text-capitalize mb-20"> why should you choose us? </h4>
                 <p className="mt-10"> <i className="fas fa-check-circle color-blue5 me-2"></i> <strong className="color-000 "> Expert team </strong></p>
                 <p className="mb-10">
-                Our team at Exult IT SolutionsExult IT Solutions consists of highly qualified professionals rich in experience in their respective fields.
+                Our team at Exult IT Solution consists of highly qualified professionals rich in experience in their respective fields.
                 </p>
                 <p className="mt-10"> <i className="fas fa-check-circle color-blue5 me-2"></i> <strong className="color-000 "> Commitment to our clients </strong></p>
                 <p className="mb-10">
