@@ -1,0 +1,220 @@
+{
+  "groups": [
+    {
+      "id": "frontend",
+      "title": "Frontend",
+      "items": [
+        {
+          "name": "iOS",
+          "image": "/assets/img/tech/frontend/iOS.svg"
+        },
+        {
+          "name": "Android",
+          "image": "/assets/img/tech/frontend/Android.svg"
+        },
+        {
+          "name": "React JS",
+          "image": "/assets/img/tech/frontend/React.svg"
+        },
+        {
+          "name": "React Native",
+          "image": "/assets/img/tech/frontend/ReactNative.svg"
+        },
+        {
+          "name": "WPF",
+          "image": "/assets/img/tech/frontend/WPF.svg"
+        },
+        {
+          "name": "JavaScript",
+          "image": "/assets/img/tech/frontend/JavaScript.svg"
+        },
+        {
+          "name": "AngularJS",
+          "image": "/assets/img/tech/frontend/AngularJS.svg"
+        },
+        {
+          "name": "Electron",
+          "image": "/assets/img/tech/frontend/Electron.svg"
+        },
+        {
+          "name": "Native",
+          "image": "/assets/img/tech/frontend/Native.svg"
+        },
+        {
+          "name": "TypeScript",
+          "image": "/assets/img/tech/frontend/TypeScript.svg"
+        },
+        {
+          "name": "Vue",
+          "image": "/assets/img/tech/frontend/Vue.svg"
+        }
+      ]
+    },
+    {
+      "id": "backend",
+      "title": "Backend",
+      "items": [
+        {
+          "name": "AspNET",
+          "image": "/assets/img/tech/backend/AspNET.svg"
+        },
+        {
+          "name": "NETCore",
+          "image": "/assets/img/tech/backend/NETCore.svg"
+        },
+        {
+          "name": "NodeJS",
+          "image": "/assets/img/tech/backend/NodeJS.svg"
+        },
+        {
+          "name": "Python",
+          "image": "/assets/img/tech/backend/Python.svg"
+        },
+        {
+          "name": "Java",
+          "image": "/assets/img/tech/backend/Java.svg"
+        },
+        {
+          "name": "PHP",
+          "image": "/assets/img/tech/backend/PHP.svg"
+        }
+      ]
+    },
+    {
+      "id": "databases",
+      "title": "Databases",
+      "items": [
+        {
+          "name": "MySQL",
+          "image": "/assets/img/tech/databases/MySQL.svg"
+        },
+        {
+          "name": "PostageSQL",
+          "image": "/assets/img/tech/databases/PostageSQL.svg"
+        },
+        {
+          "name": "SQLServer",
+          "image": "/assets/img/tech/databases/SQLServer.svg"
+        },
+        {
+          "name": "MongoDB",
+          "image": "/assets/img/tech/databases/MongoDB.svg"
+        },
+        {
+          "name": "Redis",
+          "image": "/assets/img/tech/databases/Redis.svg"
+        },
+        {
+          "name": "Oracle",
+          "image": "/assets/img/tech/databases/Oracle.svg"
+        },
+        {
+          "name": "Firebase",
+          "image": "/assets/img/tech/databases/Firebase.svg"
+        },
+        {
+          "name": "ElasticSearch",
+          "image": "/assets/img/tech/databases/ElasticSearch.svg"
+        }
+      ]
+    },
+    {
+      "id": "cloud",
+      "title": "Clouds",
+      "items": [
+        {
+          "name": "AWS",
+          "image": "/assets/img/tech/cloud/AWS.svg"
+        },
+        {
+          "name": "Azure",
+          "image": "/assets/img/tech/cloud/Azure.svg"
+        },
+        {
+          "name": "Google cloud",
+          "image": "/assets/img/tech/cloud/GoogleCloud.svg"
+        },
+        {
+          "name": "Docker",
+          "image": "/assets/img/tech/cloud/Docker.svg"
+        },
+        {
+          "name": "Twilio",
+          "image": "/assets/img/tech/cloud/twilio.svg"
+        }
+      ]
+    },
+    {
+      "id": "devops",
+      "title": "DevOps",
+      "items": [
+        {
+          "name": "CircleCI",
+          "image": "/assets/img/tech/devops/CircleCI.svg"
+        },
+        {
+          "name": "TravisCI",
+          "image": "/assets/img/tech/devops/TravisCI.svg"
+        },
+        {
+          "name": "gradle",
+          "image": "/assets/img/tech/devops/gradle.svg"
+        }
+      ]
+    },
+    {
+      "id": "cms",
+      "title": "CMS",
+      "items": [
+        {
+          "name": "Wordpress",
+          "image": "/assets/img/tech/cms/Wordpress.svg"
+        },
+        {
+          "name": "Canvas",
+          "image": "/assets/img/tech/cms/Canvas.svg"
+        },
+        {
+          "name": "Shopify",
+          "image": "/assets/img/tech/cms/Shopify.svg"
+        }
+      ]
+    },
+    {
+      "id": "testing",
+      "title": "Testing Tools",
+      "items": [
+        {
+          "name": "SoupUI",
+          "image": "/assets/img/tech/testing/SoupUI.svg"
+        },
+        {
+          "name": "Appium",
+          "image": "/assets/img/tech/testing/Appium.svg"
+        },
+        {
+          "name": "JMeter",
+          "image": "/assets/img/tech/testing/JMeter.svg"
+        }
+      ]
+    },
+    {
+      "id": "source",
+      "title": "Source Tools",
+      "items": [
+        {
+          "name": "GitHub",
+          "image": "/assets/img/tech/SourceTool/GitHub.svg"
+        },
+        {
+          "name": "Bitbucket",
+          "image": "/assets/img/tech/SourceTool/Bitbucket.svg"
+        },
+        {
+          "name": "gitlab",
+          "image": "/assets/img/tech/SourceTool/gitlab.svg"
+        }
+      ]
+    }
+  ]
+}
