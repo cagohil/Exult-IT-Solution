@@ -15,33 +15,33 @@ export default function TechnologiesPage() {
   return (
     <>
       <PageHero
-        title="The instruments we navigate by"
-        lead={`${total} proven technologies across eight disciplines. We pick the right tool for your project, not the trendiest one.`}
+        title="Our technology stack"
+        lead={`${total} proven technologies across eight disciplines. We choose the right tool for your project, not the trendiest one.`}
         crumbs={[{ label: "Technologies" }]}
       >
         <nav aria-label="Jump to discipline" className="mt-8 flex flex-wrap gap-2">
           {techGroups.map((g) => (
-            <a key={g.id} href={`#${g.id}`} className="rounded-[2px] px-3 py-2 text-sm font-semibold text-foam shadow-[inset_0_0_0_1px_rgba(234,243,255,.3)] hover:shadow-[inset_0_0_0_1px_#eaf3ff]">
+            <a key={g.id} href={`#${g.id}`} className="rounded-full bg-white px-4 py-2 text-sm font-medium text-ink-2 ring-1 ring-line-strong hover:text-brand hover:ring-brand-100">
               {g.title}
             </a>
           ))}
         </nav>
       </PageHero>
-      <div className="bg-chart py-12 md:py-16">
-        <div className="container-chart">
+      <div className="bg-white py-12 md:py-16">
+        <div className="container-x">
           {techGroups.map((g) => (
-            <section key={g.id} id={g.id} aria-labelledby={`${g.id}-t`} className="grid scroll-mt-24 gap-6 border-b border-rule py-10 last:border-b-0 md:grid-cols-[16rem_minmax(0,1fr)] md:gap-12">
+            <section key={g.id} id={g.id} aria-labelledby={`${g.id}-t`} className="grid scroll-mt-24 gap-6 border-b border-line py-10 last:border-b-0 md:grid-cols-[15rem_minmax(0,1fr)] md:gap-12">
               <div>
-                <h2 id={`${g.id}-t`} className="font-display text-4xl font-extrabold leading-none text-ink">
+                <h2 id={`${g.id}-t`} className="text-2xl font-semibold tracking-[-0.03em] text-ink">
                   {g.title}
                 </h2>
-                <p className="coord mt-2 text-ink-3">{g.items.length} in use</p>
+                <p className="mt-1 text-sm text-ink-3">{g.items.length} technologies</p>
               </div>
-              <ul className="grid grid-cols-2 gap-2 sm:grid-cols-3 lg:grid-cols-4">
+              <ul className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
                 {g.items.map((t) => (
-                  <li key={t.name} className="flex h-20 items-center gap-3.5 rounded-[2px] border border-rule bg-paper px-4">
-                    <Image src={t.image} alt="" width={40} height={40} className="h-9 w-9 shrink-0 object-contain" />
-                    <span className="font-semibold leading-tight text-ink">{t.name}</span>
+                  <li key={t.name} className="flex h-20 items-center gap-3.5 rounded-2xl border border-line bg-white px-4 transition-[border-color,box-shadow] hover:border-brand-100 hover:shadow-[var(--shadow-card)]">
+                    <Image src={t.image} alt="" width={166} height={94} className="-mx-3 h-12 w-auto shrink-0" />
+                    <span className="font-medium leading-tight text-ink">{t.name}</span>
                   </li>
                 ))}
               </ul>

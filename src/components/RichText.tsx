@@ -15,9 +15,8 @@ export function Inline({ text }: { text: string }) {
     if (m[1]) out.push(<strong key={i++}>{m[1]}</strong>);
     else {
       const href = m[3];
-      const internal = href.startsWith("/");
       out.push(
-        internal ? (
+        href.startsWith("/") ? (
           <Link key={i++} href={href.endsWith("/") ? href : `${href}/`}>
             {m[2]}
           </Link>
@@ -34,7 +33,6 @@ export function Inline({ text }: { text: string }) {
   return <>{out}</>;
 }
 
-/** A paragraph that is only a bold run reads as a sub-heading term. */
 const isTerm = (t: string) => /^\*\*[^*]+\*\*:?$/.test(t.trim());
 
 export function RichText({ blocks }: { blocks: Block[] }) {
@@ -62,12 +60,22 @@ export function RichText({ blocks }: { blocks: Block[] }) {
     flush(i);
     if (b.type === "img") {
       nodes.push(
-        <figure key={i} className="my-8 overflow-hidden rounded-[2px] border border-rule">
+        <figure key={i} className="my-8 overflow-hidden rounded-2xl border border-line">
           <Image src={b.src} alt={b.alt ?? ""} width={1200} height={700} className="h-auto w-full" />
         </figure>,
       );
-    } else if (b.type === "h2") nodes.push(<h2 key={i}><Inline text={b.text} /></h2>);
-    else if (b.type === "h3") nodes.push(<h3 key={i}><Inline text={b.text} /></h3>);
+    } else if (b.type === "h2")
+      nodes.push(
+        <h2 key={i}>
+          <Inline text={b.text} />
+        </h2>,
+      );
+    else if (b.type === "h3")
+      nodes.push(
+        <h3 key={i}>
+          <Inline text={b.text} />
+        </h3>,
+      );
     else if (isTerm(b.text))
       nodes.push(
         <span key={i} className="lead-term">

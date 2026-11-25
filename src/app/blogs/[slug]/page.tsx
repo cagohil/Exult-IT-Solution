@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
-import { ArrowLeft } from "lucide-react";
+import { ArrowLeft, Clock } from "lucide-react";
 import CtaBand from "@/components/CtaBand";
 import { RichText } from "@/components/RichText";
 import { blogs, getBlog, type Block } from "@/lib/content";
@@ -34,31 +34,39 @@ export default async function BlogPost({ params }: PageProps<"/blogs/[slug]">) {
   return (
     <>
       <article>
-        <header className="bg-night pb-0 pt-32 text-foam md:pt-40">
-          <div className="container-chart">
-            <Link href="/blog/" className="inline-flex items-center gap-1.5 text-sm text-mist hover:text-white">
-              <ArrowLeft aria-hidden className="h-4 w-4" /> All articles
-            </Link>
-            <p className="mt-6 text-sm font-semibold text-shoal">
-              {b.category} · {minutes(b.blocks)} min read
-            </p>
-            <h1 className="display mt-3 max-w-[22ch] text-[clamp(2.4rem,1.5rem+3.6vw,5rem)] text-white">{b.title}</h1>
+        <header className="relative -mt-[4.5rem] overflow-hidden pt-[4.5rem]">
+          <div className="mesh opacity-60" aria-hidden="true">
+            <span />
+            <span />
+            <span />
           </div>
-          <div className="container-chart mt-12">
-            <div className="relative -mb-24 aspect-[21/9] overflow-hidden rounded-[2px] bg-lake md:-mb-40">
-              <Image src={b.image} alt="" fill priority sizes="(min-width: 1344px) 1264px, 100vw" className="object-cover" />
+          <div className="container-x relative pt-12 md:pt-16">
+            <div className="mx-auto max-w-[52rem] text-center">
+              <Link href="/blog/" className="inline-flex items-center gap-1.5 text-sm font-medium text-ink-3 hover:text-brand">
+                <ArrowLeft aria-hidden className="h-4 w-4" /> All articles
+              </Link>
+              <p className="mt-6 flex items-center justify-center gap-3 text-sm text-ink-3">
+                <span className="rounded-full bg-brand-50 px-3 py-1 text-xs font-semibold text-brand">{b.category}</span>
+                <span className="flex items-center gap-1.5">
+                  <Clock aria-hidden className="h-4 w-4" /> {minutes(b.blocks)} min read
+                </span>
+              </p>
+              <h1 className="h-display mt-5 text-[clamp(2.2rem,1.5rem+2.8vw,3.75rem)] text-ink">{b.title}</h1>
+            </div>
+            <div className="relative mx-auto mt-12 aspect-[21/9] max-w-[64rem] overflow-hidden rounded-3xl border border-line bg-subtle shadow-[var(--shadow-float)]">
+              <Image src={b.image} alt="" fill priority sizes="(min-width: 1024px) 1024px, 100vw" className="object-cover" />
             </div>
           </div>
         </header>
-        <div className="bg-paper pb-20 pt-32 md:pb-28 md:pt-52">
-          <div className="container-chart">
-            <div className="prose-chart mx-auto">
+        <div className="bg-white py-14 md:py-20">
+          <div className="container-x">
+            <div className="prose-x mx-auto">
               <RichText blocks={b.blocks} />
             </div>
             {b.tags.length > 0 && (
-              <ul className="mx-auto mt-12 flex max-w-[68ch] flex-wrap gap-2 border-t border-rule pt-6" aria-label="Tags">
+              <ul className="mx-auto mt-12 flex max-w-[70ch] flex-wrap gap-2 border-t border-line pt-6" aria-label="Tags">
                 {b.tags.map((t) => (
-                  <li key={t} className="rounded-[2px] bg-chart px-3 py-1.5 text-sm text-ink-2">
+                  <li key={t} className="rounded-full bg-subtle px-3 py-1.5 text-sm text-ink-2 ring-1 ring-line">
                     {t}
                   </li>
                 ))}
@@ -68,19 +76,19 @@ export default async function BlogPost({ params }: PageProps<"/blogs/[slug]">) {
         </div>
       </article>
 
-      <section aria-labelledby="more-title" className="border-t border-rule bg-chart py-16 md:py-20">
-        <div className="container-chart">
-          <h2 id="more-title" className="display text-[clamp(2rem,1.5rem+2vw,3.2rem)] text-ink">
+      <section aria-labelledby="more-title" className="border-t border-line bg-subtle py-16 md:py-20">
+        <div className="container-x">
+          <h2 id="more-title" className="h-section text-ink">
             Keep reading
           </h2>
-          <ul className="mt-8 grid gap-8 md:grid-cols-3">
+          <ul className="mt-8 grid gap-6 md:grid-cols-3">
             {more.map((p) => (
               <li key={p.slug}>
-                <Link href={`/blogs/${p.slug}/`} className="group block">
-                  <div className="relative aspect-[16/10] overflow-hidden rounded-[2px] bg-lake">
+                <Link href={`/blogs/${p.slug}/`} className="card group block h-full overflow-hidden">
+                  <div className="relative aspect-[16/10] overflow-hidden bg-subtle">
                     <Image src={p.image} alt="" fill sizes="(min-width: 768px) 30vw, 100vw" className="object-cover transition-transform duration-700 group-hover:scale-[1.04]" />
                   </div>
-                  <h3 className="mt-4 font-display text-2xl font-extrabold leading-[1.02] text-ink group-hover:text-brand">{p.title}</h3>
+                  <h3 className="p-5 font-semibold leading-snug tracking-[-0.02em] text-ink group-hover:text-brand">{p.title}</h3>
                 </Link>
               </li>
             ))}

@@ -1,15 +1,15 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, CheckCircle2, Target, Handshake, MapPin, Phone, Mail } from "lucide-react";
 import PageHero from "@/components/PageHero";
 import CtaBand from "@/components/CtaBand";
-import { offices } from "@/lib/site";
+import { office, site } from "@/lib/site";
 import { services, testimonials } from "@/lib/content";
 
 export const metadata: Metadata = {
   title: "About Us",
   description:
-    "Exult IT Solution is a software development and IT services company in Macomb, Michigan and Sarnia, Ontario. IT consulting, application development, maintenance, AWS setup and remote database administration.",
+    "Exult IT Solution is a software development and IT services company in Macomb, Michigan. IT consulting, application development, maintenance, AWS setup and remote database administration.",
   alternates: { canonical: "/about-us/" },
 };
 
@@ -30,17 +30,17 @@ export default function AboutPage() {
     <>
       <PageHero
         title="Your idea. Our expert hands."
-        lead="We are a software development and IT services company with over two decades of experience, and expert hands in many technologies, turning ideas into products that succeed."
+        lead="We are a software development and IT services company in Macomb, Michigan, with over two decades of experience and deep expertise across many technologies."
         crumbs={[{ label: "About" }]}
       />
 
-      <section aria-labelledby="why-title" className="bg-paper py-16 md:py-24">
-        <div className="container-chart grid gap-12 lg:grid-cols-[minmax(0,1.2fr)_minmax(0,1fr)] lg:gap-20">
+      <section aria-labelledby="why-title" className="bg-white py-16 md:py-24">
+        <div className="container-x grid gap-12 lg:grid-cols-[minmax(0,1.15fr)_minmax(0,1fr)] lg:gap-20">
           <div>
-            <h2 id="why-title" className="display text-[clamp(2.4rem,1.6rem+3vw,4.25rem)] text-ink">
+            <h2 id="why-title" className="h-section text-ink">
               Why choose us?
             </h2>
-            <div className="mt-8 max-w-[62ch] space-y-5 text-lg leading-relaxed text-ink-2">
+            <div className="mt-7 max-w-[62ch] space-y-5 text-lg leading-relaxed text-ink-2">
               <p>
                 Exult IT Solution is a software development and IT services company. We provide IT consulting, application and software development and customization, application maintenance, and AWS server setup and configuration. We also deliver API development, mobile and web apps, and remote database administration.
               </p>
@@ -48,12 +48,12 @@ export default function AboutPage() {
               <p>Our multi-level approach and world-class standards make us a strong choice for a growth-oriented business.</p>
             </div>
           </div>
-          <div>
-            <h3 className="font-display text-2xl font-extrabold text-ink">What we do</h3>
-            <ul className="mt-4 border-t border-rule">
+          <div className="card p-7">
+            <h3 className="text-lg font-semibold text-ink">What we do</h3>
+            <ul className="mt-5 grid gap-3">
               {capabilities.map((c) => (
-                <li key={c} className="flex items-center gap-3 border-b border-rule py-3 text-ink">
-                  <span aria-hidden className="h-2.5 w-2.5 rounded-full border-2 border-brand" />
+                <li key={c} className="flex items-center gap-3 text-ink-2">
+                  <CheckCircle2 aria-hidden className="h-5 w-5 shrink-0 text-brand" />
                   {c}
                 </li>
               ))}
@@ -62,76 +62,83 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section aria-label="Goal and philosophy" className="bg-deep py-16 text-foam md:py-24">
-        <div className="container-chart grid gap-12 md:grid-cols-2 md:gap-16">
-          <div className="border-t border-white/20 pt-6">
-            <h2 className="font-display text-5xl font-extrabold leading-none text-white">Our goal</h2>
-            <p className="mt-5 max-w-[46ch] text-lg leading-relaxed text-mist">
-              To keep a friendly, healthy professional relationship by understanding the current and future needs of your business in a globalized world.
-            </p>
-          </div>
-          <div className="border-t border-white/20 pt-6">
-            <h2 className="font-display text-5xl font-extrabold leading-none text-white">Our philosophy</h2>
-            <p className="mt-5 max-w-[46ch] text-lg leading-relaxed text-mist">
-              We build an active, two-way relationship with every client and help whenever they need us. Efficient work habits mean solutions are delivered as early as possible.
-            </p>
-          </div>
+      <section aria-label="Goal and philosophy" className="bg-subtle py-16 md:py-24">
+        <div className="container-x grid gap-6 md:grid-cols-2">
+          {[
+            { Icon: Target, t: "Our goal", d: "To keep a friendly, healthy professional relationship by understanding the current and future needs of your business in a globalized world." },
+            { Icon: Handshake, t: "Our philosophy", d: "We build an active, two-way relationship with every client and help whenever they need us. Efficient work habits mean solutions are delivered as early as possible." },
+          ].map(({ Icon, t, d }) => (
+            <div key={t} className="card p-8 md:p-10">
+              <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-brand-50 text-brand ring-1 ring-brand-100">
+                <Icon aria-hidden className="h-6 w-6" />
+              </span>
+              <h2 className="mt-6 text-2xl font-semibold tracking-[-0.03em] text-ink">{t}</h2>
+              <p className="mt-3 text-lg leading-relaxed text-ink-2">{d}</p>
+            </div>
+          ))}
         </div>
       </section>
 
-      <section aria-labelledby="offices-title" className="bg-chart py-16 md:py-24">
-        <div className="container-chart">
-          <h2 id="offices-title" className="display text-[clamp(2.4rem,1.6rem+3vw,4.25rem)] text-ink">
-            Two offices, one river apart
-          </h2>
-          <div className="mt-10 grid gap-6 md:grid-cols-2">
-            {offices.map((o) => (
-              <address key={o.id} className="neatline bg-paper p-7 not-italic text-rule md:p-9">
-                <p className="coord text-brand">
-                  {o.lat} {o.lon}
-                </p>
-                <p className="mt-2 font-display text-4xl font-extrabold text-ink">{o.name}</p>
-                <p className="text-ink-3">{o.region}</p>
-                <p className="mt-5 text-ink-2">
-                  {o.lines.map((l) => (
-                    <span key={l} className="block">
-                      {l}
-                    </span>
-                  ))}
-                </p>
-                <p className="mt-4 text-ink">
-                  <a href={`mailto:${o.email}`} className="block font-semibold hover:text-brand">
-                    {o.email}
-                  </a>
-                  <a href={o.phoneHref} className="block hover:text-brand">
-                    {o.phone}
-                  </a>
-                </p>
-              </address>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <section aria-label="Client testimonial" className="bg-shallow py-16 md:py-24">
-        <figure className="container-chart">
-          <blockquote className="max-w-[30ch] font-display text-[clamp(2rem,1.3rem+2.4vw,3.6rem)] font-bold leading-[1.02] text-lake">“{quote.quote}”</blockquote>
-          <figcaption className="mt-6 text-ink">
-            <span className="font-bold">{quote.name}</span>
-            {quote.company && <span className="text-ink-2">, {quote.company}</span>}
+      <section aria-label="Client testimonial" className="bg-white py-16 md:py-24">
+        <figure className="container-x max-w-[60rem] text-center">
+          <blockquote className="text-[clamp(1.5rem,1.1rem+1.6vw,2.3rem)] font-medium leading-snug tracking-[-0.025em] text-ink">“{quote.quote}”</blockquote>
+          <figcaption className="mt-6 text-ink-2">
+            <span className="font-semibold text-ink">{quote.name}</span>
+            {quote.company && <span>, {quote.company}</span>}
           </figcaption>
         </figure>
       </section>
 
-      <section aria-labelledby="svc-title" className="bg-paper py-16 md:py-20">
-        <div className="container-chart">
-          <h2 id="svc-title" className="font-display text-3xl font-extrabold text-ink">
+      <section aria-labelledby="office-title" className="bg-subtle py-16 md:py-24">
+        <div className="container-x grid gap-8 lg:grid-cols-[minmax(0,0.8fr)_minmax(0,1.2fr)]">
+          <div className="card p-8">
+            <h2 id="office-title" className="text-2xl font-semibold tracking-[-0.03em] text-ink">
+              Visit our office
+            </h2>
+            <ul className="mt-6 space-y-4 text-ink-2">
+              <li className="flex gap-3">
+                <MapPin aria-hidden className="mt-0.5 h-5 w-5 shrink-0 text-brand" />
+                <span>
+                  {office.lines.map((l) => (
+                    <span key={l} className="block">
+                      {l}
+                    </span>
+                  ))}
+                </span>
+              </li>
+              <li>
+                <a href={site.phoneHref} className="flex gap-3 hover:text-brand">
+                  <Phone aria-hidden className="h-5 w-5 text-brand" /> {site.phone}
+                </a>
+              </li>
+              <li>
+                <a href={`mailto:${site.email}`} className="flex gap-3 hover:text-brand">
+                  <Mail aria-hidden className="h-5 w-5 text-brand" /> {site.email}
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div className="overflow-hidden rounded-3xl border border-line bg-white shadow-[var(--shadow-card)]">
+            <iframe
+              title="Map showing the Exult IT Solution office in Macomb, Michigan"
+              src={`https://www.google.com/maps?q=${office.mapQuery}&output=embed`}
+              className="h-full min-h-[20rem] w-full border-0"
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section aria-labelledby="svc-title" className="bg-white py-16 md:py-20">
+        <div className="container-x">
+          <h2 id="svc-title" className="text-2xl font-semibold tracking-[-0.03em] text-ink">
             Explore our services
           </h2>
-          <ul className="mt-6 grid gap-x-8 border-t border-rule sm:grid-cols-2 lg:grid-cols-3">
+          <ul className="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
             {services.map((s) => (
-              <li key={s.slug} className="border-b border-rule">
-                <Link href={`/services/${s.slug}/`} className="group flex items-center justify-between py-4 text-lg font-semibold text-ink hover:text-brand">
+              <li key={s.slug}>
+                <Link href={`/services/${s.slug}/`} className="card group flex items-center justify-between p-5 font-medium text-ink hover:border-brand-100 hover:text-brand">
                   {s.title}
                   <ArrowRight aria-hidden className="h-4 w-4 transition-transform group-hover:translate-x-1" />
                 </Link>

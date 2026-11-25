@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Check, Phone } from "lucide-react";
 import PageHero from "@/components/PageHero";
 import CtaBand from "@/components/CtaBand";
 import { RichText } from "@/components/RichText";
 import { getService, services } from "@/lib/content";
+import { site } from "@/lib/site";
 
 export const dynamicParams = false;
 export const generateStaticParams = () => services.map((s) => ({ slug: s.slug }));
@@ -30,46 +31,54 @@ export default async function ServicePage({ params }: PageProps<"/services/[slug
 
   return (
     <>
-      <PageHero title={s.title} lead={lead(s.summary)} crumbs={[{ label: "Services" }, { label: s.title }]} image={s.heroImage} chartRef={`Service · ${s.slug}`}>
-        <Link href={`/contact-us/?services=${s.slug}#project`} className="btn btn-primary mt-8">
-          Get a quote for {s.title.toLowerCase()} <ArrowRight aria-hidden className="h-4 w-4" />
-        </Link>
+      <PageHero title={s.title} lead={lead(s.summary)} crumbs={[{ label: "Services" }, { label: s.title }]} image={s.heroImage}>
+        <div className="mt-8 flex flex-wrap gap-3">
+          <Link href={`/contact-us/?services=${s.slug}#project`} className="btn btn-primary !min-h-12 !px-6">
+            Get a quote <ArrowRight aria-hidden className="h-4 w-4" />
+          </Link>
+          <a href={site.phoneHref} className="btn btn-outline !min-h-12 !px-6">
+            <Phone aria-hidden className="h-4 w-4" /> {site.phone}
+          </a>
+        </div>
       </PageHero>
 
-      <div className="bg-paper">
-        <div className="container-chart grid gap-14 py-16 md:py-24 lg:grid-cols-[minmax(0,1fr)_18rem] lg:gap-20">
-          <article className="prose-chart">
+      <div className="bg-white">
+        <div className="container-x grid gap-14 py-16 md:py-24 lg:grid-cols-[minmax(0,1fr)_20rem] lg:gap-20">
+          <article className="prose-x">
             <RichText blocks={s.blocks} />
           </article>
 
-          <aside className="lg:sticky lg:top-28 lg:self-start" aria-label="Other services">
-            <p className="font-display text-2xl font-extrabold text-ink">All services</p>
-            <ul className="mt-4 border-t border-rule">
-              {services.map((o) => (
-                <li key={o.slug} className="border-b border-rule">
-                  <Link
-                    href={`/services/${o.slug}/`}
-                    aria-current={o.slug === s.slug ? "page" : undefined}
-                    className={`group flex items-center justify-between gap-3 py-3 font-semibold transition-colors ${
-                      o.slug === s.slug ? "text-brand" : "text-ink hover:text-brand"
-                    }`}
-                  >
-                    <span className="flex items-center gap-3">
-                      <span
-                        aria-hidden
-                        className={`h-2.5 w-2.5 rounded-full border-2 ${o.slug === s.slug ? "border-buoy bg-buoy" : "border-ink-3 group-hover:border-brand"}`}
-                      />
+          <aside className="space-y-6 lg:sticky lg:top-28 lg:self-start" aria-label="Other services">
+            <div className="card p-3">
+              <p className="px-3 pb-2 pt-2 text-sm font-semibold text-ink">All services</p>
+              <ul>
+                {services.map((o) => (
+                  <li key={o.slug}>
+                    <Link
+                      href={`/services/${o.slug}/`}
+                      aria-current={o.slug === s.slug ? "page" : undefined}
+                      className={`flex items-center justify-between gap-3 rounded-xl px-3 py-2.5 text-[0.95rem] font-medium transition-colors ${
+                        o.slug === s.slug ? "bg-brand-50 text-brand" : "text-ink-2 hover:bg-subtle hover:text-ink"
+                      }`}
+                    >
                       {o.title}
-                    </span>
-                    <ArrowRight aria-hidden className="h-4 w-4 opacity-0 transition-opacity group-hover:opacity-100" />
-                  </Link>
-                </li>
-              ))}
-            </ul>
-            <div className="mt-8 rounded-[2px] bg-night p-6 text-foam">
-              <p className="font-display text-2xl font-extrabold text-white">Make a custom request</p>
-              <p className="mt-2 text-sm text-mist">Tell us what you need built and we&rsquo;ll come back with a plan.</p>
-              <Link href={`/contact-us/?services=${s.slug}#project`} className="btn btn-primary mt-5 w-full">
+                      <ArrowRight aria-hidden className="h-4 w-4 opacity-60" />
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div className="relative overflow-hidden rounded-2xl bg-navy p-6 text-white">
+              <div className="pointer-events-none absolute -right-16 -top-16 h-48 w-48 rounded-full bg-brand/50 blur-[60px]" aria-hidden="true" />
+              <p className="relative text-xl font-semibold tracking-[-0.02em]">Make a custom request</p>
+              <ul className="relative mt-4 space-y-2 text-sm text-[#c4d0e6]">
+                {["Tell us your goals", "Get a clear quote and timeline", "Ongoing support after launch"].map((t) => (
+                  <li key={t} className="flex items-center gap-2">
+                    <Check aria-hidden className="h-4 w-4 text-cyan" strokeWidth={3} /> {t}
+                  </li>
+                ))}
+              </ul>
+              <Link href={`/contact-us/?services=${s.slug}#project`} className="btn btn-primary relative mt-6 w-full">
                 Contact us
               </Link>
             </div>

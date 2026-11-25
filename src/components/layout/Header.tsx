@@ -3,9 +3,11 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useId, useRef, useState } from "react";
-import { ChevronDown, Menu, X, ArrowRight, Phone } from "lucide-react";
+import { ChevronDown, Menu, X, ArrowRight, Phone, Globe, Cloud, Smartphone, Users, ShoppingCart, Search } from "lucide-react";
 import Logo from "./Logo";
 import { nav, site } from "@/lib/site";
+
+const ICONS = [Globe, Cloud, Smartphone, Users, ShoppingCart, Search];
 
 export default function Header() {
   const pathname = usePathname();
@@ -17,13 +19,12 @@ export default function Header() {
   const svcRef = useRef<HTMLLIElement>(null);
 
   useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 24);
+    const onScroll = () => setScrolled(window.scrollY > 8);
     onScroll();
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  // Close menus on navigation.
   const [prevPath, setPrevPath] = useState(pathname);
   if (prevPath !== pathname) {
     setPrevPath(pathname);
@@ -52,25 +53,25 @@ export default function Header() {
     return () => document.removeEventListener("pointerdown", onDown);
   }, [svcOpen]);
 
-  const solid = scrolled && !open;
   const isActive = (href: string) => pathname === href || (href !== "/" && pathname.startsWith(href.split("/").slice(0, 2).join("/") + "/"));
+  const services = nav.find((n) => n.children)?.children ?? [];
 
   return (
     <header
-      className={`fixed inset-x-0 top-0 z-50 transition-[background-color,box-shadow,color] duration-300 ${
-        solid ? "bg-chart/92 text-ink shadow-[0_1px_0_var(--color-rule),0_10px_30px_-18px_rgba(3,21,48,.35)] backdrop-blur-md" : "text-foam"
+      className={`sticky top-0 z-50 border-b transition-[background-color,border-color,box-shadow] duration-300 ${
+        scrolled || open ? "border-line bg-white/85 shadow-[0_8px_30px_-20px_rgba(10,16,34,.25)] backdrop-blur-xl" : "border-transparent bg-white/0"
       }`}
     >
-      <a href="#main" className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-3 focus:z-[60] focus:bg-buoy focus:px-3 focus:py-2 focus:text-night">
+      <a href="#main" className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-3 focus:z-[60] focus:rounded-lg focus:bg-brand focus:px-3 focus:py-2 focus:text-white">
         Skip to content
       </a>
-      <div className="container-chart flex h-[4.5rem] items-center justify-between gap-6">
+      <div className="container-x flex h-[4.5rem] items-center justify-between gap-6">
         <Link href="/" aria-label="Exult IT Solution home" className="shrink-0">
-          <Logo tone={solid ? "dark" : "light"} />
+          <Logo className="h-11 w-auto" />
         </Link>
 
         <nav aria-label="Primary" className="hidden lg:block">
-          <ul className="flex items-center gap-1">
+          <ul className="flex items-center gap-0.5">
             {nav.map((item) =>
               item.children ? (
                 <li key={item.label} ref={svcRef} className="relative" onMouseEnter={() => setSvcOpen(true)} onMouseLeave={() => setSvcOpen(false)}>
@@ -79,33 +80,30 @@ export default function Header() {
                     aria-expanded={svcOpen}
                     aria-controls={svcId}
                     onClick={() => setSvcOpen((v) => !v)}
-                    className={`flex h-10 items-center gap-1 rounded-[2px] px-3 text-[0.94rem] font-semibold transition-colors ${
-                      pathname.startsWith("/services/") ? "text-buoy" : "hover:text-buoy"
+                    className={`flex h-10 items-center gap-1 rounded-full px-3.5 text-[0.94rem] font-medium transition-colors hover:bg-subtle ${
+                      pathname.startsWith("/services/") ? "text-brand" : "text-ink-2 hover:text-ink"
                     }`}
                   >
                     {item.label}
                     <ChevronDown aria-hidden className={`h-4 w-4 transition-transform duration-200 ${svcOpen ? "rotate-180" : ""}`} />
                   </button>
-                  <div
-                    id={svcId}
-                    hidden={!svcOpen}
-                    className="absolute left-1/2 top-full w-[22rem] -translate-x-1/2 pt-2"
-                  >
-                    <ul className="overflow-hidden rounded-[2px] border border-rule bg-paper p-1.5 text-ink shadow-[0_24px_60px_-24px_rgba(3,21,48,.45)]">
-                      {item.children.map((c) => (
-                        <li key={c.href}>
-                          <Link
-                            href={c.href}
-                            className={`group flex items-center justify-between rounded-[2px] px-3.5 py-2.5 text-[0.95rem] font-medium hover:bg-chart ${
-                              pathname === c.href ? "text-brand" : ""
-                            }`}
-                          >
-                            {c.label}
-                            <ArrowRight aria-hidden className="h-4 w-4 -translate-x-1 text-brand opacity-0 transition-all duration-200 group-hover:translate-x-0 group-hover:opacity-100" />
+                  <div id={svcId} hidden={!svcOpen} className="absolute left-0 top-full w-[38rem] pt-3">
+                    <div className="card grid grid-cols-2 gap-1 p-2 shadow-[var(--shadow-float)]">
+                      {item.children.map((c, i) => {
+                        const Icon = ICONS[i];
+                        return (
+                          <Link key={c.href} href={c.href} className={`group flex items-start gap-3 rounded-xl p-3 transition-colors hover:bg-subtle ${pathname === c.href ? "bg-brand-50" : ""}`}>
+                            <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-brand-50 text-brand ring-1 ring-brand-100 transition-colors group-hover:bg-brand group-hover:text-white">
+                              <Icon aria-hidden className="h-5 w-5" />
+                            </span>
+                            <span>
+                              <span className="block text-[0.95rem] font-semibold text-ink">{c.label}</span>
+                              <span className="block text-sm text-ink-3">{c.blurb}</span>
+                            </span>
                           </Link>
-                        </li>
-                      ))}
-                    </ul>
+                        );
+                      })}
+                    </div>
                   </div>
                 </li>
               ) : (
@@ -113,8 +111,8 @@ export default function Header() {
                   <Link
                     href={item.href}
                     aria-current={isActive(item.href) ? "page" : undefined}
-                    className={`flex h-10 items-center rounded-[2px] px-3 text-[0.94rem] font-semibold transition-colors ${
-                      isActive(item.href) ? "text-buoy" : "hover:text-buoy"
+                    className={`flex h-10 items-center rounded-full px-3.5 text-[0.94rem] font-medium transition-colors hover:bg-subtle ${
+                      isActive(item.href) ? "text-brand" : "text-ink-2 hover:text-ink"
                     }`}
                   >
                     {item.label}
@@ -126,12 +124,15 @@ export default function Header() {
         </nav>
 
         <div className="flex items-center gap-2">
+          <a href={site.phoneHref} className="hidden items-center gap-2 rounded-full px-3 text-sm font-medium text-ink-2 hover:text-ink xl:flex">
+            <Phone aria-hidden className="h-4 w-4 text-brand" /> {site.phone}
+          </a>
           <Link href="/contact-us/" className="btn btn-primary hidden !min-h-10 sm:inline-flex">
             Get a quote
           </Link>
           <button
             type="button"
-            className="inline-flex h-11 w-11 items-center justify-center rounded-[2px] lg:hidden"
+            className="inline-flex h-11 w-11 items-center justify-center rounded-full text-ink hover:bg-subtle lg:hidden"
             aria-expanded={open}
             aria-controls={menuId}
             aria-label={open ? "Close menu" : "Open menu"}
@@ -142,55 +143,39 @@ export default function Header() {
         </div>
       </div>
 
-      {/* Mobile menu */}
-      <div
-        id={menuId}
-        hidden={!open}
-        className="fixed inset-x-0 bottom-0 top-[4.5rem] overflow-y-auto bg-night text-foam lg:hidden"
-      >
-        <nav aria-label="Mobile" className="container-chart py-6">
-          <ul className="divide-y divide-white/10 border-y border-white/10">
-            <li>
-              <Link href="/" className="block py-4 font-display text-3xl font-bold">
-                Home
-              </Link>
-            </li>
-            {nav.map((item) => (
-              <li key={item.label}>
-                {item.children ? (
-                  <details className="group">
-                    <summary className="flex cursor-pointer list-none items-center justify-between py-4 font-display text-3xl font-bold">
-                      {item.label}
-                      <ChevronDown aria-hidden className="h-6 w-6 transition-transform group-open:rotate-180" />
-                    </summary>
-                    <ul className="pb-4">
-                      {item.children.map((c) => (
-                        <li key={c.href}>
-                          <Link href={c.href} className="block py-2 pl-1 text-lg text-shallow hover:text-white">
-                            {c.label}
-                          </Link>
-                        </li>
-                      ))}
-                    </ul>
-                  </details>
-                ) : (
-                  <Link href={item.href} className="block py-4 font-display text-3xl font-bold">
-                    {item.label}
+      <div id={menuId} hidden={!open} className="fixed inset-x-0 bottom-0 top-[4.5rem] overflow-y-auto bg-white lg:hidden">
+        <nav aria-label="Mobile" className="container-x py-6">
+          <p className="px-1 text-xs font-semibold uppercase tracking-wider text-ink-3">Services</p>
+          <ul className="mt-3 grid gap-1">
+            {services.map((c, i) => {
+              const Icon = ICONS[i];
+              return (
+                <li key={c.href}>
+                  <Link href={c.href} className="flex items-center gap-3 rounded-xl p-2.5 hover:bg-subtle">
+                    <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-brand-50 text-brand">
+                      <Icon aria-hidden className="h-[18px] w-[18px]" />
+                    </span>
+                    <span className="font-medium text-ink">{c.label}</span>
                   </Link>
-                )}
+                </li>
+              );
+            })}
+          </ul>
+          <ul className="mt-6 divide-y divide-line border-y border-line">
+            {[{ label: "Home", href: "/" }, ...nav.filter((n) => !n.children), { label: "Contact", href: "/contact-us/" }].map((item) => (
+              <li key={item.label}>
+                <Link href={item.href} className="flex items-center justify-between py-3.5 text-lg font-semibold text-ink">
+                  {item.label}
+                  <ArrowRight aria-hidden className="h-4 w-4 text-ink-3" />
+                </Link>
               </li>
             ))}
-            <li>
-              <Link href="/contact-us/" className="block py-4 font-display text-3xl font-bold">
-                Contact
-              </Link>
-            </li>
           </ul>
-          <div className="mt-8 flex flex-col gap-3">
+          <div className="mt-8 grid gap-3">
             <Link href="/contact-us/" className="btn btn-primary">
               Get a quote <ArrowRight aria-hidden className="h-4 w-4" />
             </Link>
-            <a href={site.phoneHref} className="btn btn-ghost-dark">
+            <a href={site.phoneHref} className="btn btn-outline">
               <Phone aria-hidden className="h-4 w-4" /> {site.phone}
             </a>
           </div>

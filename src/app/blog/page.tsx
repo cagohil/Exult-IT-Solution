@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 export default function BlogPage() {
   return (
     <>
-      <PageHero title="Notes from the chart room" lead="Practical guides on websites, mobile apps, CRM, e-commerce and search, written by our team." crumbs={[{ label: "Blog" }]} />
+      <PageHero title="Insights & guides" lead="Practical articles on websites, mobile apps, CRM, e-commerce and search, written by our team." crumbs={[{ label: "Blog" }]} />
       <BlogIndex posts={blogs.filter((b) => !b.placeholder)} />
     </>
   );
