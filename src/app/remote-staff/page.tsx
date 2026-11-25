@@ -62,7 +62,7 @@ export default function RemoteStaffPage() {
             </h2>
             <p className="max-w-[40ch] text-lg text-ink-2">We&rsquo;ll get you the right team, on time and within budget. And a lot more.</p>
           </div>
-          <ul className="mt-10 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+          <ul className="reveal-stagger mt-10 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
             {domains.map((d) => (
               <li key={d} className="rounded-2xl border border-line bg-subtle px-5 py-4 font-medium text-ink">
                 {d}
@@ -80,7 +80,7 @@ export default function RemoteStaffPage() {
           <p className="mt-5 max-w-[60ch] text-lg leading-relaxed text-ink-2">
             Whether you&rsquo;re a small business next door or a funded tech start-up, remote staffing keeps you ahead of the daily problems business throws at you. Our services are tailored to your needs and built for long-term success.
           </p>
-          <ul className="mt-12 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+          <ul className="reveal-stagger mt-12 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
             {reasons.map(({ Icon, t, d }) => (
               <li key={t} className="card p-7">
                 <Icon aria-hidden className="h-6 w-6 text-brand" />

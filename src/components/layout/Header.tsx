@@ -18,9 +18,29 @@ export default function Header() {
   const svcId = useId();
   const svcRef = useRef<HTMLLIElement>(null);
 
+  const [hidden, setHidden] = useState(false);
+
   useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 8);
-    onScroll();
+    // Hide on scroll down, reveal on scroll up. Applied below the lg breakpoint only (see className).
+    let lastY = window.scrollY;
+    let ticking = false;
+    const update = () => {
+      const y = window.scrollY;
+      const delta = y - lastY;
+      setScrolled(y > 8);
+      if (y < 80) setHidden(false);
+      else if (delta > 6) setHidden(true);
+      else if (delta < -6) setHidden(false);
+      if (Math.abs(delta) > 6 || y < 80) lastY = y;
+      ticking = false;
+    };
+    const onScroll = () => {
+      if (!ticking) {
+        ticking = true;
+        requestAnimationFrame(update);
+      }
+    };
+    update();
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
@@ -58,9 +78,9 @@ export default function Header() {
 
   return (
     <header
-      className={`sticky top-0 z-50 border-b transition-[background-color,border-color,box-shadow] duration-300 ${
+      className={`sticky top-0 z-50 border-b transition-[background-color,border-color,box-shadow,translate] duration-500 ease-[var(--ease-out-expo)] ${
         scrolled || open ? "border-line bg-white/85 shadow-[0_8px_30px_-20px_rgba(10,16,34,.25)] backdrop-blur-xl" : "border-transparent bg-white/0"
-      }`}
+      } ${hidden && !open ? "max-lg:-translate-y-full max-lg:shadow-none" : ""}`}
     >
       <a href="#main" className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-3 focus:z-[60] focus:rounded-lg focus:bg-brand focus:px-3 focus:py-2 focus:text-white">
         Skip to content

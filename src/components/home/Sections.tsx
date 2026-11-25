@@ -42,7 +42,7 @@ function Tile({ href, title, text, className = "", children }: { href: string; t
   return (
     <Link
       href={href}
-      className={`group relative flex flex-col overflow-hidden rounded-3xl border border-line bg-white p-7 shadow-[var(--shadow-card)] transition-[box-shadow,transform,border-color] duration-300 ease-[var(--ease-out-quart)] hover:-translate-y-1 hover:border-brand-100 hover:shadow-[var(--shadow-lift)] ${className}`}
+      className={`group relative flex flex-col overflow-hidden rounded-3xl border border-line bg-white p-7 shadow-[var(--shadow-card)] transition-[box-shadow,translate,border-color] duration-300 ease-[var(--ease-out-quart)] hover:-translate-y-1 hover:border-brand-100 hover:shadow-[var(--shadow-lift)] ${className}`}
     >
       <div className="relative z-10">
         <h3 className="flex items-center justify-between gap-3 text-[1.35rem] font-semibold tracking-[-0.025em] text-ink">
@@ -62,14 +62,14 @@ export function ServicesBento() {
   return (
     <section id="services" aria-labelledby="services-title" className="scroll-mt-20 bg-subtle py-20 md:py-28">
       <div className="container-x">
-        <div className="flex flex-col gap-5 md:flex-row md:items-end md:justify-between">
+        <div className="reveal flex flex-col gap-5 md:flex-row md:items-end md:justify-between">
           <h2 id="services-title" className="h-section max-w-[18ch] text-ink">
             Everything your business needs to run on technology
           </h2>
           <p className="max-w-[44ch] text-lg text-ink-2">From your first website to the cloud systems behind it, one team plans, builds and supports it all.</p>
         </div>
 
-        <div className="mt-12 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+        <div className="reveal-stagger mt-12 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
           <Tile href="/services/website-development/" title="Website Development" text="Fast, responsive websites that look sharp on every device and turn visitors into customers." className="lg:col-span-2">
             <BrowserMock className="w-full translate-y-10 transition-transform duration-500 ease-[var(--ease-out-expo)] group-hover:translate-y-6" />
           </Tile>
@@ -143,7 +143,7 @@ export function WhyExult() {
             About Exult <ArrowRight aria-hidden className="h-4 w-4" />
           </Link>
         </div>
-        <ul className="grid gap-x-10 gap-y-10 sm:grid-cols-2">
+        <ul className="reveal-stagger grid gap-x-10 gap-y-10 sm:grid-cols-2">
           {points.map(({ Icon, t, d }) => (
             <li key={t} className="border-t border-line pt-6">
               <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-brand-50 text-brand ring-1 ring-brand-100">
@@ -175,8 +175,8 @@ export function Process() {
         <h2 id="process-title" className="h-section max-w-[18ch]">
           A simple process, from first call to launch day
         </h2>
-        <ol className="relative mt-14 grid gap-10 md:grid-cols-4 md:gap-6">
-          <span aria-hidden className="absolute left-5 right-5 top-5 hidden h-px bg-gradient-to-r from-brand via-cyan to-brand/20 md:block" />
+        <ol className="reveal-stagger relative mt-14 grid gap-10 md:grid-cols-4 md:gap-6">
+          <span aria-hidden className="grow-line absolute left-5 right-5 top-5 hidden h-px bg-gradient-to-r from-brand via-cyan to-brand/20 md:block" />
           {steps.map((s, i) => (
             <li key={s.t} className="relative">
               <span className="relative flex h-10 w-10 items-center justify-center rounded-full bg-navy font-mono text-sm font-medium text-white ring-1 ring-white/25">
@@ -198,7 +198,7 @@ export function Testimonials() {
   return (
     <section aria-labelledby="reviews-title" className="bg-subtle py-20 md:py-28">
       <div className="container-x">
-        <div className="flex flex-col gap-5 md:flex-row md:items-end md:justify-between">
+        <div className="reveal flex flex-col gap-5 md:flex-row md:items-end md:justify-between">
           <h2 id="reviews-title" className="h-section max-w-[16ch] text-ink">
             What our clients say
           </h2>
@@ -211,7 +211,7 @@ export function Testimonials() {
             Every review, five stars
           </p>
         </div>
-        <ul className="mt-12 columns-1 gap-5 md:columns-2 [&>li]:mb-5 [&>li]:break-inside-avoid">
+        <ul className="reveal-stagger mt-12 columns-1 gap-5 md:columns-2 [&>li]:mb-5 [&>li]:break-inside-avoid">
           {testimonials.map((t) => (
             <li key={t.name} className="card p-7 md:p-8">
               <figure>
@@ -248,7 +248,7 @@ export function TechStack() {
   const items = techGroups.flatMap((g) => g.items);
   return (
     <section aria-labelledby="tech-title" className="bg-white py-20 md:py-24">
-      <div className="container-x flex flex-col gap-5 md:flex-row md:items-end md:justify-between">
+      <div className="reveal container-x flex flex-col gap-5 md:flex-row md:items-end md:justify-between">
         <h2 id="tech-title" className="h-section max-w-[20ch] text-ink">
           Built with {items.length} proven technologies
         </h2>
@@ -257,7 +257,7 @@ export function TechStack() {
         </Link>
       </div>
       <div className="container-x mt-10">
-        <ul className="grid grid-cols-3 gap-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8">
+        <ul className="reveal-stagger grid grid-cols-3 gap-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8">
           {items.slice(0, 24).map((t) => (
             <li key={t.name} className="group flex aspect-square flex-col items-center justify-center gap-2.5 rounded-2xl border border-line bg-white p-3 text-center transition-[border-color,box-shadow] duration-300 hover:border-brand-100 hover:shadow-[var(--shadow-card)]">
               <Image src={t.image} alt="" width={166} height={94} className="h-14 w-auto" />
@@ -278,7 +278,7 @@ export function FinalCta() {
         <div className="relative overflow-hidden rounded-[2rem] bg-brand px-6 py-12 text-white md:px-12 md:py-16">
           <div className="pointer-events-none absolute -right-24 -top-24 h-96 w-96 rounded-full bg-cyan/60 blur-[90px]" aria-hidden="true" />
           <div className="pointer-events-none absolute -bottom-32 left-1/3 h-96 w-96 rounded-full bg-violet/50 blur-[100px]" aria-hidden="true" />
-          <div className="relative grid gap-12 lg:grid-cols-[minmax(0,0.85fr)_minmax(0,1.15fr)] lg:gap-16">
+          <div className="reveal relative grid gap-12 lg:grid-cols-[minmax(0,0.85fr)_minmax(0,1.15fr)] lg:gap-16">
             <div>
               <h2 id="cta-title" className="h-section max-w-[14ch]">
                 Let&rsquo;s build something great together

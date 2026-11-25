@@ -54,12 +54,12 @@ export default function PageHero({
               </ol>
             </nav>
           )}
-          <h1 className="h-display max-w-[20ch] text-[clamp(2.4rem,1.6rem+3.2vw,4rem)] text-ink">{title}</h1>
-          {lead && <p className="mt-5 max-w-[56ch] text-lg leading-relaxed text-ink-2 md:text-xl">{lead}</p>}
+          <h1 className="rise h-display max-w-[20ch] text-[clamp(2.4rem,1.6rem+3.2vw,4rem)] text-ink">{title}</h1>
+          {lead && <p style={{ animationDelay: "0.15s" }} className="rise mt-5 max-w-[56ch] text-lg leading-relaxed text-ink-2 md:text-xl">{lead}</p>}
           {children}
         </div>
         {image && (
-          <figure className="relative aspect-[4/3] overflow-hidden rounded-3xl border border-line bg-white shadow-[var(--shadow-float)]">
+          <figure style={{ animationDelay: "0.25s" }} className="pop-in relative aspect-[4/3] overflow-hidden rounded-3xl border border-line bg-white shadow-[var(--shadow-float)]">
             <Image src={image} alt="" fill priority sizes="(min-width: 1024px) 40vw, 100vw" className="object-cover" />
           </figure>
         )}

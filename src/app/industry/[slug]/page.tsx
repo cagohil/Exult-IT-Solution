@@ -47,7 +47,7 @@ export default async function IndustryPage({ params }: PageProps<"/industry/[slu
         <div className="container-x grid gap-12 lg:grid-cols-[minmax(0,1.3fr)_minmax(0,1fr)] lg:gap-16">
           <div>
             <h2 className="h-section text-ink">What we deliver</h2>
-            <ul className="mt-8 grid gap-4">
+            <ul className="reveal-stagger mt-8 grid gap-4">
               {ind.points.map((p, i) => (
                 <li key={i} className="card flex gap-4 p-6">
                   <CheckCircle2 aria-hidden className="mt-0.5 h-6 w-6 shrink-0 text-brand" />

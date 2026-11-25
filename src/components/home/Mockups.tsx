@@ -13,7 +13,7 @@ export function BrowserMock({ className = "" }: { className?: string }) {
           <ShieldCheck aria-hidden className="h-3 w-3 text-success" /> yourbusiness.com
         </span>
       </div>
-      <div className="p-5">
+      <div className="mock-shimmer p-5">
         <div className="flex items-center justify-between">
           <span className="h-3 w-16 rounded-full bg-ink/80" />
           <span className="flex gap-2">
@@ -34,12 +34,12 @@ export function BrowserMock({ className = "" }: { className?: string }) {
               <span className="h-6 w-16 rounded-full ring-1 ring-line-strong" />
             </span>
           </div>
-          <div className="relative aspect-[4/3] overflow-hidden rounded-xl bg-gradient-to-br from-brand via-[#3d8bff] to-cyan">
+          <div className="relative aspect-[4/3] overflow-hidden rounded-xl bg-[linear-gradient(120deg,#1769ff,#3d8bff,#22b0f0,#7c5cff,#1769ff)] bg-[length:300%_300%] [animation:hue-pan_9s_ease-in-out_infinite]">
             <span className="absolute bottom-3 left-3 right-3 rounded-lg bg-white/90 p-2 shadow-sm">
               <span className="block h-2 w-2/3 rounded-full bg-ink/70" />
               <span className="mt-1.5 block h-1.5 w-1/2 rounded-full bg-line-strong" />
             </span>
-            <span className="absolute right-3 top-3 h-8 w-8 rounded-lg bg-white/30" />
+            <span className="absolute right-3 top-3 h-8 w-8 rounded-lg bg-white/30 [animation:float-y_4s_ease-in-out_infinite]" />
           </div>
         </div>
         <div className="mt-6 grid grid-cols-3 gap-3">
@@ -55,11 +55,6 @@ export function BrowserMock({ className = "" }: { className?: string }) {
 }
 
 export function PipelineMock({ className = "" }: { className?: string }) {
-  const cols = [
-    { t: "New", c: "bg-ink-3", deals: ["Lakeside Dental", "Northline Auto"] },
-    { t: "Proposal", c: "bg-warn", deals: ["Metro Supply"] },
-    { t: "Won", c: "bg-success", deals: ["Harbor Realty", "Vale Clinic"] },
-  ];
   return (
     <div className={`rounded-2xl border border-line bg-white p-4 shadow-[var(--shadow-float)] ${className}`}>
       <div className="flex items-center justify-between">
@@ -67,22 +62,39 @@ export function PipelineMock({ className = "" }: { className?: string }) {
         <span className="rounded-full bg-brand-50 px-2 py-0.5 text-[0.65rem] font-semibold text-brand">CRM</span>
       </div>
       <div className="mt-3 grid grid-cols-3 gap-2">
-        {cols.map((col) => (
-          <div key={col.t} className="rounded-lg bg-subtle p-1.5">
-            <p className="flex items-center gap-1.5 px-1 text-[0.62rem] font-semibold uppercase tracking-wide text-ink-3">
-              <span className={`h-1.5 w-1.5 rounded-full ${col.c}`} /> {col.t}
-            </p>
-            <div className="mt-1.5 grid gap-1.5">
-              {col.deals.map((d) => (
-                <span key={d} className="block rounded-md bg-white px-1.5 py-1.5 text-[0.62rem] font-medium leading-tight text-ink-2 shadow-[0_1px_2px_rgba(10,16,34,.08)]">
-                  {d}
-                </span>
-              ))}
-            </div>
-          </div>
-        ))}
+        <Column title="New" dot="bg-ink-3">
+          <Deal className="[animation:card-in_6s_1s_var(--ease-out-expo)_infinite]" name="Lakeside Dental" badge />
+          <Deal name="Northline Auto" />
+        </Column>
+        <Column title="Proposal" dot="bg-warn">
+          <Deal name="Metro Supply" />
+        </Column>
+        <Column title="Won" dot="bg-success">
+          <Deal name="Harbor Realty" className="[animation:won-flash_6s_1s_ease-in-out_infinite]" />
+          <Deal name="Vale Clinic" />
+        </Column>
       </div>
     </div>
+  );
+}
+
+function Column({ title, dot, children }: { title: string; dot: string; children: React.ReactNode }) {
+  return (
+    <div className="rounded-lg bg-subtle p-1.5">
+      <p className="flex items-center gap-1.5 px-1 text-[0.62rem] font-semibold uppercase tracking-wide text-ink-3">
+        <span className={`h-1.5 w-1.5 rounded-full ${dot}`} /> {title}
+      </p>
+      <div className="mt-1.5 grid gap-1.5">{children}</div>
+    </div>
+  );
+}
+
+function Deal({ name, className = "", badge }: { name: string; className?: string; badge?: boolean }) {
+  return (
+    <span className={`relative block rounded-md bg-white px-1.5 py-1.5 text-[0.62rem] font-medium leading-tight text-ink-2 shadow-[0_1px_2px_rgba(10,16,34,.08)] ${className}`}>
+      {name}
+      {badge && <span className="absolute -right-1 -top-1 h-2 w-2 rounded-full bg-brand ring-2 ring-white" />}
+    </span>
   );
 }
 
@@ -101,7 +113,11 @@ export function PhoneMock({ className = "" }: { className?: string }) {
             <p className="text-lg font-semibold leading-tight">24 orders</p>
             <div className="mt-2 flex h-8 items-end gap-1">
               {[40, 65, 50, 80, 60, 95, 75].map((h, i) => (
-                <span key={i} className="flex-1 origin-bottom rounded-sm bg-white/70" style={{ height: `${h}%`, animation: `bar-grow 1.2s ${0.1 * i}s var(--ease-out-expo) both` }} />
+                <span
+                  key={i}
+                  className="flex-1 origin-bottom rounded-sm bg-white/70"
+                  style={{ height: `${h}%`, animation: `eq ${2.4 + (i % 3) * 0.5}s ${0.15 * i}s ease-in-out infinite` }}
+                />
               ))}
             </div>
           </div>
@@ -109,8 +125,8 @@ export function PhoneMock({ className = "" }: { className?: string }) {
             ["#1042", "Shipped", "text-success bg-success/10"],
             ["#1041", "Packing", "text-warn bg-warn/10"],
             ["#1040", "Delivered", "text-brand bg-brand-50"],
-          ].map(([id, s, c]) => (
-            <div key={id} className="mt-2 flex items-center justify-between rounded-lg bg-subtle px-2.5 py-2">
+          ].map(([id, s, c], i) => (
+            <div key={id} className="pop-in mt-2 flex items-center justify-between rounded-lg bg-subtle px-2.5 py-2" style={{ animationDelay: `${1.2 + i * 0.18}s` }}>
               <span className="flex items-center gap-2">
                 <ShoppingBag aria-hidden className="h-3.5 w-3.5 text-ink-3" />
                 <span className="text-[0.65rem] font-semibold text-ink">Order {id}</span>
@@ -129,7 +145,7 @@ export function CloudMock({ className = "" }: { className?: string }) {
     <div className={`rounded-2xl border border-line bg-white/95 p-3.5 shadow-[var(--shadow-float)] backdrop-blur ${className}`}>
       <div className="flex items-center gap-2.5">
         <span className="relative flex h-2.5 w-2.5">
-          <span className="absolute inline-flex h-full w-full rounded-full bg-success opacity-60 [animation:blink_2s_ease-in-out_infinite]" />
+          <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-success opacity-60" />
           <span className="relative inline-flex h-2.5 w-2.5 rounded-full bg-success" />
         </span>
         <p className="text-[0.78rem] font-semibold text-ink">All systems operational</p>
@@ -139,12 +155,17 @@ export function CloudMock({ className = "" }: { className?: string }) {
           [Server, "App"],
           [Database, "Data"],
           [ShieldCheck, "Backup"],
-        ].map(([Icon, l]) => {
+        ].map(([Icon, l], i) => {
           const I = Icon as typeof Server;
           return (
-            <span key={l as string} className="flex flex-col items-center gap-1 rounded-lg bg-subtle py-2">
+            <span key={l as string} className="flex flex-col items-center gap-1 rounded-lg bg-subtle pb-1.5 pt-2">
               <I aria-hidden className="h-4 w-4 text-brand" />
               <span className="text-[0.6rem] font-medium text-ink-2">{l as string}</span>
+              <span className="flex h-3 items-end gap-[2px]" aria-hidden="true">
+                {[0, 1, 2, 3].map((b) => (
+                  <span key={b} className="w-[3px] origin-bottom rounded-full bg-brand/60" style={{ height: "100%", animation: `eq ${1.1 + b * 0.23}s ${i * 0.2 + b * 0.1}s ease-in-out infinite` }} />
+                ))}
+              </span>
             </span>
           );
         })}
@@ -155,24 +176,26 @@ export function CloudMock({ className = "" }: { className?: string }) {
 
 export function SearchMock({ className = "" }: { className?: string }) {
   return (
-    <div className={`rounded-2xl border border-line bg-white p-4 shadow-[var(--shadow-card)] ${className}`}>
+    <div className={`overflow-hidden rounded-2xl border border-line bg-white p-4 shadow-[var(--shadow-card)] ${className}`}>
       <div className="flex items-center gap-2 rounded-full bg-subtle px-3 py-2 ring-1 ring-line">
         <Search aria-hidden className="h-3.5 w-3.5 text-ink-3" />
-        <span className="text-[0.72rem] text-ink-2">it services near me</span>
+        <span className="typing text-[0.72rem] text-ink-2">it services near me</span>
       </div>
-      <div className="mt-3 rounded-lg bg-brand-50 p-2.5 ring-1 ring-brand-100">
-        <p className="flex items-center gap-1.5 text-[0.7rem] font-semibold text-brand">
-          <TrendingUp aria-hidden className="h-3.5 w-3.5" /> yourbusiness.com
-        </p>
-        <span className="mt-1.5 block h-1.5 w-11/12 rounded-full bg-brand/30" />
-        <span className="mt-1 block h-1.5 w-2/3 rounded-full bg-brand/20" />
-      </div>
-      {[0, 1].map((i) => (
-        <div key={i} className="mt-2 px-2.5 py-1">
-          <span className="block h-1.5 w-1/2 rounded-full bg-line-strong" />
-          <span className="mt-1.5 block h-1.5 w-10/12 rounded-full bg-line" />
+      <div className="relative mt-3">
+        <div className="relative z-10 rounded-lg bg-brand-50 p-2.5 ring-1 ring-brand-100 [animation:rank-up_7s_2s_var(--ease-out-expo)_infinite]">
+          <p className="flex items-center gap-1.5 text-[0.7rem] font-semibold text-brand">
+            <TrendingUp aria-hidden className="h-3.5 w-3.5" /> yourbusiness.com
+          </p>
+          <span className="mt-1.5 block h-1.5 w-11/12 rounded-full bg-brand/30" />
+          <span className="mt-1 block h-1.5 w-2/3 rounded-full bg-brand/20" />
         </div>
-      ))}
+        {[0, 1].map((i) => (
+          <div key={i} className="mt-2 px-2.5 py-1">
+            <span className="block h-1.5 w-1/2 rounded-full bg-line-strong" />
+            <span className="mt-1.5 block h-1.5 w-10/12 rounded-full bg-line" />
+          </div>
+        ))}
+      </div>
     </div>
   );
 }

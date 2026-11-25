@@ -31,10 +31,9 @@ export async function verifyTurnstile(token: string, ip?: string | null): Promis
 const CHALLENGE_TTL_MS = 20 * 60 * 1000;
 
 function secret(): string {
-  const s = process.env.CAPTCHA_SECRET || process.env.TURNSTILE_SECRET_KEY || process.env.SMTP_PASS;
+  const s = process.env.CAPTCHA_SECRET || process.env.CAPTCHA_BUILD_SECRET;
   if (s) return s;
-  if (process.env.NODE_ENV !== "production") return "exult-dev-only-captcha-secret";
-  throw new Error("CAPTCHA_SECRET is not configured");
+  throw new Error("No captcha secret available");
 }
 
 const sign = (payload: string) => createHmac("sha256", secret()).update(payload).digest("base64url");
