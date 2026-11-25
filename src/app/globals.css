@@ -270,6 +270,9 @@
 }
 
 @keyframes art-spin { to { transform: rotate(360deg); } }
+@keyframes art-dash { to { stroke-dashoffset: -28; } }
+.art-flow { stroke-dasharray: 6 8; animation: art-dash 1.4s linear infinite; }
+@media (prefers-reduced-motion: reduce) { .art-packet { display: none; } }
 @keyframes art-pulse { 0%, 100% { transform: scale(1); opacity: 1; } 50% { transform: scale(1.12); opacity: 0.8; } }
 @keyframes draw-line { 0% { stroke-dashoffset: 200; } 45%, 80% { stroke-dashoffset: 0; } 100% { stroke-dashoffset: -200; } }
 
