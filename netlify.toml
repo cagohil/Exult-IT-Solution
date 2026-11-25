@@ -9,3 +9,7 @@
 # src/app/api/contact/route.ts into a function so nodemailer can run.
 [[plugins]]
   package = "@netlify/plugin-nextjs"
+
+# Allow Netlify's image CDN to optimize the Unsplash industry photos.
+[images]
+  remote_images = ['https://images.unsplash.com/photo-.*']

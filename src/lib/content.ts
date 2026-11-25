@@ -63,6 +63,8 @@ export const serviceShort: Record<string, string> = {
   "cloud-computing-services": "Cloud",
   "mobile-app-development": "Mobile apps",
   "search-engine-optimization": "SEO",
+  "data-ai-solutions": "Data & AI",
+  "erp-software-development": "ERP",
 };
 
 /** Display title tidy-up for industry names that arrive lower-cased. */

@@ -37,6 +37,8 @@ export const nav: NavItem[] = [
       { label: "CRM Software Development", href: "/services/crm-development-company/", blurb: "Custom CRM built around you" },
       { label: "E-commerce Development", href: "/services/ecommerce-web-development/", blurb: "Stores that convert" },
       { label: "Search Engine Optimization", href: "/services/search-engine-optimization/", blurb: "Get found on Google" },
+      { label: "Data & AI", href: "/services/data-ai-solutions/", blurb: "Dashboards, automation and AI" },
+      { label: "ERP Systems", href: "/services/erp-software-development/", blurb: "One system for your operations" },
     ],
   },
   { label: "Industries", href: "/industry/" },

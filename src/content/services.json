@@ -127,6 +127,368 @@
     ]
   },
   {
+    "slug": "cloud-computing-services",
+    "title": "Cloud Services",
+    "summary": "We enhance your business through all phases of your cloud adoption. We set up your cloud with data services, cloud services, security services and IT Services. Our cloud services for IT Services allow your potential and current clients to access your website portal via the internet.",
+    "image": "/assets/img/home/services/cloudServices.jpg",
+    "heroImage": "/assets/img/projects/cloudServices.jpg",
+    "metaTitle": "Cloud Computing Services - Exult It Solution",
+    "metaDescription": "Our Experts Integrate Hybrid Cloud & Cognitive Computing to add value to your business. We offer PaaS, IaaS and SaaS. We have knowledge and experience of Azure, Google cloud and AWS. It is a visible mass of a huge amount of condensed water vapours floating all around in the sky.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Our Experts Integrate Hybrid Cloud & Cognitive Computing to add value to your business. We offer PaaS, IaaS and SaaS. We have knowledge and experience of Azure, Google cloud and AWS."
+      },
+      {
+        "type": "h3",
+        "text": "What is meant by a ‘Cloud’?"
+      },
+      {
+        "type": "p",
+        "text": "It is a visible mass of a huge amount of condensed water vapours floating all around in the sky."
+      },
+      {
+        "type": "p",
+        "text": "Wait."
+      },
+      {
+        "type": "p",
+        "text": "Is that what cloud services are all about?"
+      },
+      {
+        "type": "p",
+        "text": "Absolutely not."
+      },
+      {
+        "type": "p",
+        "text": "**In the tech world, ‘cloud’** refers to the vast network of servers across the globe which are used to store and process data over the Internet. These servers essentially link together to form a single ecosystem. If we look at it broadly, the cloud is an allegory for the whole Internet as Cloud Services."
+      },
+      {
+        "type": "p",
+        "text": "**Cloud-based services for Cloud Computing Services** are a wide range of services ranging from online storage and servers to development platforms and applications. This falls under the category of Information Technology (IT) services and is completely available on the Internet. The pricing system is based on the number of services/space you use. Therefore no going overboard with your budget."
+      },
+      {
+        "type": "h3",
+        "text": "How do Cloud Services work?"
+      },
+      {
+        "type": "p",
+        "text": "Cloud services are offered by a number of cloud service providers on the Internet. These are fully managed by the service providers so that the companies do not need to store data and programs on their servers."
+      },
+      {
+        "type": "h3",
+        "text": "What are the benefits of using Cloud Services?"
+      },
+      {
+        "type": "p",
+        "text": "**Scalable**"
+      },
+      {
+        "type": "p",
+        "text": "These services utilize a huge bunch of servers spread across different locations which makes the allocation and reallocation of resources fast."
+      },
+      {
+        "type": "p",
+        "text": "**Reduced cost**"
+      },
+      {
+        "type": "p",
+        "text": "As its use can easily be modified as required, using a cloud service is cost-effective as compared to storing and accessing data through physical storage."
+      },
+      {
+        "type": "p",
+        "text": "**Easy to manage**"
+      },
+      {
+        "type": "p",
+        "text": "Taking a subscription to a cloud service is not a permanent association. It can be procured on-demand and you can easily cancel the service if you do not need it anymore. This makes it easier for the buyers to handle the services according to their requirements."
+      },
+      {
+        "type": "h3",
+        "text": "What are the type of Cloud Services Available?"
+      },
+      {
+        "type": "p",
+        "text": "Is there a single type of cloud service?"
+      },
+      {
+        "type": "p",
+        "text": "No."
+      },
+      {
+        "type": "p",
+        "text": "The most common types of cloud services offered on the Internet can be broadly classified as:"
+      },
+      {
+        "type": "h3",
+        "text": "What are the benefits of using Cloud Services?"
+      },
+      {
+        "type": "p",
+        "text": "**Platform as a Service (PaaS)**"
+      },
+      {
+        "type": "p",
+        "text": "The PaaS providers offer the necessary hardware and software required by web developers to build a cloud-based application. They provide an environment that allows the developers to control the use of their applications on the cloud throughout its lifetime."
+      },
+      {
+        "type": "p",
+        "text": "**Software as a Service (SaaS)**"
+      },
+      {
+        "type": "p",
+        "text": "It is the most widely known form of cloud service. Software as a service or SaaS comprises of various services such as cloud storage for backing up files and data, and web-based emails. This also includes several project management tools. This is offered on a periodic subscription basis."
+      },
+      {
+        "type": "p",
+        "text": "**Infrastructure as a Service (IaaS)**"
+      },
+      {
+        "type": "p",
+        "text": "In order to manage SaaS tools, many service providers require an infrastructure that is offered by IaaS service providers. Some of the giants of cloud-based services such as Amazon, Microsoft, Google, etc. offer such services."
+      },
+      {
+        "type": "p",
+        "text": "They maintain large storage servers and networking hardware while also offering several other services. The payment is done according to the total usage by the customer."
+      },
+      {
+        "type": "h3",
+        "text": "Who are the major Cloud Services providers?"
+      },
+      {
+        "type": "p",
+        "text": "Here are some of the major providers of cloud-based services for cloud services:"
+      },
+      {
+        "type": "p",
+        "text": "**Amazon Web Services (AWS)**"
+      },
+      {
+        "type": "p",
+        "text": "Amazon has become one of the largest companies in the world, with its services ranging from selling books, to Artificial Intelligence and cloud computing as well."
+      },
+      {
+        "type": "p",
+        "text": "Launched in the year 2006, Amazon Web Services (AWS) is a comprehensive cloud-based service provider. It includes all major types of cloud services namely PaaS, SaaS, and IaaS. Its pricing model is completely based on the usage of an individual customer or company. It provides a wide variety of cloud computing services for cloud computing services like cloud storage, servers, security, mobile development, etc."
+      },
+      {
+        "type": "p",
+        "text": "AWS spans over more than 240 countries across the globe."
+      },
+      {
+        "type": "p",
+        "text": "**Microsoft Azure**"
+      },
+      {
+        "type": "p",
+        "text": "The second-largest cloud-based service provider is another business giant, Microsoft."
+      },
+      {
+        "type": "p",
+        "text": "With a market share of almost 2/10th of global usage, it provides a range of services such as cloud computing, storage, data analytics, and networking. Unlike AWS, it is also compatible with open source technologies. This enables the users to freely select from these services and develop their existing as well as new applications on the public cloud. The users are only charged for the services they avail."
+      },
+      {
+        "type": "p",
+        "text": "Apart from these two major cloud service providers, there are a few Linux servers as well."
+      },
+      {
+        "type": "p",
+        "text": "These are built on the open-sourced Linux operating system. As this is open-source, the clients can deliver their content, applications, and services to their users at affordable prices. It also provides optimized data security due to several enhanced permission settings."
+      },
+      {
+        "type": "h3",
+        "text": "How can we help you?"
+      },
+      {
+        "type": "p",
+        "text": "**At Exult It Solutions,** we have expert working professionals dedicated towards finding the best solutions for your business. Our team will ensure you always get the best value for your money. We will help you determine what’s best for your business. By eliminating all the superfluous issues, we provide you with what is really required."
+      },
+      {
+        "type": "p",
+        "text": "We can manage all your IT requirements so that you can always focus on the high-value activities of your business. Choose us, and give your business the boost it needs."
+      }
+    ]
+  },
+  {
+    "slug": "mobile-app-development",
+    "title": "Mobile App Development",
+    "summary": "We have expert and adaptive technology on Mobile Applications. The Mobile Applications are continuously evolving and creating an essential requirement to upgrade your current mobile applications for the business. We propel your imagination to reality by using Big Data!",
+    "image": "/assets/img/home/services/mobileAppDevelopment.jpg",
+    "heroImage": "/assets/img/projects/mobileAppDevelopment.jpg",
+    "metaTitle": "Mobile App Development - Exult It Solution",
+    "metaDescription": "With the advent of modern technology and innovations, every item we need is being transformed into something we can fit into our pockets. The real-life theatre made its way into the television, and from there to the mobile phones. Due to mobile phones, especially smartphones, there is a rising need for businesses to acknowledge the huge potential this user base offers.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Exult has developed versatile mobile applications for different devices like Android, IOS and windows."
+      },
+      {
+        "type": "p",
+        "text": "Featuring responsive and attractive look and easy to use application."
+      },
+      {
+        "type": "p",
+        "text": "With the advent of modern technology and innovations, every item we need is being transformed into something we can fit into our pockets. The real-life theatre made its way into the television, and from there to the mobile phones. Due to mobile phones, especially smartphones, there is a rising need for businesses to acknowledge the huge potential this user base offers."
+      },
+      {
+        "type": "p",
+        "text": "So how does your business exist on a mobile phone?"
+      },
+      {
+        "type": "p",
+        "text": "Through a mobile application."
+      },
+      {
+        "type": "p",
+        "text": "Mobile Application Development for Mobile App Development Company is the process of creating a software application that a user can run on their mobile devices and take advantage of its numerous peculiar features and utilities. The mobile application is designed to provide quick access to services which the business offers."
+      },
+      {
+        "type": "p",
+        "text": "Mobile apps are extremely beneficial in optimizing business prospects. The availability of various distinctive mobile apps with exceptional services has also helped in the growth of mobile phones immensely. The virtual space has become completely app-dependent as we prefer to do almost every task using them."
+      },
+      {
+        "type": "p",
+        "text": "This arena is one of the most innovative spaces in the market that holds the prospect for the future of businesses. Mobile app development requires the service providers to have extensive knowledge and skillset to ensure they deliver ideal development services."
+      },
+      {
+        "type": "p",
+        "text": "This business is expected to shoot up to a massive $600 billion in 2020. Due to the continuous exploding popularity of smartphones and tablets, mobile application development has become an increasingly popular and intelligible medium of software creation. There are around 2.7 million apps available on Google Play Store and around 1.84 million apps available on Apple’s App Store. Mobile apps are developed by using an extensive variety of programming languages and frameworks."
+      },
+      {
+        "type": "h3",
+        "text": "Which Mobile app development services do we offer?"
+      },
+      {
+        "type": "p",
+        "text": "Google has launched this open-source Software Development Kit in 2015. This initiative was taken to develop vigorous, expansible, accessible, and innovative mobile apps by using only a single codebase. Flutter provides an exceptional tutorial guide to the developers so that even the beginners, without any experience, can learn and start with this platform without any dispute or disagreement. It has only a single coding, thus it requires less time in testing, and also, there is less risk of bugs in coding."
+      },
+      {
+        "type": "p",
+        "text": "**Apple iOS Mobile App Development**"
+      },
+      {
+        "type": "p",
+        "text": "Created by Apple Inc., iOS applications are used in many of the devices for Apple such as the iPhone, iPod, iPad, etc. This holds a middle layer between the applications and the hardware and thus, they do not communicate directly. It is a closed system, having no quality problems. Apple app store is the hub for all the iOS applications."
+      },
+      {
+        "type": "p",
+        "text": "**Google Android Mobile App Development**"
+      },
+      {
+        "type": "p",
+        "text": "The android apps are mainly designed for touchscreen mobile devices such as tablets and smartphones. There are four main layers and five important sections in which the architecture of Android is divided. Android Platform is a bit more open than that of iOS, easily permitting phone customization. Google Play Store app offers most of the android applications for an easy installation."
+      },
+      {
+        "type": "p",
+        "text": "While Apple uses iOS entirely for its own devices, Google makes Android available to other companies. In addition to that, they meet specific requirements such as including certain Google applications on the devices they ship."
+      },
+      {
+        "type": "p",
+        "text": "**Windows Platform Mobile App Development**"
+      },
+      {
+        "type": "p",
+        "text": "It contains all the Windows mobile applications like Windows Media Player, Windows office, Internet Explorer, Microsoft Windows software like Office, Outlook, and Windows Live. Internet browsing, using e-mails, handling documents, monitoring timings, and schedules, all can efficiently be done through this platform. Windows applications can only be accessible from a system or device in which it is already installed."
+      },
+      {
+        "type": "h3",
+        "text": "why are the benefits of having a mobile application?"
+      },
+      {
+        "type": "p",
+        "text": "There are innumerable benefits that mobile apps offer to businesses as well as users."
+      },
+      {
+        "type": "p",
+        "text": "Build a direct relationship between the customer and the service provider."
+      },
+      {
+        "type": "p",
+        "text": "Fabricate loyalty and trust between them."
+      },
+      {
+        "type": "p",
+        "text": "Ensure absolute security and satisfaction."
+      },
+      {
+        "type": "p",
+        "text": "Provide an efficient platform for the interaction of the client/user and the representative of the service provider."
+      },
+      {
+        "type": "p",
+        "text": "Help to build a database for the client."
+      },
+      {
+        "type": "p",
+        "text": "Build a long-lasting association."
+      },
+      {
+        "type": "p",
+        "text": "**Cross-Platform Native Mobile Applications**"
+      },
+      {
+        "type": "p",
+        "text": "This kind of software application provides authorization to write a code once and get it translated into the native code of various operating systems and issuing the leniency to publish mobile apps on distinct platforms with much lesser effort."
+      },
+      {
+        "type": "p",
+        "text": "**Hybrid Mobile Applications**"
+      },
+      {
+        "type": "p",
+        "text": "This application is built with JavaScript, HTML, and CSS that work on a web container. Hybrid mobile applications are only web apps running on an embedded browser environment, thus, most of the code can be used to build a mobile app. A compiled language is used in this kind of application."
+      },
+      {
+        "type": "p",
+        "text": "**Progressive Web Applications**"
+      },
+      {
+        "type": "p",
+        "text": "This kind of application does not require any installation and is easily accessible through a URL. PWAs are written using traditional web application programming technologies and languages that usually include some variant of JavaScript, HTML5, and CS."
+      },
+      {
+        "type": "h3",
+        "text": "what are the programming languages we use?"
+      },
+      {
+        "type": "p",
+        "text": "There are more than 600 distinct programming languages with their own unique features. Here are some of the best ones we use for app development."
+      },
+      {
+        "type": "p",
+        "text": "**Python | JavaScript | Swift | Java| C++| C# | SQL |**"
+      },
+      {
+        "type": "h3",
+        "text": "why should you choose us?"
+      },
+      {
+        "type": "p",
+        "text": "**Expert team**"
+      },
+      {
+        "type": "p",
+        "text": "Our team at Exult IT Solution consists of highly qualified professionals rich in experience in their respective fields."
+      },
+      {
+        "type": "p",
+        "text": "**Commitment to our clients**"
+      },
+      {
+        "type": "p",
+        "text": "We are always dedicated to the needs and requirements of our clients. We provide individual attention to what your business needs so that you get the best service possible."
+      },
+      {
+        "type": "p",
+        "text": "**Use of advanced technology**"
+      },
+      {
+        "type": "p",
+        "text": "We always stay updated with the latest advancements in technology so that you get the best modern application for your business."
+      }
+    ]
+  },
+  {
     "slug": "crm-development-company",
     "title": "CRM Software Development",
     "summary": "CRM is providing a seamless CUSTOMER EXPERIENCE. By creating a deeper level of relationship with your clients, your business can easily lead to sustainable growth and profit. A custom CRM software that is suited to the needs of your business helps in smooth interaction between various units related to the customer’s journey- from sales and marketing to customer service.",
@@ -529,368 +891,6 @@
     ]
   },
   {
-    "slug": "cloud-computing-services",
-    "title": "Cloud Services",
-    "summary": "We enhance your business through all phases of your cloud adoption. We set up your cloud with data services, cloud services, security services and IT Services. Our cloud services for IT Services allow your potential and current clients to access your website portal via the internet.",
-    "image": "/assets/img/home/services/cloudServices.jpg",
-    "heroImage": "/assets/img/projects/cloudServices.jpg",
-    "metaTitle": "Cloud Computing Services - Exult It Solution",
-    "metaDescription": "Our Experts Integrate Hybrid Cloud & Cognitive Computing to add value to your business. We offer PaaS, IaaS and SaaS. We have knowledge and experience of Azure, Google cloud and AWS. It is a visible mass of a huge amount of condensed water vapours floating all around in the sky.",
-    "blocks": [
-      {
-        "type": "p",
-        "text": "Our Experts Integrate Hybrid Cloud & Cognitive Computing to add value to your business. We offer PaaS, IaaS and SaaS. We have knowledge and experience of Azure, Google cloud and AWS."
-      },
-      {
-        "type": "h3",
-        "text": "What is meant by a ‘Cloud’?"
-      },
-      {
-        "type": "p",
-        "text": "It is a visible mass of a huge amount of condensed water vapours floating all around in the sky."
-      },
-      {
-        "type": "p",
-        "text": "Wait."
-      },
-      {
-        "type": "p",
-        "text": "Is that what cloud services are all about?"
-      },
-      {
-        "type": "p",
-        "text": "Absolutely not."
-      },
-      {
-        "type": "p",
-        "text": "**In the tech world, ‘cloud’** refers to the vast network of servers across the globe which are used to store and process data over the Internet. These servers essentially link together to form a single ecosystem. If we look at it broadly, the cloud is an allegory for the whole Internet as Cloud Services."
-      },
-      {
-        "type": "p",
-        "text": "**Cloud-based services for Cloud Computing Services** are a wide range of services ranging from online storage and servers to development platforms and applications. This falls under the category of Information Technology (IT) services and is completely available on the Internet. The pricing system is based on the number of services/space you use. Therefore no going overboard with your budget."
-      },
-      {
-        "type": "h3",
-        "text": "How do Cloud Services work?"
-      },
-      {
-        "type": "p",
-        "text": "Cloud services are offered by a number of cloud service providers on the Internet. These are fully managed by the service providers so that the companies do not need to store data and programs on their servers."
-      },
-      {
-        "type": "h3",
-        "text": "What are the benefits of using Cloud Services?"
-      },
-      {
-        "type": "p",
-        "text": "**Scalable**"
-      },
-      {
-        "type": "p",
-        "text": "These services utilize a huge bunch of servers spread across different locations which makes the allocation and reallocation of resources fast."
-      },
-      {
-        "type": "p",
-        "text": "**Reduced cost**"
-      },
-      {
-        "type": "p",
-        "text": "As its use can easily be modified as required, using a cloud service is cost-effective as compared to storing and accessing data through physical storage."
-      },
-      {
-        "type": "p",
-        "text": "**Easy to manage**"
-      },
-      {
-        "type": "p",
-        "text": "Taking a subscription to a cloud service is not a permanent association. It can be procured on-demand and you can easily cancel the service if you do not need it anymore. This makes it easier for the buyers to handle the services according to their requirements."
-      },
-      {
-        "type": "h3",
-        "text": "What are the type of Cloud Services Available?"
-      },
-      {
-        "type": "p",
-        "text": "Is there a single type of cloud service?"
-      },
-      {
-        "type": "p",
-        "text": "No."
-      },
-      {
-        "type": "p",
-        "text": "The most common types of cloud services offered on the Internet can be broadly classified as:"
-      },
-      {
-        "type": "h3",
-        "text": "What are the benefits of using Cloud Services?"
-      },
-      {
-        "type": "p",
-        "text": "**Platform as a Service (PaaS)**"
-      },
-      {
-        "type": "p",
-        "text": "The PaaS providers offer the necessary hardware and software required by web developers to build a cloud-based application. They provide an environment that allows the developers to control the use of their applications on the cloud throughout its lifetime."
-      },
-      {
-        "type": "p",
-        "text": "**Software as a Service (SaaS)**"
-      },
-      {
-        "type": "p",
-        "text": "It is the most widely known form of cloud service. Software as a service or SaaS comprises of various services such as cloud storage for backing up files and data, and web-based emails. This also includes several project management tools. This is offered on a periodic subscription basis."
-      },
-      {
-        "type": "p",
-        "text": "**Infrastructure as a Service (IaaS)**"
-      },
-      {
-        "type": "p",
-        "text": "In order to manage SaaS tools, many service providers require an infrastructure that is offered by IaaS service providers. Some of the giants of cloud-based services such as Amazon, Microsoft, Google, etc. offer such services."
-      },
-      {
-        "type": "p",
-        "text": "They maintain large storage servers and networking hardware while also offering several other services. The payment is done according to the total usage by the customer."
-      },
-      {
-        "type": "h3",
-        "text": "Who are the major Cloud Services providers?"
-      },
-      {
-        "type": "p",
-        "text": "Here are some of the major providers of cloud-based services for cloud services:"
-      },
-      {
-        "type": "p",
-        "text": "**Amazon Web Services (AWS)**"
-      },
-      {
-        "type": "p",
-        "text": "Amazon has become one of the largest companies in the world, with its services ranging from selling books, to Artificial Intelligence and cloud computing as well."
-      },
-      {
-        "type": "p",
-        "text": "Launched in the year 2006, Amazon Web Services (AWS) is a comprehensive cloud-based service provider. It includes all major types of cloud services namely PaaS, SaaS, and IaaS. Its pricing model is completely based on the usage of an individual customer or company. It provides a wide variety of cloud computing services for cloud computing services like cloud storage, servers, security, mobile development, etc."
-      },
-      {
-        "type": "p",
-        "text": "AWS spans over more than 240 countries across the globe."
-      },
-      {
-        "type": "p",
-        "text": "**Microsoft Azure**"
-      },
-      {
-        "type": "p",
-        "text": "The second-largest cloud-based service provider is another business giant, Microsoft."
-      },
-      {
-        "type": "p",
-        "text": "With a market share of almost 2/10th of global usage, it provides a range of services such as cloud computing, storage, data analytics, and networking. Unlike AWS, it is also compatible with open source technologies. This enables the users to freely select from these services and develop their existing as well as new applications on the public cloud. The users are only charged for the services they avail."
-      },
-      {
-        "type": "p",
-        "text": "Apart from these two major cloud service providers, there are a few Linux servers as well."
-      },
-      {
-        "type": "p",
-        "text": "These are built on the open-sourced Linux operating system. As this is open-source, the clients can deliver their content, applications, and services to their users at affordable prices. It also provides optimized data security due to several enhanced permission settings."
-      },
-      {
-        "type": "h3",
-        "text": "How can we help you?"
-      },
-      {
-        "type": "p",
-        "text": "**At Exult It Solutions,** we have expert working professionals dedicated towards finding the best solutions for your business. Our team will ensure you always get the best value for your money. We will help you determine what’s best for your business. By eliminating all the superfluous issues, we provide you with what is really required."
-      },
-      {
-        "type": "p",
-        "text": "We can manage all your IT requirements so that you can always focus on the high-value activities of your business. Choose us, and give your business the boost it needs."
-      }
-    ]
-  },
-  {
-    "slug": "mobile-app-development",
-    "title": "Mobile App Development",
-    "summary": "We have expert and adaptive technology on Mobile Applications. The Mobile Applications are continuously evolving and creating an essential requirement to upgrade your current mobile applications for the business. We propel your imagination to reality by using Big Data!",
-    "image": "/assets/img/home/services/mobileAppDevelopment.jpg",
-    "heroImage": "/assets/img/projects/mobileAppDevelopment.jpg",
-    "metaTitle": "Mobile App Development - Exult It Solution",
-    "metaDescription": "With the advent of modern technology and innovations, every item we need is being transformed into something we can fit into our pockets. The real-life theatre made its way into the television, and from there to the mobile phones. Due to mobile phones, especially smartphones, there is a rising need for businesses to acknowledge the huge potential this user base offers.",
-    "blocks": [
-      {
-        "type": "p",
-        "text": "Exult has developed versatile mobile applications for different devices like Android, IOS and windows."
-      },
-      {
-        "type": "p",
-        "text": "Featuring responsive and attractive look and easy to use application."
-      },
-      {
-        "type": "p",
-        "text": "With the advent of modern technology and innovations, every item we need is being transformed into something we can fit into our pockets. The real-life theatre made its way into the television, and from there to the mobile phones. Due to mobile phones, especially smartphones, there is a rising need for businesses to acknowledge the huge potential this user base offers."
-      },
-      {
-        "type": "p",
-        "text": "So how does your business exist on a mobile phone?"
-      },
-      {
-        "type": "p",
-        "text": "Through a mobile application."
-      },
-      {
-        "type": "p",
-        "text": "Mobile Application Development for Mobile App Development Company is the process of creating a software application that a user can run on their mobile devices and take advantage of its numerous peculiar features and utilities. The mobile application is designed to provide quick access to services which the business offers."
-      },
-      {
-        "type": "p",
-        "text": "Mobile apps are extremely beneficial in optimizing business prospects. The availability of various distinctive mobile apps with exceptional services has also helped in the growth of mobile phones immensely. The virtual space has become completely app-dependent as we prefer to do almost every task using them."
-      },
-      {
-        "type": "p",
-        "text": "This arena is one of the most innovative spaces in the market that holds the prospect for the future of businesses. Mobile app development requires the service providers to have extensive knowledge and skillset to ensure they deliver ideal development services."
-      },
-      {
-        "type": "p",
-        "text": "This business is expected to shoot up to a massive $600 billion in 2020. Due to the continuous exploding popularity of smartphones and tablets, mobile application development has become an increasingly popular and intelligible medium of software creation. There are around 2.7 million apps available on Google Play Store and around 1.84 million apps available on Apple’s App Store. Mobile apps are developed by using an extensive variety of programming languages and frameworks."
-      },
-      {
-        "type": "h3",
-        "text": "Which Mobile app development services do we offer?"
-      },
-      {
-        "type": "p",
-        "text": "Google has launched this open-source Software Development Kit in 2015. This initiative was taken to develop vigorous, expansible, accessible, and innovative mobile apps by using only a single codebase. Flutter provides an exceptional tutorial guide to the developers so that even the beginners, without any experience, can learn and start with this platform without any dispute or disagreement. It has only a single coding, thus it requires less time in testing, and also, there is less risk of bugs in coding."
-      },
-      {
-        "type": "p",
-        "text": "**Apple iOS Mobile App Development**"
-      },
-      {
-        "type": "p",
-        "text": "Created by Apple Inc., iOS applications are used in many of the devices for Apple such as the iPhone, iPod, iPad, etc. This holds a middle layer between the applications and the hardware and thus, they do not communicate directly. It is a closed system, having no quality problems. Apple app store is the hub for all the iOS applications."
-      },
-      {
-        "type": "p",
-        "text": "**Google Android Mobile App Development**"
-      },
-      {
-        "type": "p",
-        "text": "The android apps are mainly designed for touchscreen mobile devices such as tablets and smartphones. There are four main layers and five important sections in which the architecture of Android is divided. Android Platform is a bit more open than that of iOS, easily permitting phone customization. Google Play Store app offers most of the android applications for an easy installation."
-      },
-      {
-        "type": "p",
-        "text": "While Apple uses iOS entirely for its own devices, Google makes Android available to other companies. In addition to that, they meet specific requirements such as including certain Google applications on the devices they ship."
-      },
-      {
-        "type": "p",
-        "text": "**Windows Platform Mobile App Development**"
-      },
-      {
-        "type": "p",
-        "text": "It contains all the Windows mobile applications like Windows Media Player, Windows office, Internet Explorer, Microsoft Windows software like Office, Outlook, and Windows Live. Internet browsing, using e-mails, handling documents, monitoring timings, and schedules, all can efficiently be done through this platform. Windows applications can only be accessible from a system or device in which it is already installed."
-      },
-      {
-        "type": "h3",
-        "text": "why are the benefits of having a mobile application?"
-      },
-      {
-        "type": "p",
-        "text": "There are innumerable benefits that mobile apps offer to businesses as well as users."
-      },
-      {
-        "type": "p",
-        "text": "Build a direct relationship between the customer and the service provider."
-      },
-      {
-        "type": "p",
-        "text": "Fabricate loyalty and trust between them."
-      },
-      {
-        "type": "p",
-        "text": "Ensure absolute security and satisfaction."
-      },
-      {
-        "type": "p",
-        "text": "Provide an efficient platform for the interaction of the client/user and the representative of the service provider."
-      },
-      {
-        "type": "p",
-        "text": "Help to build a database for the client."
-      },
-      {
-        "type": "p",
-        "text": "Build a long-lasting association."
-      },
-      {
-        "type": "p",
-        "text": "**Cross-Platform Native Mobile Applications**"
-      },
-      {
-        "type": "p",
-        "text": "This kind of software application provides authorization to write a code once and get it translated into the native code of various operating systems and issuing the leniency to publish mobile apps on distinct platforms with much lesser effort."
-      },
-      {
-        "type": "p",
-        "text": "**Hybrid Mobile Applications**"
-      },
-      {
-        "type": "p",
-        "text": "This application is built with JavaScript, HTML, and CSS that work on a web container. Hybrid mobile applications are only web apps running on an embedded browser environment, thus, most of the code can be used to build a mobile app. A compiled language is used in this kind of application."
-      },
-      {
-        "type": "p",
-        "text": "**Progressive Web Applications**"
-      },
-      {
-        "type": "p",
-        "text": "This kind of application does not require any installation and is easily accessible through a URL. PWAs are written using traditional web application programming technologies and languages that usually include some variant of JavaScript, HTML5, and CS."
-      },
-      {
-        "type": "h3",
-        "text": "what are the programming languages we use?"
-      },
-      {
-        "type": "p",
-        "text": "There are more than 600 distinct programming languages with their own unique features. Here are some of the best ones we use for app development."
-      },
-      {
-        "type": "p",
-        "text": "**Python | JavaScript | Swift | Java| C++| C# | SQL |**"
-      },
-      {
-        "type": "h3",
-        "text": "why should you choose us?"
-      },
-      {
-        "type": "p",
-        "text": "**Expert team**"
-      },
-      {
-        "type": "p",
-        "text": "Our team at Exult IT Solution consists of highly qualified professionals rich in experience in their respective fields."
-      },
-      {
-        "type": "p",
-        "text": "**Commitment to our clients**"
-      },
-      {
-        "type": "p",
-        "text": "We are always dedicated to the needs and requirements of our clients. We provide individual attention to what your business needs so that you get the best service possible."
-      },
-      {
-        "type": "p",
-        "text": "**Use of advanced technology**"
-      },
-      {
-        "type": "p",
-        "text": "We always stay updated with the latest advancements in technology so that you get the best modern application for your business."
-      }
-    ]
-  },
-  {
     "slug": "search-engine-optimization",
     "title": "Search Engine Optimization",
     "summary": "Search Engine Optimization is all about knowing and implementing what can make your website visible. It focuses on attracting visitors organically by ranking higher in Google searches. This can be achieved through optimizing your website and content according to several factors that affect the rankings.",
@@ -1046,6 +1046,248 @@
       {
         "type": "p",
         "text": "We are dedicated towards providing the best value for money to our customers. Our cost-effective solutions and higher ROI ensure that you do not end up spending over your budget. By bringing in more potential leads, and thus higher sales, our team will always keep you ahead of the game."
+      }
+    ]
+  },
+  {
+    "slug": "data-ai-solutions",
+    "title": "Data & AI",
+    "summary": "Turn the data your business already collects into clear dashboards, smarter automation and practical AI. We connect your systems, organize your data and build AI tools that save your team real time every day.",
+    "image": "",
+    "heroImage": "",
+    "metaTitle": "Data & AI Solutions - Exult It Solution",
+    "metaDescription": "Data analytics, business dashboards, process automation and practical AI solutions for small and mid-size businesses from Exult IT Solution in Macomb, Michigan.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Most businesses are sitting on more data than they use. Sales records, invoices, website traffic, support tickets and machine logs all hold answers to everyday questions: which products earn the most, where time is being lost, and which customers need attention. **Exult IT Solution** helps you bring that data together and put it to work."
+      },
+      {
+        "type": "p",
+        "text": "We focus on practical results. That means reports your managers actually open, automation that removes repetitive work, and AI features that solve a specific problem instead of chasing buzzwords."
+      },
+      {
+        "type": "h3",
+        "text": "What we deliver"
+      },
+      {
+        "type": "p",
+        "text": "**Data integration and warehousing**"
+      },
+      {
+        "type": "p",
+        "text": "We connect your CRM, ERP, accounting, e-commerce and spreadsheets into one clean, reliable source of truth, so every report starts from the same numbers."
+      },
+      {
+        "type": "p",
+        "text": "**Business intelligence dashboards**"
+      },
+      {
+        "type": "p",
+        "text": "Interactive dashboards, in a BI tool or built into your own web app, that show sales, operations and finance at a glance and update automatically."
+      },
+      {
+        "type": "p",
+        "text": "**Process automation**"
+      },
+      {
+        "type": "p",
+        "text": "We automate repetitive work such as data entry, report generation, invoice processing and approval workflows, freeing your team for higher-value tasks."
+      },
+      {
+        "type": "p",
+        "text": "**AI assistants and chatbots**"
+      },
+      {
+        "type": "p",
+        "text": "Assistants trained on your own documents and knowledge base that answer customer questions, help staff find information and draft routine responses."
+      },
+      {
+        "type": "p",
+        "text": "**Predictive analytics**"
+      },
+      {
+        "type": "p",
+        "text": "Forecasting models for demand, inventory, cash flow and customer churn that help you plan ahead instead of reacting."
+      },
+      {
+        "type": "p",
+        "text": "**Document and image intelligence**"
+      },
+      {
+        "type": "p",
+        "text": "Extract data from invoices, forms and scanned documents, and classify images automatically to cut down manual review."
+      },
+      {
+        "type": "h3",
+        "text": "How we approach AI projects"
+      },
+      {
+        "type": "li",
+        "text": "Start with a clear business question and a measurable goal"
+      },
+      {
+        "type": "li",
+        "text": "Assess and clean the data before building anything on top of it"
+      },
+      {
+        "type": "li",
+        "text": "Deliver a working pilot quickly, then improve it with your feedback"
+      },
+      {
+        "type": "li",
+        "text": "Keep your data secure and private, with access controls and audit trails"
+      },
+      {
+        "type": "li",
+        "text": "Train your team and support the solution after launch"
+      },
+      {
+        "type": "h3",
+        "text": "Why choose Exult for Data & AI?"
+      },
+      {
+        "type": "p",
+        "text": "Because we also build websites, CRM, ERP and cloud systems, we understand where your data comes from and how it flows between systems. That makes our analytics and AI solutions easier to adopt, easier to maintain and more useful from day one."
+      },
+      {
+        "type": "p",
+        "text": "**Ready to see what your data can do? [Contact us](/contact-us) to talk about your goals.**"
+      }
+    ]
+  },
+  {
+    "slug": "erp-software-development",
+    "title": "ERP Systems",
+    "summary": "Run your whole operation from one connected system. We implement, customize and build ERP software that links inventory, purchasing, production, sales, finance and HR, so every team works from the same real-time information.",
+    "image": "",
+    "heroImage": "",
+    "metaTitle": "ERP Software Development - Exult It Solution",
+    "metaDescription": "Custom ERP software development, ERP implementation and integration for manufacturing, distribution and service businesses from Exult IT Solution in Macomb, Michigan.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "As a business grows, information ends up scattered across spreadsheets, disconnected software and email. Orders are entered twice, stock levels are guessed and month-end takes far too long. An **Enterprise Resource Planning (ERP)** system brings all of it into one place."
+      },
+      {
+        "type": "p",
+        "text": "At **Exult IT Solution**, we help small and mid-size businesses choose, customize and build ERP solutions that fit how they actually work, without the cost and complexity of a one-size-fits-all enterprise rollout."
+      },
+      {
+        "type": "h3",
+        "text": "ERP modules we build and integrate"
+      },
+      {
+        "type": "p",
+        "text": "**Inventory and warehouse management**"
+      },
+      {
+        "type": "p",
+        "text": "Real-time stock levels across locations, barcode scanning, reorder alerts and lot and serial tracking."
+      },
+      {
+        "type": "p",
+        "text": "**Purchasing and supply chain**"
+      },
+      {
+        "type": "p",
+        "text": "Purchase orders, vendor management, approvals and receiving, all linked to inventory and accounting."
+      },
+      {
+        "type": "p",
+        "text": "**Production and manufacturing**"
+      },
+      {
+        "type": "p",
+        "text": "Bills of materials, work orders, production scheduling and shop-floor tracking."
+      },
+      {
+        "type": "p",
+        "text": "**Sales and order management**"
+      },
+      {
+        "type": "p",
+        "text": "Quotes, orders, invoicing and shipping in one flow, connected to your CRM and e-commerce store."
+      },
+      {
+        "type": "p",
+        "text": "**Finance and accounting**"
+      },
+      {
+        "type": "p",
+        "text": "General ledger, accounts payable and receivable, and financial reporting, or integration with the accounting software you already use."
+      },
+      {
+        "type": "p",
+        "text": "**HR and payroll**"
+      },
+      {
+        "type": "p",
+        "text": "Employee records, time tracking, leave and payroll integration."
+      },
+      {
+        "type": "h3",
+        "text": "Custom ERP or an existing platform?"
+      },
+      {
+        "type": "p",
+        "text": "Not every business needs a system built from scratch. We assess your processes and recommend the right path: customizing a proven ERP platform, integrating the tools you already have, or developing a custom ERP when your workflows are unique."
+      },
+      {
+        "type": "h3",
+        "text": "Our ERP process"
+      },
+      {
+        "type": "li",
+        "text": "Discovery: map your current processes, pain points and goals"
+      },
+      {
+        "type": "li",
+        "text": "Design: plan the modules, integrations, user roles and reports"
+      },
+      {
+        "type": "li",
+        "text": "Build and configure: develop and set up the system in phases"
+      },
+      {
+        "type": "li",
+        "text": "Data migration: move your existing records over safely"
+      },
+      {
+        "type": "li",
+        "text": "Training and go-live: prepare your team and launch with support"
+      },
+      {
+        "type": "li",
+        "text": "Ongoing support: updates, improvements and help when you need it"
+      },
+      {
+        "type": "h3",
+        "text": "Benefits of an ERP system"
+      },
+      {
+        "type": "li",
+        "text": "One source of truth for every department"
+      },
+      {
+        "type": "li",
+        "text": "Less manual data entry and fewer errors"
+      },
+      {
+        "type": "li",
+        "text": "Real-time visibility into inventory, orders and cash flow"
+      },
+      {
+        "type": "li",
+        "text": "Faster month-end close and better reporting"
+      },
+      {
+        "type": "li",
+        "text": "A system that scales as your business grows"
+      },
+      {
+        "type": "p",
+        "text": "**Want to simplify your operations? [Talk to our team](/contact-us) about an ERP system that fits your business.**"
       }
     ]
   }

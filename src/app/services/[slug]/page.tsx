@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowRight, Check, Phone } from "lucide-react";
 import PageHero from "@/components/PageHero";
+import ServiceArt from "@/components/ServiceArt";
 import CtaBand from "@/components/CtaBand";
 import { RichText } from "@/components/RichText";
 import { getService, services } from "@/lib/content";
@@ -18,7 +19,6 @@ export async function generateMetadata({ params }: PageProps<"/services/[slug]">
     title: { absolute: s.metaTitle },
     description: s.metaDescription,
     alternates: { canonical: `/services/${s.slug}/` },
-    openGraph: { images: [s.heroImage] },
   };
 }
 
@@ -31,7 +31,7 @@ export default async function ServicePage({ params }: PageProps<"/services/[slug
 
   return (
     <>
-      <PageHero title={s.title} lead={lead(s.summary)} crumbs={[{ label: "Services" }, { label: s.title }]} image={s.heroImage}>
+      <PageHero title={s.title} lead={lead(s.summary)} crumbs={[{ label: "Services" }, { label: s.title }]} art={<ServiceArt slug={s.slug} idPrefix="hero" />}>
         <div className="mt-8 flex flex-wrap gap-3">
           <Link href={`/contact-us/?services=${s.slug}#project`} className="btn btn-primary !min-h-12 !px-6">
             Get a quote <ArrowRight aria-hidden className="h-4 w-4" />

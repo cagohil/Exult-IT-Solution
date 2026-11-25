@@ -39,9 +39,9 @@ export default function TechnologiesPage() {
               </div>
               <ul className="reveal-stagger grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
                 {g.items.map((t) => (
-                  <li key={t.name} className="flex h-20 items-center gap-3.5 rounded-2xl border border-line bg-white px-4 transition-[border-color,box-shadow] hover:border-brand-100 hover:shadow-[var(--shadow-card)]">
-                    <Image src={t.image} alt="" width={166} height={94} className="-mx-3 h-12 w-auto shrink-0" />
-                    <span className="font-medium leading-tight text-ink">{t.name}</span>
+                  <li key={t.name} className="flex min-w-0 flex-col items-center justify-center gap-1 rounded-2xl border border-line bg-white px-3 pb-4 pt-2 text-center transition-[border-color,box-shadow] hover:border-brand-100 hover:shadow-[var(--shadow-card)]">
+                    <Image src={t.image} alt="" width={166} height={94} className="h-14 w-auto max-w-full" />
+                    <span className="text-sm font-medium leading-tight text-ink [overflow-wrap:anywhere]">{t.name}</span>
                   </li>
                 ))}
               </ul>

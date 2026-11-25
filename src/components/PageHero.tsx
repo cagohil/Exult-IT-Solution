@@ -11,12 +11,15 @@ export default function PageHero({
   lead,
   crumbs = [],
   image,
+  art,
   children,
 }: {
   title: string;
   lead?: string;
   crumbs?: Crumb[];
   image?: string;
+  /** Vector artwork shown instead of a photo. */
+  art?: ReactNode;
   children?: ReactNode;
 }) {
   return (
@@ -27,7 +30,7 @@ export default function PageHero({
         <span />
       </div>
       <div className="grid-bg pointer-events-none absolute inset-0" aria-hidden="true" />
-      <div className={`container-x relative grid gap-12 pb-16 pt-12 md:pb-20 md:pt-16 ${image ? "lg:grid-cols-[minmax(0,1.15fr)_minmax(0,1fr)] lg:items-center" : ""}`}>
+      <div className={`container-x relative grid gap-12 pb-16 pt-12 md:pb-20 md:pt-16 ${image || art ? "lg:grid-cols-[minmax(0,1.15fr)_minmax(0,1fr)] lg:items-center" : ""}`}>
         <div>
           {crumbs.length > 0 && (
             <nav aria-label="Breadcrumb" className="mb-6">
@@ -58,7 +61,12 @@ export default function PageHero({
           {lead && <p style={{ animationDelay: "0.15s" }} className="rise mt-5 max-w-[56ch] text-lg leading-relaxed text-ink-2 md:text-xl">{lead}</p>}
           {children}
         </div>
-        {image && (
+        {art && (
+          <div style={{ animationDelay: "0.25s" }} className="pop-in relative mx-auto w-full max-w-[34rem]">
+            {art}
+          </div>
+        )}
+        {image && !art && (
           <figure style={{ animationDelay: "0.25s" }} className="pop-in relative aspect-[4/3] overflow-hidden rounded-3xl border border-line bg-white shadow-[var(--shadow-float)]">
             <Image src={image} alt="" fill priority sizes="(min-width: 1024px) 40vw, 100vw" className="object-cover" />
           </figure>

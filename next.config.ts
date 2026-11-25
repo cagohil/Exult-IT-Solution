@@ -20,6 +20,8 @@ const nextConfig: NextConfig = {
   env: { CAPTCHA_BUILD_SECRET: captchaBuildSecret },
   images: {
     formats: ["image/avif", "image/webp"],
+    // Industry photos are served from Unsplash (free license), not stored in the repo.
+    remotePatterns: [{ protocol: "https", hostname: "images.unsplash.com", pathname: "/photo-*" }],
   },
   async headers() {
     return [{ source: "/:path*", headers: securityHeaders }];

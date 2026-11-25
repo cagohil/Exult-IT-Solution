@@ -1,10 +1,11 @@
 import Link from "next/link";
 import Image from "next/image";
 import { Suspense } from "react";
-import { ArrowRight, ArrowUpRight, Award, Headphones, Layers, MapPin, Star, Cloud, Server, Database, ShoppingCart, Users } from "lucide-react";
-import { BrowserMock, PhoneMock, PipelineMock, SearchMock } from "./Mockups";
+import { ArrowRight, Award, Headphones, Layers, MapPin } from "lucide-react";
+import ServiceArt from "@/components/ServiceArt";
+import TestimonialSlider from "./TestimonialSlider";
 import ContactForm from "@/components/contact/ContactForm";
-import { clients, clientName, techGroups, testimonials } from "@/lib/content";
+import { clients, clientName, services, techGroups } from "@/lib/content";
 import { office, site } from "@/lib/site";
 
 /* ---------------- Client logos ---------------- */
@@ -37,28 +38,19 @@ export function LogoStrip() {
   );
 }
 
-/* ---------------- Services bento ---------------- */
-function Tile({ href, title, text, className = "", children }: { href: string; title: string; text: string; className?: string; children?: React.ReactNode }) {
-  return (
-    <Link
-      href={href}
-      className={`group relative flex flex-col overflow-hidden rounded-3xl border border-line bg-white p-7 shadow-[var(--shadow-card)] transition-[box-shadow,translate,border-color] duration-300 ease-[var(--ease-out-quart)] hover:-translate-y-1 hover:border-brand-100 hover:shadow-[var(--shadow-lift)] ${className}`}
-    >
-      <div className="relative z-10">
-        <h3 className="flex items-center justify-between gap-3 text-[1.35rem] font-semibold tracking-[-0.025em] text-ink">
-          {title}
-          <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-subtle text-ink-2 transition-colors group-hover:bg-brand group-hover:text-white">
-            <ArrowUpRight aria-hidden className="h-4 w-4" />
-          </span>
-        </h3>
-        <p className="mt-2 max-w-[42ch] text-[0.98rem] leading-relaxed text-ink-2">{text}</p>
-      </div>
-      {children && <div className="relative mt-7 flex flex-1 items-end">{children}</div>}
-    </Link>
-  );
-}
+/* ---------------- Services grid ---------------- */
+const SERVICE_TEXT: Record<string, string> = {
+  "website-development": "Fast, responsive websites that look sharp on every device and turn visitors into customers.",
+  "cloud-computing-services": "Secure cloud setup, migration and management on AWS, Azure and Google Cloud.",
+  "mobile-app-development": "iOS and Android apps your customers and staff will actually use.",
+  "crm-development-company": "Custom CRM that follows how your sales and service teams really work.",
+  "ecommerce-web-development": "Online stores with smooth checkout, inventory and payments built in.",
+  "search-engine-optimization": "Rank higher on Google and get found by customers searching right now.",
+  "data-ai-solutions": "Dashboards, automation and practical AI that turn your data into decisions.",
+  "erp-software-development": "One connected system for inventory, purchasing, production, sales and finance.",
+};
 
-export function ServicesBento() {
+export function ServicesGrid() {
   return (
     <section id="services" aria-labelledby="services-title" className="scroll-mt-20 bg-subtle py-20 md:py-28">
       <div className="container-x">
@@ -66,56 +58,30 @@ export function ServicesBento() {
           <h2 id="services-title" className="h-section max-w-[18ch] text-ink">
             Everything your business needs to run on technology
           </h2>
-          <p className="max-w-[44ch] text-lg text-ink-2">From your first website to the cloud systems behind it, one team plans, builds and supports it all.</p>
+          <p className="max-w-[44ch] text-lg text-ink-2">From your first website to the data and systems behind it, one team plans, builds and supports it all.</p>
         </div>
 
-        <div className="reveal-stagger mt-12 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
-          <Tile href="/services/website-development/" title="Website Development" text="Fast, responsive websites that look sharp on every device and turn visitors into customers." className="lg:col-span-2">
-            <BrowserMock className="w-full translate-y-10 transition-transform duration-500 ease-[var(--ease-out-expo)] group-hover:translate-y-6" />
-          </Tile>
-          <Tile href="/services/mobile-app-development/" title="Mobile Apps" text="iOS and Android apps your customers and staff will actually use." className="lg:row-span-2">
-            <div className="flex w-full justify-center">
-              <PhoneMock className="w-[78%] max-w-[19rem] translate-y-10 transition-transform duration-500 ease-[var(--ease-out-expo)] group-hover:translate-y-5" />
-            </div>
-          </Tile>
-          <Tile href="/services/crm-development-company/" title="CRM Software" text="Custom CRM that follows how your sales and service teams really work.">
-            <PipelineMock className="w-full" />
-          </Tile>
-          <Tile href="/services/search-engine-optimization/" title="Search Engine Optimization" text="Rank higher on Google and get found by customers searching right now.">
-            <SearchMock className="w-full" />
-          </Tile>
-          <Tile href="/services/ecommerce-web-development/" title="E-commerce" text="Online stores with smooth checkout, inventory and payments built in." className="lg:col-span-1">
-            <div className="grid w-full grid-cols-[auto_1fr] items-center gap-4 rounded-2xl bg-subtle p-4">
-              <span className="flex h-14 w-14 items-center justify-center rounded-xl bg-gradient-to-br from-brand to-cyan text-white">
-                <ShoppingCart aria-hidden className="h-6 w-6" />
-              </span>
-              <span>
-                <span className="block h-2 w-3/4 rounded-full bg-ink/70" />
-                <span className="mt-2 block h-2 w-1/2 rounded-full bg-line-strong" />
-                <span className="mt-3 inline-flex rounded-full bg-brand px-3 py-1 text-[0.7rem] font-semibold text-white">Add to cart</span>
-              </span>
-            </div>
-          </Tile>
-          <Tile href="/services/cloud-computing-services/" title="Cloud Services" text="Secure cloud setup, migration and management on AWS and Azure." className="lg:col-span-2">
-            <div className="flex w-full flex-wrap items-center gap-3">
-              {[
-                [Server, "Servers"],
-                [Database, "Databases"],
-                [Cloud, "Backups"],
-                [Users, "Remote access"],
-              ].map(([Icon, l], i) => {
-                const I = Icon as typeof Server;
-                return (
-                  <span key={l as string} className="flex items-center gap-2.5 rounded-xl border border-line bg-subtle px-4 py-3">
-                    <I aria-hidden className="h-5 w-5 text-brand" />
-                    <span className="text-sm font-medium text-ink-2">{l as string}</span>
-                    {i < 3 && <span aria-hidden className="ml-1 hidden h-px w-6 bg-line-strong md:block" />}
+        <ul className="reveal-stagger mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+          {services.map((s) => (
+            <li key={s.slug}>
+              <Link
+                href={`/services/${s.slug}/`}
+                className="group flex h-full flex-col overflow-hidden rounded-3xl border border-line bg-white shadow-[var(--shadow-card)] transition-[box-shadow,translate,border-color] duration-300 ease-[var(--ease-out-quart)] hover:-translate-y-1.5 hover:border-brand-100 hover:shadow-[var(--shadow-lift)]"
+              >
+                <div className="relative bg-gradient-to-b from-brand-50 to-white px-6 pt-6 transition-transform duration-500 ease-[var(--ease-out-expo)] group-hover:scale-[1.03]">
+                  <ServiceArt slug={s.slug} idPrefix="home" />
+                </div>
+                <div className="flex flex-1 flex-col p-6 pt-3">
+                  <h3 className="text-lg font-semibold tracking-[-0.02em] text-ink">{s.title}</h3>
+                  <p className="mt-2 flex-1 text-[0.95rem] leading-relaxed text-ink-2">{SERVICE_TEXT[s.slug] ?? s.summary}</p>
+                  <span className="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-brand">
+                    Learn more <ArrowRight aria-hidden className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
                   </span>
-                );
-              })}
-            </div>
-          </Tile>
-        </div>
+                </div>
+              </Link>
+            </li>
+          ))}
+        </ul>
       </div>
     </section>
   );
@@ -193,75 +159,37 @@ export function Process() {
   );
 }
 
-/* ---------------- Testimonials ---------------- */
+/* ---------------- Testimonials (slider) ---------------- */
 export function Testimonials() {
   return (
-    <section aria-labelledby="reviews-title" className="bg-subtle py-20 md:py-28">
+    <section aria-labelledby="reviews-title" className="overflow-hidden bg-subtle py-16 md:py-20">
       <div className="container-x">
-        <div className="reveal flex flex-col gap-5 md:flex-row md:items-end md:justify-between">
-          <h2 id="reviews-title" className="h-section max-w-[16ch] text-ink">
-            What our clients say
-          </h2>
-          <p className="flex items-center gap-2 text-ink-2">
-            <span className="flex text-warn" aria-hidden="true">
-              {Array.from({ length: 5 }, (_, i) => (
-                <Star key={i} className="h-5 w-5 fill-current" />
-              ))}
-            </span>
-            Every review, five stars
-          </p>
-        </div>
-        <ul className="reveal-stagger mt-12 columns-1 gap-5 md:columns-2 [&>li]:mb-5 [&>li]:break-inside-avoid">
-          {testimonials.map((t) => (
-            <li key={t.name} className="card p-7 md:p-8">
-              <figure>
-                <span className="flex text-warn" aria-label="5 out of 5 stars">
-                  {Array.from({ length: 5 }, (_, i) => (
-                    <Star key={i} aria-hidden className="h-4 w-4 fill-current" />
-                  ))}
-                </span>
-                <blockquote className="mt-4 text-[1.08rem] leading-relaxed text-ink">“{t.quote}”</blockquote>
-                <figcaption className="mt-6 flex items-center gap-3">
-                  <span className="flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-br from-brand to-cyan text-sm font-semibold text-white" aria-hidden="true">
-                    {t.name
-                      .split(" ")
-                      .map((p) => p[0])
-                      .join("")
-                      .slice(0, 2)}
-                  </span>
-                  <span>
-                    <span className="block font-semibold text-ink">{t.name}</span>
-                    {t.company && <span className="block text-sm text-ink-3">{t.company}</span>}
-                  </span>
-                </figcaption>
-              </figure>
-            </li>
-          ))}
-        </ul>
+        <TestimonialSlider />
       </div>
     </section>
   );
 }
 
-/* ---------------- Tech stack ---------------- */
+/* ---------------- Tech stack (compact strip) ---------------- */
 export function TechStack() {
   const items = techGroups.flatMap((g) => g.items);
+  const row = [...items, ...items];
   return (
-    <section aria-labelledby="tech-title" className="bg-white py-20 md:py-24">
-      <div className="reveal container-x flex flex-col gap-5 md:flex-row md:items-end md:justify-between">
-        <h2 id="tech-title" className="h-section max-w-[20ch] text-ink">
+    <section aria-labelledby="tech-title" className="bg-white py-14 md:py-16">
+      <div className="reveal container-x flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+        <h2 id="tech-title" className="text-xl font-semibold tracking-[-0.025em] text-ink md:text-2xl">
           Built with {items.length} proven technologies
         </h2>
-        <Link href="/technologies/" className="link-arrow">
+        <Link href="/technologies/" className="link-arrow text-sm">
           View our full stack <ArrowRight aria-hidden className="h-4 w-4" />
         </Link>
       </div>
-      <div className="container-x mt-10">
-        <ul className="reveal-stagger grid grid-cols-3 gap-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8">
-          {items.slice(0, 24).map((t) => (
-            <li key={t.name} className="group flex aspect-square flex-col items-center justify-center gap-2.5 rounded-2xl border border-line bg-white p-3 text-center transition-[border-color,box-shadow] duration-300 hover:border-brand-100 hover:shadow-[var(--shadow-card)]">
-              <Image src={t.image} alt="" width={166} height={94} className="h-14 w-auto" />
-              <span className="text-[0.78rem] font-medium leading-tight text-ink-2">{t.name}</span>
+      <div className="group relative mt-7 overflow-hidden [mask-image:linear-gradient(90deg,transparent,#000_8%,#000_92%,transparent)]">
+        <ul className="flex w-max items-center gap-3 [animation:marquee_70s_linear_infinite] group-hover:[animation-play-state:paused] motion-reduce:[animation:none]">
+          {row.map((t, i) => (
+            <li key={`${t.name}-${i}`} aria-hidden={i >= items.length ? true : undefined} className="flex h-14 shrink-0 items-center gap-1 rounded-full border border-line bg-white pl-1 pr-4">
+              <Image src={t.image} alt="" width={166} height={94} className="h-11 w-auto" />
+              <span className="text-sm font-medium text-ink-2">{t.name}</span>
             </li>
           ))}
         </ul>
@@ -273,20 +201,20 @@ export function TechStack() {
 /* ---------------- Closing CTA with form ---------------- */
 export function FinalCta() {
   return (
-    <section id="project" aria-labelledby="cta-title" className="scroll-mt-20 bg-white pb-20 md:pb-28">
-      <div className="container-x">
-        <div className="relative overflow-hidden rounded-[2rem] bg-brand px-6 py-12 text-white md:px-12 md:py-16">
+    <section id="project" aria-labelledby="cta-title" className="scroll-mt-20 bg-white pb-16 sm:pb-20 md:pb-28">
+      <div className="mx-auto w-full max-w-[78rem] sm:px-8">
+        <div className="relative overflow-hidden bg-brand px-4 py-12 text-white sm:rounded-[2rem] sm:px-8 md:px-12 md:py-16">
           <div className="pointer-events-none absolute -right-24 -top-24 h-96 w-96 rounded-full bg-cyan/60 blur-[90px]" aria-hidden="true" />
           <div className="pointer-events-none absolute -bottom-32 left-1/3 h-96 w-96 rounded-full bg-violet/50 blur-[100px]" aria-hidden="true" />
-          <div className="reveal relative grid gap-12 lg:grid-cols-[minmax(0,0.85fr)_minmax(0,1.15fr)] lg:gap-16">
-            <div>
+          <div className="reveal relative grid gap-10 lg:grid-cols-[minmax(0,0.85fr)_minmax(0,1.15fr)] lg:gap-16">
+            <div className="px-1 sm:px-0">
               <h2 id="cta-title" className="h-section max-w-[14ch]">
                 Let&rsquo;s build something great together
               </h2>
               <p className="mt-5 max-w-[40ch] text-lg leading-relaxed text-white/90">
                 Tell us about your project. We&rsquo;ll come back with a plan, a timeline and a clear quote.
               </p>
-              <ul className="mt-10 grid gap-4">
+              <ul className="mt-8 grid gap-3 sm:mt-10 sm:gap-4">
                 <li>
                   <a href={site.phoneHref} className="text-2xl font-semibold tracking-[-0.02em] hover:underline">
                     {site.phone}
@@ -300,7 +228,7 @@ export function FinalCta() {
                 <li className="text-white/80">{office.lines.slice(0, 2).join(", ")}</li>
               </ul>
             </div>
-            <div className="rounded-3xl bg-white p-6 text-ink shadow-[var(--shadow-float)] md:p-8">
+            <div className="rounded-2xl bg-white p-5 text-ink shadow-[var(--shadow-float)] sm:rounded-3xl sm:p-8">
               <Suspense>
                 <ContactForm />
               </Suspense>

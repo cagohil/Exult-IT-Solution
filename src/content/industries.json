@@ -2,8 +2,8 @@
   {
     "slug": "Transportation-Logistic-SupplyChain-Storage",
     "title": "Transportation, Logistic, Supply Chain and Storage",
-    "image": "/assets/img/industry/Transportation-Logistic-SupplyChain-Storage.jpg",
-    "detailImage": "/assets/img/industry/Transportation-Logistic-SupplyChain-Storage2.jpg",
+    "image": "https://images.unsplash.com/photo-1759272840538-ae4b07214c71?auto=format&fit=crop&w=1600&q=80",
+    "detailImage": "https://images.unsplash.com/photo-1494412519320-aa613dfb7738?auto=format&fit=crop&w=1600&q=80",
     "points": [
       {
         "title": "Inventory management",
@@ -28,46 +28,90 @@
     ]
   },
   {
-    "slug": "Health-Care",
-    "title": "Health Care",
-    "image": "/assets/img/industry/Health-Care.jpg",
-    "detailImage": "/assets/img/industry/Health-Care2.jpg",
+    "slug": "Warehouse-Management",
+    "title": "Warehouse Management",
+    "image": "https://images.unsplash.com/photo-1644079446600-219068676743?auto=format&fit=crop&w=1600&q=80",
+    "detailImage": "/assets/img/industry/Manufacturing2.jpg",
     "points": [
       {
-        "title": "Electronic Health Records (EHR)",
-        "text": "Provides centralized and secure system for storing patient information which facilitate seamless information sharing among healthcare providers."
+        "title": "Inventory visibility",
+        "text": "Real-time stock levels by location, bin and lot, so you always know what you have and where it is."
       },
       {
-        "title": "Healthcare Analytics",
-        "text": "Analyse vast amounts of data to derive insights into patient outcomes, population health trends, and effective treatment."
+        "title": "Barcode and RFID scanning",
+        "text": "Mobile scanning for receiving, put-away, picking and cycle counts reduces errors and paperwork."
       },
       {
-        "title": "Medical Billing Software",
-        "text": "Automates and simplify various administrative tasks including handle invoicing task, patient billing, insurance coverage verification and claims processing, patient demographics, creation of financial reports and more."
+        "title": "Picking and packing",
+        "text": "Optimized pick lists, batch and wave picking, and packing workflows that get orders out the door faster."
       },
       {
-        "title": "Patient Portals",
-        "text": "Facilitate patient engagement like monitor their healthcare provider, schedule appointments, records, payments, prescriptions and live interactions through portal, apps and online resources."
+        "title": "Receiving and put-away",
+        "text": "Check in shipments against purchase orders and direct stock to the right location automatically."
       },
       {
-        "title": "Medical Imaging and Diagnostics",
-        "text": "Enhance medical imaging and diagnostic processes. Picture Archiving and Communication Systems (PACS) enable efficient storage, retrieval, and sharing of medical images, aiding in accurate diagnoses."
+        "title": "ERP and e-commerce integration",
+        "text": "Keep orders, stock and shipments in sync with your ERP, accounting software and online store."
+      },
+      {
+        "title": "Warehouse analytics",
+        "text": "Dashboards for stock turnover, inventory accuracy, slow-moving items and team productivity."
       }
     ]
   },
   {
-    "slug": "Automation-Industry",
-    "title": "Automation Industry",
-    "image": "/assets/img/industry/Automation-Industry.jpg",
-    "detailImage": "/assets/img/industry/Automation-Industry2.jpg",
+    "slug": "Delivery-Management",
+    "title": "Delivery Management",
+    "image": "https://images.unsplash.com/photo-1612630741022-b29ec17d013d?auto=format&fit=crop&w=1600&q=80",
+    "detailImage": "https://images.unsplash.com/photo-1758523670564-d1d6a734dc0b?auto=format&fit=crop&w=1600&q=80",
     "points": [
       {
-        "title": "Streamline complex process",
-        "text": "Simplify the complicating processes by designing a digital industrial computer control system (PLC) to execute automatic industrial operations."
+        "title": "Route planning and optimization",
+        "text": "Plan efficient multi-stop routes that save fuel, reduce miles and fit more deliveries into every shift."
       },
       {
-        "title": "Optimized Operations",
-        "text": "The pivotal technology managing and monitoring industrial processes by collecting real-time data, enabling informed decision-making and process optimization."
+        "title": "Real-time tracking",
+        "text": "GPS tracking of drivers and vehicles with live ETAs for dispatchers and customers."
+      },
+      {
+        "title": "Dispatch management",
+        "text": "Assign, reorder and reschedule jobs from one dashboard as orders and priorities change."
+      },
+      {
+        "title": "Driver mobile app",
+        "text": "Job lists, navigation, status updates and electronic proof of delivery with photos and signatures."
+      },
+      {
+        "title": "Customer notifications",
+        "text": "Automatic text and email updates when an order is on the way, delayed or delivered."
+      },
+      {
+        "title": "Delivery analytics",
+        "text": "Track on-time performance, cost per delivery and driver productivity to keep improving."
+      }
+    ]
+  },
+  {
+    "slug": "Manufacturing",
+    "title": "Manufacturing",
+    "image": "https://images.unsplash.com/photo-1717386255767-52643970d483?auto=format&fit=crop&w=1600&q=80",
+    "detailImage": "https://images.unsplash.com/photo-1740209475472-aa7d280f7452?auto=format&fit=crop&w=1600&q=80",
+    "points": [
+      {
+        "title": "Increase productivity",
+        "text": "MES (Manufacturing Execution Systems) provides real-time monitoring of production processes, resource allocation, and quality control, leading to improved manufacturing efficiency and productivity."
+      },
+      {
+        "title": "Computer-Aided Design (CAD)",
+        "text": "CAD software facilitates product design, prototyping, and simulation, leading to hastened product development and reduced time-to-market for manufacturers."
+      },
+      {
+        "title": "Robotics and Automation",
+        "text": "Robotics and automation optimize production by improve efficiency, reduce labour costs, and maintain product quality. Collaborative robots (cobots) work alongside human workers, enhancing process speed and precision."
+      },
+      {
+        "title": "Energy Efficiency and Sustainability",
+        "text": "IT systems monitor and optimize energy consumption, reducing environmental impact and operational costs. Sustainability initiatives enhance brand reputation and attract environmentally conscious customers."
       }
     ]
   },
@@ -100,30 +144,38 @@
     ]
   },
   {
-    "slug": "E-commerce-industry",
-    "title": "E-commerce industry",
-    "image": "/assets/img/industry/E-commerce-industry.jpg",
-    "detailImage": "/assets/img/industry/E-commerce-industry2.jpg",
+    "slug": "Health-Care",
+    "title": "Health Care",
+    "image": "/assets/img/industry/Health-Care.jpg",
+    "detailImage": "/assets/img/industry/Health-Care2.jpg",
     "points": [
       {
-        "title": "Enterprise Resource Planning (ERP) System",
-        "text": "ERP systems integrate various business processes including inventory, logistic, supply chain management, into a single, centralized platform and provide cost-effective process."
+        "title": "Electronic Health Records (EHR)",
+        "text": "Provides centralized and secure system for storing patient information which facilitate seamless information sharing among healthcare providers."
       },
       {
-        "title": "Customer satisfaction",
-        "text": "CRM software manage and monitor customer interactions, tracks communication history and stores customer data. It enhance the customer satisfaction by providing improved customer services."
+        "title": "Healthcare Analytics",
+        "text": "Analyse vast amounts of data to derive insights into patient outcomes, population health trends, and effective treatment."
       },
       {
-        "title": "Advance E-commerce platform",
-        "text": "It provides online storefronts for retails and e-commerce operations, facilitating product listing, order processing, online transactions, tracking customer inquiries and timely responses."
+        "title": "Medical Billing Software",
+        "text": "Automates and simplify various administrative tasks including handle invoicing task, patient billing, insurance coverage verification and claims processing, patient demographics, creation of financial reports and more."
+      },
+      {
+        "title": "Patient Portals",
+        "text": "Facilitate patient engagement like monitor their healthcare provider, schedule appointments, records, payments, prescriptions and live interactions through portal, apps and online resources."
+      },
+      {
+        "title": "Medical Imaging and Diagnostics",
+        "text": "Enhance medical imaging and diagnostic processes. Picture Archiving and Communication Systems (PACS) enable efficient storage, retrieval, and sharing of medical images, aiding in accurate diagnoses."
       }
     ]
   },
   {
     "slug": "Finance-industry",
     "title": "Finance industry",
-    "image": "/assets/img/industry/Finance-industry.jpg",
-    "detailImage": "/assets/img/industry/Finance-industry2.jpg",
+    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1600&q=80",
+    "detailImage": "https://images.unsplash.com/photo-1763038311036-6d18805537e5?auto=format&fit=crop&w=1600&q=80",
     "points": [
       {
         "title": "Predictive Analytics Tools",
@@ -148,82 +200,46 @@
     ]
   },
   {
-    "slug": "Manufacturing",
-    "title": "Manufacturing",
-    "image": "/assets/img/industry/Manufacturing.jpg",
-    "detailImage": "/assets/img/industry/Manufacturing.jpg",
+    "slug": "E-commerce-industry",
+    "title": "E-commerce industry",
+    "image": "/assets/img/industry/E-commerce-industry.jpg",
+    "detailImage": "/assets/img/industry/E-commerce-industry2.jpg",
     "points": [
       {
-        "title": "Increase productivity",
-        "text": "MES (Manufacturing Execution Systems) provides real-time monitoring of production processes, resource allocation, and quality control, leading to improved manufacturing efficiency and productivity."
+        "title": "Enterprise Resource Planning (ERP) System",
+        "text": "ERP systems integrate various business processes including inventory, logistic, supply chain management, into a single, centralized platform and provide cost-effective process."
       },
       {
-        "title": "Computer-Aided Design (CAD)",
-        "text": "CAD software facilitates product design, prototyping, and simulation, leading to hastened product development and reduced time-to-market for manufacturers."
+        "title": "Customer satisfaction",
+        "text": "CRM software manage and monitor customer interactions, tracks communication history and stores customer data. It enhance the customer satisfaction by providing improved customer services."
       },
       {
-        "title": "Robotics and Automation",
-        "text": "Robotics and automation optimize production by improve efficiency, reduce labour costs, and maintain product quality. Collaborative robots (cobots) work alongside human workers, enhancing process speed and precision."
-      },
-      {
-        "title": "Energy Efficiency and Sustainability",
-        "text": "IT systems monitor and optimize energy consumption, reducing environmental impact and operational costs. Sustainability initiatives enhance brand reputation and attract environmentally conscious customers."
+        "title": "Advance E-commerce platform",
+        "text": "It provides online storefronts for retails and e-commerce operations, facilitating product listing, order processing, online transactions, tracking customer inquiries and timely responses."
       }
     ]
   },
   {
-    "slug": "Utilities",
-    "title": "Utilities",
-    "image": "/assets/img/industry/Utilities.jpg",
-    "detailImage": "/assets/img/industry/Utilities2.jpg",
+    "slug": "Automation-Industry",
+    "title": "Automation Industry",
+    "image": "/assets/img/industry/Automation-Industry.jpg",
+    "detailImage": "/assets/img/industry/Automation-Industry2.jpg",
     "points": [
       {
-        "title": "Advanced Metering Infrastructure (AMI)",
-        "text": "AMI facilitates two-way communication between utility companies and consumers, providing valuable data for energy consumption analysis, billing accuracy, and energy efficiency programs."
+        "title": "Streamline complex process",
+        "text": "Simplify the complicating processes by designing a digital industrial computer control system (PLC) to execute automatic industrial operations."
       },
       {
-        "title": "Smart Grid Upgrade for Operational Efficiency",
-        "text": "Upgrading to a smart grid using IT tools ensures efficient, reliable, and resilient service. It enhances operations, minimizes downtime, and improves service quality."
-      },
-      {
-        "title": "Safety monitoring",
-        "text": "IoT enabled sensors track parameters like temp, pressure, flow rate, pipeline stress and continuous monitoring ensures safety compliance, prevents leaks, and enables efficient water management via IoT networked devices."
-      },
-      {
-        "title": "Improve customer engagement",
-        "text": "Digitalization empowers energy firms to engage customers proactively, shaping behaviour and enhancing results across marketing, sales, and service stages."
-      }
-    ]
-  },
-  {
-    "slug": "Educational-Institute",
-    "title": "Educational Institute",
-    "image": "/assets/img/industry/Educational-Institute.jpg",
-    "detailImage": "/assets/img/industry/Educational-Institute2.jpg",
-    "points": [
-      {
-        "title": "Personalized Learning with Technology",
-        "text": "Technology facilitates personalised learning experience, engaging students with relevant content. It improves student outcomes and helps institutions cater to diverse learning styles."
-      },
-      {
-        "title": "Efficient Teaching through Technology",
-        "text": "Advanced technological aids optimize teaching productivity, better resource utilization. This improves educators' effectiveness and enriches student learning experiences."
-      },
-      {
-        "title": "Online Learning Platforms and Learning Management Systems (LMS)",
-        "text": "IT-enabled LMS offer global access to courses and materials. Flexibility for content access, assignments, and discussions leading to expanding educational reach."
-      },
-      {
-        "title": "Data Analytics for Student Performance",
-        "text": "IT tools collect and analyse student performance data, helping institutions enhance teaching strategies and interventions. Predictive analytics assists in identifying areas needing improvement, predicting risks, and ultimately improving student retention."
+        "title": "Optimized Operations",
+        "text": "The pivotal technology managing and monitoring industrial processes by collecting real-time data, enabling informed decision-making and process optimization."
       }
     ]
   },
   {
     "slug": "Insurance",
     "title": "Insurance",
-    "image": "/assets/img/industry/Insurance.jpg",
-    "detailImage": "/assets/img/industry/Insurance2.jpg",
+    "image": "https://images.unsplash.com/photo-1758227365187-016878604d94?auto=format&fit=crop&w=1600&q=80",
+    "detailImage": "https://images.unsplash.com/photo-1756982477661-107a1c72c8fd?auto=format&fit=crop&w=1600&q=80",
     "points": [
       {
         "title": "Digital Customer Engagement",
@@ -272,6 +288,54 @@
       {
         "title": "Efficient and innovative solution",
         "text": "Cloud infrastructure supports diverse applications, data management, and billing. It introduces new services, reduces costs, and facilitates agile responses to market needs."
+      }
+    ]
+  },
+  {
+    "slug": "Utilities",
+    "title": "Utilities",
+    "image": "/assets/img/industry/Utilities.jpg",
+    "detailImage": "/assets/img/industry/Utilities2.jpg",
+    "points": [
+      {
+        "title": "Advanced Metering Infrastructure (AMI)",
+        "text": "AMI facilitates two-way communication between utility companies and consumers, providing valuable data for energy consumption analysis, billing accuracy, and energy efficiency programs."
+      },
+      {
+        "title": "Smart Grid Upgrade for Operational Efficiency",
+        "text": "Upgrading to a smart grid using IT tools ensures efficient, reliable, and resilient service. It enhances operations, minimizes downtime, and improves service quality."
+      },
+      {
+        "title": "Safety monitoring",
+        "text": "IoT enabled sensors track parameters like temp, pressure, flow rate, pipeline stress and continuous monitoring ensures safety compliance, prevents leaks, and enables efficient water management via IoT networked devices."
+      },
+      {
+        "title": "Improve customer engagement",
+        "text": "Digitalization empowers energy firms to engage customers proactively, shaping behaviour and enhancing results across marketing, sales, and service stages."
+      }
+    ]
+  },
+  {
+    "slug": "Educational-Institute",
+    "title": "Educational Institute",
+    "image": "/assets/img/industry/Educational-Institute.jpg",
+    "detailImage": "/assets/img/industry/Educational-Institute2.jpg",
+    "points": [
+      {
+        "title": "Personalized Learning with Technology",
+        "text": "Technology facilitates personalised learning experience, engaging students with relevant content. It improves student outcomes and helps institutions cater to diverse learning styles."
+      },
+      {
+        "title": "Efficient Teaching through Technology",
+        "text": "Advanced technological aids optimize teaching productivity, better resource utilization. This improves educators' effectiveness and enriches student learning experiences."
+      },
+      {
+        "title": "Online Learning Platforms and Learning Management Systems (LMS)",
+        "text": "IT-enabled LMS offer global access to courses and materials. Flexibility for content access, assignments, and discussions leading to expanding educational reach."
+      },
+      {
+        "title": "Data Analytics for Student Performance",
+        "text": "IT tools collect and analyse student performance data, helping institutions enhance teaching strategies and interventions. Predictive analytics assists in identifying areas needing improvement, predicting risks, and ultimately improving student retention."
       }
     ]
   }

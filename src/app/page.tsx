@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import Hero from "@/components/home/Hero";
-import { FinalCta, LogoStrip, Process, ServicesBento, TechStack, Testimonials, WhyExult } from "@/components/home/Sections";
+import { FinalCta, LogoStrip, Process, ServicesGrid, TechStack, Testimonials, WhyExult } from "@/components/home/Sections";
 import IndustryGrid from "@/components/IndustryGrid";
 
 export const metadata: Metadata = {
@@ -17,7 +17,7 @@ export default function Home() {
     <>
       <Hero />
       <LogoStrip />
-      <ServicesBento />
+      <ServicesGrid />
       <WhyExult />
       <Process />
       <section aria-labelledby="industries-title" className="bg-white py-20 md:py-28">

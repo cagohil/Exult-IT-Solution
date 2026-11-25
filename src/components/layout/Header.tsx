@@ -3,11 +3,21 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useId, useRef, useState } from "react";
-import { ChevronDown, Menu, X, ArrowRight, Phone, Globe, Cloud, Smartphone, Users, ShoppingCart, Search } from "lucide-react";
+import { ChevronDown, Menu, X, ArrowRight, Phone, Globe, Cloud, Smartphone, Users, ShoppingCart, Search, BrainCircuit, Boxes } from "lucide-react";
 import Logo from "./Logo";
 import { nav, site } from "@/lib/site";
 
-const ICONS = [Globe, Cloud, Smartphone, Users, ShoppingCart, Search];
+const ICONS: Record<string, typeof Globe> = {
+  "website-development": Globe,
+  "cloud-computing-services": Cloud,
+  "mobile-app-development": Smartphone,
+  "crm-development-company": Users,
+  "ecommerce-web-development": ShoppingCart,
+  "search-engine-optimization": Search,
+  "data-ai-solutions": BrainCircuit,
+  "erp-software-development": Boxes,
+};
+const iconFor = (href: string) => ICONS[href.split("/")[2]] ?? Globe;
 
 export default function Header() {
   const pathname = usePathname();
@@ -21,7 +31,7 @@ export default function Header() {
   const [hidden, setHidden] = useState(false);
 
   useEffect(() => {
-    // Hide on scroll down, reveal on scroll up. Applied below the lg breakpoint only (see className).
+    // Hide on scroll down, reveal on scroll up.
     let lastY = window.scrollY;
     let ticking = false;
     const update = () => {
@@ -77,10 +87,11 @@ export default function Header() {
   const services = nav.find((n) => n.children)?.children ?? [];
 
   return (
+    <>
     <header
       className={`sticky top-0 z-50 border-b transition-[background-color,border-color,box-shadow,translate] duration-500 ease-[var(--ease-out-expo)] ${
         scrolled || open ? "border-line bg-white/85 shadow-[0_8px_30px_-20px_rgba(10,16,34,.25)] backdrop-blur-xl" : "border-transparent bg-white/0"
-      } ${hidden && !open ? "max-lg:-translate-y-full max-lg:shadow-none" : ""}`}
+      } ${hidden && !open && !svcOpen ? "-translate-y-full shadow-none" : ""}`}
     >
       <a href="#main" className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-3 focus:z-[60] focus:rounded-lg focus:bg-brand focus:px-3 focus:py-2 focus:text-white">
         Skip to content
@@ -109,8 +120,8 @@ export default function Header() {
                   </button>
                   <div id={svcId} hidden={!svcOpen} className="absolute left-0 top-full w-[38rem] pt-3">
                     <div className="card grid grid-cols-2 gap-1 p-2 shadow-[var(--shadow-float)]">
-                      {item.children.map((c, i) => {
-                        const Icon = ICONS[i];
+                      {item.children.map((c) => {
+                        const Icon = iconFor(c.href);
                         return (
                           <Link key={c.href} href={c.href} className={`group flex items-start gap-3 rounded-xl p-3 transition-colors hover:bg-subtle ${pathname === c.href ? "bg-brand-50" : ""}`}>
                             <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-brand-50 text-brand ring-1 ring-brand-100 transition-colors group-hover:bg-brand group-hover:text-white">
@@ -162,13 +173,15 @@ export default function Header() {
           </button>
         </div>
       </div>
+    </header>
 
-      <div id={menuId} hidden={!open} className="fixed inset-x-0 bottom-0 top-[4.5rem] overflow-y-auto bg-white lg:hidden">
+      {/* Rendered outside <header>: the header's backdrop-filter and transform would otherwise trap this fixed panel. */}
+      <div id={menuId} hidden={!open} className="menu-in fixed inset-x-0 bottom-0 top-[4.5rem] z-40 overflow-y-auto border-t border-line bg-white lg:hidden">
         <nav aria-label="Mobile" className="container-x py-6">
           <p className="px-1 text-xs font-semibold uppercase tracking-wider text-ink-3">Services</p>
           <ul className="mt-3 grid gap-1">
-            {services.map((c, i) => {
-              const Icon = ICONS[i];
+            {services.map((c) => {
+              const Icon = iconFor(c.href);
               return (
                 <li key={c.href}>
                   <Link href={c.href} className="flex items-center gap-3 rounded-xl p-2.5 hover:bg-subtle">
@@ -201,6 +214,6 @@ export default function Header() {
           </div>
         </nav>
       </div>
-    </header>
+    </>
   );
 }
