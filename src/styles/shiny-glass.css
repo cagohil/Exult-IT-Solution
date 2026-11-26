@@ -1,0 +1,157 @@
+/* =========================================================
+   Shiny edge for every .btn.btn--glass
+   Ported from the ShinyButton component (gleam-edge): a conic
+   highlight sweeps round the border, a speckle field and sheen
+   rotate inside, and on hover the arc widens and a glow breathes.
+   Brand colours: blue sweep, cyan shine, deep-navy fill.
+   ========================================================= */
+
+@property --glass-angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+@property --glass-angle-offset {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+@property --glass-percent {
+  syntax: "<percentage>";
+  initial-value: 5%;
+  inherits: false;
+}
+@property --glass-shine {
+  syntax: "<color>";
+  initial-value: white;
+  inherits: false;
+}
+
+.btn.btn--glass {
+  --gleam-base: #0b1735;
+  --gleam-inset: rgba(255, 255, 255, 0.08);
+  --gleam-accent: #157efb;
+  --gleam-accent-soft: #4fe0ff;
+  --glass-anim: glass-angle linear infinite;
+  --glass-duration: 3s;
+  --glass-ease: 0.8s cubic-bezier(0.25, 1, 0.5, 1);
+
+  --btn-fg: #fff;
+  border: 1px solid transparent;
+  background:
+    linear-gradient(var(--gleam-base), var(--gleam-base)) padding-box,
+    conic-gradient(
+      from calc(var(--glass-angle) - var(--glass-angle-offset)),
+      transparent,
+      var(--gleam-accent) var(--glass-percent),
+      var(--glass-shine) calc(var(--glass-percent) * 2),
+      var(--gleam-accent) calc(var(--glass-percent) * 3),
+      transparent calc(var(--glass-percent) * 4)
+    ) border-box;
+  box-shadow: inset 0 0 0 1px var(--gleam-inset), 0 14px 34px -18px rgba(21, 126, 251, 0.7);
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+  transition:
+    transform 0.5s var(--ease-out),
+    box-shadow 0.5s var(--ease-out),
+    --glass-angle-offset var(--glass-ease),
+    --glass-percent var(--glass-ease),
+    --glass-shine var(--glass-ease);
+}
+
+/* speckle field, masked by a rotating cone */
+.btn.btn--glass::before,
+.btn.btn--glass::after,
+.btn.btn--glass > span:first-child::before {
+  content: "";
+  pointer-events: none;
+  position: absolute;
+  inset-inline-start: 50%;
+  inset-block-start: 50%;
+  translate: -50% -50%;
+  z-index: -1;
+}
+
+.btn.btn--glass::before {
+  --size: calc(100% - 6px);
+  --pos: 2px;
+  --space: calc(var(--pos) * 2);
+  width: var(--size);
+  height: var(--size);
+  background: radial-gradient(circle at var(--pos) var(--pos), white calc(var(--pos) / 4), transparent 0) padding-box;
+  background-size: var(--space) var(--space);
+  background-repeat: space;
+  -webkit-mask-image: conic-gradient(from calc(var(--glass-angle) + 45deg), black, transparent 10% 90%, black);
+  mask-image: conic-gradient(from calc(var(--glass-angle) + 45deg), black, transparent 10% 90%, black);
+  border-radius: inherit;
+  opacity: 0.4;
+}
+
+/* rotating sheen (replaces the default .btn hover sweep) */
+.btn.btn--glass::after {
+  --glass-anim: glass-shimmer linear infinite;
+  inset: auto;
+  width: 100%;
+  aspect-ratio: 1;
+  transform: none;
+  background: linear-gradient(-50deg, transparent, var(--gleam-accent), transparent);
+  -webkit-mask-image: radial-gradient(circle at bottom, transparent 40%, black);
+  mask-image: radial-gradient(circle at bottom, transparent 40%, black);
+  opacity: 0.6;
+  transition: none;
+}
+.btn.btn--glass:hover::after { transform: none; }
+
+.btn.btn--glass > span { position: relative; z-index: 1; }
+.btn.btn--glass > span:first-child { position: static; }
+
+/* breathing inner glow on hover */
+.btn.btn--glass > span:first-child::before {
+  --size: calc(100% + 1rem);
+  width: var(--size);
+  height: var(--size);
+  box-shadow: inset 0 -1ex 2rem 4px var(--gleam-accent);
+  opacity: 0;
+  transition: opacity var(--glass-ease);
+  animation: calc(var(--glass-duration) * 1.5) glass-breathe linear infinite;
+}
+
+.btn.btn--glass,
+.btn.btn--glass::before,
+.btn.btn--glass::after {
+  animation:
+    var(--glass-anim) var(--glass-duration),
+    var(--glass-anim) calc(var(--glass-duration) / 0.4) reverse paused;
+  animation-composition: add;
+}
+
+.btn.btn--glass:is(:hover, :focus-visible) {
+  --glass-percent: 20%;
+  --glass-angle-offset: 95deg;
+  --glass-shine: var(--gleam-accent-soft);
+  box-shadow: inset 0 0 0 1px var(--gleam-inset), 0 20px 44px -18px rgba(21, 126, 251, 0.9);
+}
+.btn.btn--glass:is(:hover, :focus-visible),
+.btn.btn--glass:is(:hover, :focus-visible)::before,
+.btn.btn--glass:is(:hover, :focus-visible)::after {
+  animation-play-state: running;
+}
+.btn.btn--glass:is(:hover, :focus-visible) > span:first-child::before { opacity: 1; }
+
+.btn.btn--glass .btn__icon { background: rgba(255, 255, 255, 0.12); }
+.btn.btn--glass:hover .btn__icon { background: var(--blue); }
+
+@keyframes glass-angle { to { --glass-angle: 360deg; } }
+@keyframes glass-shimmer { to { rotate: 360deg; } }
+@keyframes glass-breathe { from, to { scale: 1; } 50% { scale: 1.2; } }
+
+@media (prefers-reduced-motion: reduce) {
+  .btn.btn--glass,
+  .btn.btn--glass::before,
+  .btn.btn--glass::after,
+  .btn.btn--glass > span:first-child::before {
+    animation: none !important;
+  }
+  .btn.btn--glass:is(:hover, :focus-visible) > span:first-child::before { opacity: 0; }
+  .btn.btn--glass { transition: transform 0.5s var(--ease-out), box-shadow 0.5s var(--ease-out); }
+}

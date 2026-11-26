@@ -1,0 +1,95 @@
+{
+  "website-development": {
+    "detailImage": "/assets/img/projects/websiteDevelopment.jpg",
+    "relevantBlogs": [
+      {
+        "href": "/blogs/Few-Important-Tips-before-Hiring-Company-for-Your-Web-Application-Needs/",
+        "title": "Few Important Tips before Hiring Company for Your Web Application Needs"
+      },
+      {
+        "href": "/blogs/Why-Do-People-Choose-The-Exult-It-Solution-Which-Types-Of-Service-Do-We-Provide/",
+        "title": "Why Do People Choose The Exult It Solution? Which Types Of Service Do We Provide?"
+      },
+      {
+        "href": "/blogs/Website-Development-Eight-Stages-of-A-Complete-Guide/",
+        "title": "Website Development – 8 Stages of A Complete Guide"
+      },
+      {
+        "href": "/blogs/Top-Web-Technologies-That-Every-Web-Developer-Must-Know/",
+        "title": "Top Web Technologies That Every Web Developer Must Know in 2023"
+      },
+      {
+        "href": "/blogs/Why-Website-Design-Development-Is-Essential-And-How-It-Helps-In-Making-Your-Business-Profitable/",
+        "title": "Why Website Design & Development Is Essential And How It Helps In Making Your Business Profitable?"
+      }
+    ],
+    "metaTitle": "Website Development - Exult It Solution",
+    "metaDescription": "Every business requires a clean and responsive website to succeed in the digital world. The way your website performs is an indication of the efforts you put in for the comfort of your customers. A good website should be effortless to use and pleasing to the eyes. Website development is what encapsulates everything related to getting your website up and running. At Exult It Solutions, we focus on understanding your business and creating a more engaging user experience. A well-made website can become the difference between an unrecognized brand and an innovative market leader."
+  },
+  "cloud-computing-services": {
+    "detailImage": "/assets/img/projects/cloudServices.jpg",
+    "relevantBlogs": [],
+    "metaTitle": "Cloud Computing Services - Exult It Solution",
+    "metaDescription": "Our Experts Integrate Hybrid Cloud & Cognitive Computing to add value to your business. We offer PaaS, IaaS and SaaS. We have knowledge and experience of Azure, Google cloud and AWS. It is a visible mass of a huge amount of condensed water vapours floating all around in the sky."
+  },
+  "mobile-app-development": {
+    "detailImage": "/assets/img/projects/mobileAppDevelopment.jpg",
+    "relevantBlogs": [
+      {
+        "href": "/blogs/Advantages-and-Disadvantages-of-Mobile-Technology/",
+        "title": "Advantages and Disadvantages of Mobile Technology"
+      },
+      {
+        "href": "/blogs/Five-Advantages-Of-Having-A-Mobile-App-For-Your-Business/",
+        "title": "Five Advantages Of Having A Mobile App For Your Business"
+      },
+      {
+        "href": "/blogs/top-six-mobile-app-development/",
+        "title": "Top 6 Mobile App Development Trends For 2021"
+      }
+    ],
+    "metaTitle": "Mobile App Development - Exult It Solution",
+    "metaDescription": "With the advent of modern technology and innovations, every item we need is being transformed into something we can fit into our pockets. The real-life theatre made its way into the television, and from there to the mobile phones. Due to mobile phones, especially smartphones, there is a rising need for businesses to acknowledge the huge potential this user base offers."
+  },
+  "crm-development-company": {
+    "detailImage": "/assets/img/projects/CRMsoftwareDevelopment.jpg",
+    "relevantBlogs": [
+      {
+        "href": "/blogs/What-is-Customer-Relationship-Management-and-Types-of-CRM-System/",
+        "title": "What is Customer Relationship Management and Types of CRM System"
+      }
+    ],
+    "metaTitle": "CRM Development Company - Exult It Solution",
+    "metaDescription": "Businesses all over the world try to figure out better ways to retain and increase their client base. This is where a good CRM system comes into play. So what is Customer Relation Management (CRM)?: This refers to the process of understanding, analyzing, and structuring the way businesses interact with their customers. It helps collect user data that can be used to manage sales, marketing, customer service, and deliver valuable insights. This enables sales cycle optimization and improved marketing strategies through data analysis."
+  },
+  "ecommerce-web-development": {
+    "detailImage": "/assets/img/projects/eCommerceWebDevelopment2.jpg",
+    "relevantBlogs": [
+      {
+        "href": "/blogs/Importance-of-E-Commerce-for-Business-in-a-COVID-nineteen-Pandemic/",
+        "title": "Importance of E-Commerce for Business in a COVID 19 Pandemic"
+      },
+      {
+        "href": "/blogs/Why-Does-Your-Business-Need-To-Shift-To-E-Commerce-Now/",
+        "title": "Why Does Your Business Need To Shift To E-Commerce Now?"
+      }
+    ],
+    "metaTitle": "E-commerce Web Development - Exult It Solution",
+    "metaDescription": "There is a massive population that prefers the Internet for watching movies, finding the right solutions, or even buying their dog’s food. Over 2 billion of the global population looks up to online eCommerce stores to shop for their favorite products and services. Such a whopping number is hard to ignore and businesses need to realize the potential it holds."
+  },
+  "search-engine-optimization": {
+    "detailImage": "/assets/img/projects/searchEngineOptimization.jpg",
+    "relevantBlogs": [
+      {
+        "href": "/blogs/Why-Is-Search-Engine-Optimization-Important-To-a-Business/",
+        "title": "Why Is Search Engine Optimization Important To a Business?"
+      },
+      {
+        "href": "/blogs/Top-eight-most-essential-SEO-tips-you-need-to-know/",
+        "title": "Top 8 Essential SEO Tips For Your Website That You Must Know"
+      }
+    ],
+    "metaTitle": "Search Engine Optimization - Exult It Solution",
+    "metaDescription": "Search Engine Optimization is all about knowing and implementing what can make your website visible. It focuses on attracting visitors organically by ranking higher in Google searches. This can be achieved through optimizing your website and content according to several factors that affect the rankings."
+  }
+}
